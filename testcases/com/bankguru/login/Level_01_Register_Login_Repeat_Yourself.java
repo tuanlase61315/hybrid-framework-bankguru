@@ -51,6 +51,9 @@ public class Level_01_Register_Login_Repeat_Yourself {
 		Assert.assertEquals(welcomeMessage, "Welcome To Manager's Page of Guru99 Bank");
 	}
 	
+	/**
+	 * @return
+	 */
 	public String getRandomEmail() {
 		Random rand = new Random();
 		
