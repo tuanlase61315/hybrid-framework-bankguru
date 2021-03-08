@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Bank Guru" parallel="false">
+<suite name="NopCommerce" parallel="false">
   <test name="Run on Firefox">
     <classes>
       <class name="com.bankguru.login.Level_02_Register_Login_Base_Page"/>   
