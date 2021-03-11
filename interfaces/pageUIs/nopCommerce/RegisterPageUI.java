@@ -7,7 +7,7 @@ public class RegisterPageUI {
 	public static final String EMAIL_TEXTBOX = "//input[@id='Email']";
 	public static final String PASSWORD_TEXTBOX = "//input[@id='Password']";
 	public static final String CONFIRM_TEXTBOX = "//input[@id='ConfirmPassword']";
-	public static final String REGISTER_BUTTON = "//input[@id='register-button']";
+	public static final String REGISTER_BUTTON = "//button[@id='register-button']";
 	public static final String SUCCESS_MESSAGE = "//div[@class='result' and text()='Your registration completed']";
 	public static final String LOGOUT_LINK = "//a[@class='ico-logout']";
 	

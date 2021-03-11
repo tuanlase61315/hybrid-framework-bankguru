@@ -203,7 +203,7 @@ public class BasePage {
 	}
 
 	public String getElementText(WebDriver driver, String locator) {
-		return getElement(driver, locator).getText();
+		return getElement(driver, locator).getText().trim();
 	}
 
 	public void checkToCheckboxOrRadio(WebDriver driver, String locator) {

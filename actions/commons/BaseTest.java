@@ -20,24 +20,17 @@ public class BaseTest {
 		CHROME, FIREFOX, IE, SAFARI, EDGE_LEGACY, EDGE_CHROMIUM, H_CHROME, H_FIREFOX;
 	}
 	
-	private enum OS{
-		WINDOWS, MAC_OS, LINUX;
-	}
-	
-	private enum PLATFORM{
-		ANDROID, IOS, WINDOW_PHONE;
-	}
 	
 	protected WebDriver getBrowserDriver(String browserName) {
 		BROWSER browser = BROWSER.valueOf(browserName.toUpperCase());
 		if(browser==BROWSER.FIREFOX) {
-			System.setProperty("webdriver.gecko.driver", projectLocation + "\\browserDrivers\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", projectLocation + getSlash("browserDrivers") + "geckodriver.exe");
 			driver = new FirefoxDriver();
 		}else if (browser==BROWSER.CHROME) {
-			System.setProperty("webdriver.chrome.driver", projectLocation + "\\browserDrivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", projectLocation + getSlash("browserDrivers") + "chromedriver.exe");
 			driver = new ChromeDriver();
 		}else if (browser==BROWSER.EDGE_CHROMIUM) {
-			System.setProperty("webdriver.edge.driver", projectLocation + "\\browserDrivers\\msedgedriver.exe");
+			System.setProperty("webdriver.edge.driver", projectLocation + getSlash("browserDrivers") + "msedgedriver.exe");
 			driver = new EdgeDriver();
 		}else {
 			throw new RuntimeException("Please enter correct browser name!");

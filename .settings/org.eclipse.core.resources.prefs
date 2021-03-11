@@ -1,3 +1,6 @@
 eclipse.preferences.version=1
+encoding//actions/pageFactory/nopCommerce/HomePageObject.java=UTF-8
+encoding//actions/pageFactory/nopCommerce/LoginPageObject.java=UTF-8
+encoding//actions/pageFactory/nopCommerce/RegisterPageObject.java=UTF-8
 encoding//actions/pageObjects/nopcommerce/HomePageObject.java=UTF-8
 encoding//interfaces/pageUIs/nopCommerce/HomePageUI.java=UTF-8
