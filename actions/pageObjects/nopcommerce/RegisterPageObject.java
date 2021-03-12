@@ -7,9 +7,11 @@ import pageUIs.nopCommerce.RegisterPageUI;
 
 public class RegisterPageObject extends BasePage {
 	private WebDriver driver;
+	PageGeneratorManager pageGenerator;
 
 	public RegisterPageObject(WebDriver driver) {
 		this.driver = driver;
+		pageGenerator = PageGeneratorManager.getPageGenerator();
 	}
 	
 	public void clickToGenderMaleRadioButton() {
@@ -52,9 +54,10 @@ public class RegisterPageObject extends BasePage {
 		return isElementDisplayed(driver, RegisterPageUI.SUCCESS_MESSAGE);
 	}
 
-	public void clickToLogoutLink() {
+	public HomePageObject clickToLogoutLink() {
 		waitForElementClickable(driver, RegisterPageUI.LOGOUT_LINK);
 		clickToElement(driver, RegisterPageUI.LOGOUT_LINK);
+		return pageGenerator.getHomePage(driver);
 
 	}
 

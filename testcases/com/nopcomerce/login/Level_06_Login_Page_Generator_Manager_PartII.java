@@ -13,15 +13,18 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import commons.BasePage;
 import commons.BaseTest;
-import pageFactory.nopCommerce.HomePageObject;
-import pageFactory.nopCommerce.LoginPageObject;
-import pageFactory.nopCommerce.RegisterPageObject;
+import pageObjects.nopcommerce.CustomerInforPageObject;
+import pageObjects.nopcommerce.HomePageObject;
+import pageObjects.nopcommerce.LoginPageObject;
+import pageObjects.nopcommerce.RegisterPageObject;
 
-public class Level_05_Login_Page_Factory extends BaseTest{
+public class Level_06_Login_Page_Generator_Manager_PartII extends BaseTest {
 	WebDriver driver;
 	String emailAddress, password;
 	String projectLocation = System.getProperty("user.dir");
+
 	
 	@Parameters({"browser","url"})
 	@BeforeClass
@@ -33,13 +36,12 @@ public class Level_05_Login_Page_Factory extends BaseTest{
 		
 		homePage = new HomePageObject(driver);
 	}
-	
+
 	@Test
 	public void Login_01_Register_To_System() {
-		
-		Assert.assertTrue(homePage.isMyAcountLinkDisplayed());
-		homePage.clickToRegisterLink();
-		
+		Assert.assertTrue(homePage.isHomePageSliderDisplay());
+		registerPage = homePage.clickToRegisterLink();
+
 		registerPage = new RegisterPageObject(driver);
 		registerPage.clickToGenderMaleRadioButton();
 		registerPage.enterToFirstnameTextbox("tuan");
@@ -50,44 +52,59 @@ public class Level_05_Login_Page_Factory extends BaseTest{
 		registerPage.clickToRegisterButton();
 
 		Assert.assertTrue(registerPage.isSuccessMessageDisplayed());
-		
+
 		registerPage.clickToLogoutLink();
-		
+
 		homePage = new HomePageObject(driver);
-		
-		Assert.assertTrue(homePage.isMyAcountLinkDisplayed());
+
+		Assert.assertTrue(homePage.isHomePageSliderDisplay());
 	}
 
 	@Test
 	public void Login_02_To_System() {
 		homePage.clickLoginLink();
 		loginPage = new LoginPageObject(driver);
-		
+
 		loginPage.enterToEmailTextBox(emailAddress);
 		loginPage.enterToPasswordTextBox(password);
 		loginPage.clickToLoginButton();
-		
-		homePage = new HomePageObject(driver);
-		
 
-		Assert.assertTrue(homePage.isMyAcountLinkDisplayed());
+		homePage = new HomePageObject(driver);
+
+		Assert.assertTrue(homePage.isHomePageSliderDisplay());
+
+	}
+	
+	@Test
+	public void User_03_Customer_Info() {
+		homePage.clickToMyAccountLink();
+		
+		customerInfoPage = new CustomerInforPageObject(driver);
+		
+		Assert.assertEquals(customerInfoPage.getEmailTextboxValue(), emailAddress);
+		Assert.assertEquals(customerInfoPage.getFirstnameTextboxValue(), "tuan");
+		Assert.assertEquals(customerInfoPage.getLastnameTextboxValue(), "le");
+		
+		
+		
+		
 		
 		
 	}
-	
-	
+
 	public String getRandomEmail() {
 		Random rand = new Random();
-		
+
 		return "testing" + rand.nextInt(99999) + "@gmail.com";
 	}
-	
+
 	@AfterClass
 	public void cleanBrowser() {
 		driver.quit();
 	}
-	
+
 	HomePageObject homePage;
 	LoginPageObject loginPage;
 	RegisterPageObject registerPage;
+	CustomerInforPageObject customerInfoPage;
 }
