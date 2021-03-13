@@ -16,6 +16,14 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageObjects.nopcommerce.AboutUsPageObject;
+import pageObjects.nopcommerce.HomePageObject;
+import pageObjects.nopcommerce.NewsPageObject;
+import pageObjects.nopcommerce.PageGeneratorManager;
+import pageObjects.nopcommerce.ShoppingCartPageObject;
+import pageObjects.nopcommerce.SiteMapPageObject;
+import pageUIs.nopCommerce.BasePageUI;
+
 public class BasePage {
 
 	private Alert alert;
@@ -398,5 +406,38 @@ public class BasePage {
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(locator)));
 	}
 	
+	//Page commons
+	
+	public HomePageObject openHomePage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.HOME_PAGE_LOGO);
+		clickToElement(driver, BasePageUI.HOME_PAGE_LOGO);
+		return PageGeneratorManager.getHomePage(driver);
+	}
+	
+
+	public SiteMapPageObject openSiteMapPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.SITE_MAP_LINK);
+		clickToElement(driver, BasePageUI.SITE_MAP_LINK);
+		return PageGeneratorManager.getSiteMapPage(driver);
+		
+	}
+	
+	public ShoppingCartPageObject openShoppingCartPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.SHOPPING_CART_LINK);
+		clickToElement(driver, BasePageUI.SHOPPING_CART_LINK);
+		return PageGeneratorManager.getShoppingCartPage(driver);
+	}
+	
+	public AboutUsPageObject openAboutUsPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.ABOUT_US_LINK);
+		clickToElement(driver, BasePageUI.ABOUT_US_LINK);
+		return PageGeneratorManager.getAboutUsPage(driver);
+	}
+	
+	public NewsPageObject openNewsPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.NEWS_LINK);
+		clickToElement(driver, BasePageUI.NEWS_LINK);
+		return PageGeneratorManager.getNewsPage(driver);
+	}
 	
 }

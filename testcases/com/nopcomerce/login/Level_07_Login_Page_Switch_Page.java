@@ -15,20 +15,24 @@ import org.testng.annotations.Test;
 
 import commons.BasePage;
 import commons.BaseTest;
+import pageObjects.nopcommerce.AboutUsPageObject;
 import pageObjects.nopcommerce.CustomerInforPageObject;
 import pageObjects.nopcommerce.HomePageObject;
 import pageObjects.nopcommerce.LoginPageObject;
+import pageObjects.nopcommerce.NewsPageObject;
 import pageObjects.nopcommerce.PageGeneratorManager;
 import pageObjects.nopcommerce.RegisterPageObject;
+import pageObjects.nopcommerce.ShoppingCartPageObject;
+import pageObjects.nopcommerce.SiteMapPageObject;
 
-public class Level_06_Login_Page_Generator_Manager_PartIII extends BaseTest {
+public class Level_07_Login_Page_Switch_Page extends BaseTest {
 	WebDriver driver;
 	String emailAddress, password;
 	String projectLocation = System.getProperty("user.dir");
 
 	@Parameters({ "browser", "url" })
 	@BeforeClass
-	public void  beforeClass(String browserName, String appUrl) {
+	public void beforeClass(String browserName, String appUrl) {
 		driver = getBrowserDriver(browserName, appUrl);
 //		pageGeneratorPage = PageGeneratorManager.getPageGenerator();
 
@@ -77,8 +81,50 @@ public class Level_06_Login_Page_Generator_Manager_PartIII extends BaseTest {
 		Assert.assertEquals(customerInfoPage.getEmailTextboxValue(), emailAddress);
 		Assert.assertEquals(customerInfoPage.getFirstnameTextboxValue(), "tuan");
 		Assert.assertEquals(customerInfoPage.getLastnameTextboxValue(), "le");
-
 	}
+	
+	@Test
+	public void User_04_Switch_Page_Object() {
+		//Customer info -> site map
+		siteMapPage = customerInfoPage.openSiteMapPage(driver);
+		
+		
+		//Site map -> News
+		newsPage = siteMapPage.openNewsPage(driver);
+		
+		//News -> Shopping cart
+		shoppingCartPage = newsPage.openShoppingCartPage(driver);
+		
+		
+		//Shopping cart -> About us
+		aboutUsPage = shoppingCartPage.openAboutUsPage(driver);
+		
+		//About us -> homepage
+		homePage = aboutUsPage.openHomePage(driver);
+		
+	}
+	
+	@Test
+	public void User_05_Switch_Page_Object() {
+		//Customer info -> site map
+		siteMapPage = customerInfoPage.openSiteMapPage(driver);
+		
+		
+		//Site map -> News
+		newsPage = siteMapPage.openNewsPage(driver);
+		
+		//News -> Shopping cart
+		shoppingCartPage = newsPage.openShoppingCartPage(driver);
+		
+		
+		//Shopping cart -> About us
+		aboutUsPage = shoppingCartPage.openAboutUsPage(driver);
+		
+		//About us -> homepage
+		homePage = aboutUsPage.openHomePage(driver);
+		
+	}
+	
 
 	public String getRandomEmail() {
 		Random rand = new Random();
@@ -95,5 +141,9 @@ public class Level_06_Login_Page_Generator_Manager_PartIII extends BaseTest {
 	LoginPageObject loginPage;
 	RegisterPageObject registerPage;
 	CustomerInforPageObject customerInfoPage;
+	NewsPageObject	newsPage;
+	AboutUsPageObject aboutUsPage;
+	ShoppingCartPageObject shoppingCartPage;
+	SiteMapPageObject siteMapPage;
 //	PageGeneratorManager pageGeneratorPage;
 }

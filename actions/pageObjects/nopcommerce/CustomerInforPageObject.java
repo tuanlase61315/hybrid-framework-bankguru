@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
 import pageUIs.nopCommerce.CustomerPageUI;
+import pageUIs.nopCommerce.HomePageUI;
 
 
 public class CustomerInforPageObject extends BasePage {
@@ -35,6 +36,9 @@ public class CustomerInforPageObject extends BasePage {
 		return getAttributeValue(driver, CustomerPageUI.FIRSTNAME_TEXTBOX);
 	
 	}
+
+
+
 	
 	
 
