@@ -20,11 +20,7 @@ public class SiteMapPageObject extends BasePage {
 		
 	}
 
-	public NewsPageObject openNewsPage() {
-		waitForElementClickable(driver, SiteMapPageUI.NEWS_LINK);
-		clickToElement(driver, SiteMapPageUI.NEWS_LINK);
-		return PageGeneratorManager.getNewsPage(driver);
-	}
+
 
 
 	

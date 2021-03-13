@@ -104,27 +104,7 @@ public class Level_07_Login_Page_Switch_Page extends BaseTest {
 		
 	}
 	
-	@Test
-	public void User_05_Switch_Page_Object() {
-		//Customer info -> site map
-		siteMapPage = customerInfoPage.openSiteMapPage(driver);
-		
-		
-		//Site map -> News
-		newsPage = siteMapPage.openNewsPage(driver);
-		
-		//News -> Shopping cart
-		shoppingCartPage = newsPage.openShoppingCartPage(driver);
-		
-		
-		//Shopping cart -> About us
-		aboutUsPage = shoppingCartPage.openAboutUsPage(driver);
-		
-		//About us -> homepage
-		homePage = aboutUsPage.openHomePage(driver);
-		
-	}
-	
+
 
 	public String getRandomEmail() {
 		Random rand = new Random();

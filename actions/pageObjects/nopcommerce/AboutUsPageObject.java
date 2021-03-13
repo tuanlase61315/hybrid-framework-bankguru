@@ -20,11 +20,7 @@ public class AboutUsPageObject extends BasePage {
 		
 	}
 
-	public HomePageObject openHomePage() {
-		waitForElementClickable(driver, AboutUsPageUI.HOME_PAGE_LOGO);
-		clickToElement(driver, AboutUsPageUI.HOME_PAGE_LOGO);
-		return PageGeneratorManager.getHomePage(driver);
-	}
+	
 	
 
 }
