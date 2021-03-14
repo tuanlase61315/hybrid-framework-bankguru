@@ -13,7 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseTest {
 	private WebDriver driver;
 	
-	private String projectLocation = System.getProperty("user.dir");
+	private String projectLocation = GlobalConstants.PROJECT_LOCATION;
 	private String osName = System.getProperty("os.name");
 	
 	private enum BROWSER{
