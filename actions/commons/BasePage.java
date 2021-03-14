@@ -199,6 +199,10 @@ public class BasePage {
 		return getElements(driver, locator).size();
 	}
 
+	public int getElementSize(WebDriver driver, String locator, String... values) {
+		return getElements(driver, getDynamicLocator(locator, values)).size();
+	}
+	
 	public void selectDropdowByText(WebDriver driver, String locator, String itemText) {
 		select = new Select(getElement(driver, locator));
 		select.selectByVisibleText(itemText);
@@ -306,6 +310,11 @@ public class BasePage {
 		action.sendKeys(getElement(driver, locator), key).perform();
 	}
 
+	public void pressKeyToElement(WebDriver driver, String locator, Keys key, String... values) {
+		action = new Actions(driver);
+		action.sendKeys(getElement(driver, getDynamicLocator(locator, values)), key).perform();
+	}
+	
 	public Object executeForBrowser(WebDriver driver, String javaScript) {
 
 		jsExecutor = (JavascriptExecutor) driver;
