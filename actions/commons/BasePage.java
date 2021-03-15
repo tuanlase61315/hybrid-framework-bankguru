@@ -1,5 +1,6 @@
 package commons;
 
+import java.io.File;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;
@@ -22,6 +23,7 @@ import pageObjects.nopcommerce.NewsPageObject;
 import pageObjects.nopcommerce.PageGeneratorManager;
 import pageObjects.nopcommerce.ShoppingCartPageObject;
 import pageObjects.nopcommerce.SiteMapPageObject;
+import pageUIs.jQuery.HomePageUI;
 import pageUIs.nopCommerce.BasePageUI;
 
 public class BasePage {
@@ -459,6 +461,30 @@ public class BasePage {
 		explicitWait = new WebDriverWait(driver, timeout);
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(locator)));
 	}
+	
+	
+	public void uploadMultipleFiles(WebDriver driver, String... fileNames) {
+		String filePath = System.getProperty("user.dir") + getDirectorySlash("uploadFiles");
+		
+		String fullFileName = "";
+		for (String file : fileNames) {
+			fullFileName = fullFileName + filePath + file + "\n";
+		}
+		fullFileName = fullFileName.trim();
+		getElement(driver, HomePageUI.UPLOAD_FILE_TYPE).sendKeys(fullFileName);
+//		sendkeyToElement(driver, HomePageUI.UPLOAD_FILE_TYPE, fullFileName);
+
+	}
+	
+	public String getDirectorySlash(String folderName) {
+//		String separator = System.getProperty("file.separator");
+//		separator = FileSystems.getDefault().getSeparator();
+//		separator = File.separator;
+		String separator = File.separator;
+
+		return separator + folderName + separator;
+	}
+	
 
 	// Page commons
 

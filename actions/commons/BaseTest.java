@@ -1,6 +1,8 @@
 package commons;
 
 import java.io.File;
+import java.nio.file.FileSystem;
+import java.nio.file.FileSystems;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -62,6 +64,9 @@ public class BaseTest {
 	
 
 	private String getSlash(String folderName) {
+//		String separator = System.getProperty("file.separator");
+//		separator = FileSystems.getDefault().getSeparator();
+//		separator = File.separator;
 		String separator = File.separator;
 
 		return separator + folderName + separator;

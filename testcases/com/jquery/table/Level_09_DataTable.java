@@ -96,9 +96,7 @@ public class Level_09_DataTable extends BaseTest {
 		
 		homePage.inputToTextboxByColumnNameAtRowNumber("Order Placed", "1", "1");
 		homePage.sleepInSecond(2);
-		
-		
-		
+	
 	}
 	
 	
