@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Bank Guru" parallel="false">
+<suite name="nopcommerce" parallel="false">
+
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
 
 	<parameter name="url" value="https://demo.nopcommerce.com/" />
 	<test name="Run on Firefox">
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="com.nopcomerce.login.Level_08_Login_Page_Dynamic_Locator" />
+			<class name="com.nopcomerce.login.Level_14_Login_Log_Report_HTML" />
 
 		</classes>
 	</test>
