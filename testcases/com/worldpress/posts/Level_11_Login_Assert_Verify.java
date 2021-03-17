@@ -13,7 +13,7 @@ import pageObjects.worldpress.DashboardPageObject;
 import pageObjects.worldpress.LoginPageObject;
 import pageObjects.worldpress.PageGeneratorManager;
 
-public class Level11_Login_Element_Undislayed extends BaseTest{
+public class Level_11_Login_Assert_Verify extends BaseTest{
 	WebDriver driver;
 	String username = "automationeditor";
 	String password = "automationfc";
