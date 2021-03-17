@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Bank Guru" parallel="false">
+
+	<parameter name="url" value="https://automationfc.wordpress.com/wp-admin/" />
+	<test name="Run on Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.worldpress.posts.Level11_Login_Element_Undislayed" />
+
+		</classes>
+	</test>
+</suite> 
