@@ -15,3 +15,114 @@
 [INFO ] [2021-03-17 21:17:56,082] Login - Step 03: Input to Password textbox with value: 123123
 [INFO ] [2021-03-17 21:17:56,191] Login - Step 04: Click to Login button
 [INFO ] [2021-03-17 21:17:58,006] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-17 22:33:20,199] Register - Step 01: Open Home Page
+[INFO ] [2021-03-17 22:33:20,201] Register - Step 02: Verify Home Page Slider
+[INFO ] [2021-03-17 22:33:20,291] Register - Step 03: Click to Register link at Home Page
+[INFO ] [2021-03-17 22:33:20,796] Login - Step 01: Open Login Page
+[INFO ] [2021-03-17 22:35:01,221] Register - Step 01: Open Home Page
+[INFO ] [2021-03-17 22:35:01,223] Register - Step 02: Verify Home Page Slider
+[INFO ] [2021-03-17 22:35:01,316] Register - Step 03: Click to Register link at Home Page
+[INFO ] [2021-03-17 22:35:01,835] Register - Step 04: Click to Gender Male Radio Button
+[INFO ] [2021-03-17 22:35:02,254] Login - Step 01: Open Login Page
+[INFO ] [2021-03-17 22:37:10,759] Register - Step 01: Open Home Page
+[INFO ] [2021-03-17 22:37:10,761] Register - Step 02: Verify Home Page Slider
+[INFO ] [2021-03-17 22:37:10,879] Register - Step 03: Click to Register link at Home Page
+[INFO ] [2021-03-17 22:37:12,494] Register - Step 04: Click to Gender Male Radio Button
+[INFO ] [2021-03-17 22:37:12,765] Register - Step 05: Input to Firstname textbox with value: tuan
+[INFO ] [2021-03-17 22:37:12,861] Register - Step 06: Input to Lastname textbox with value: le
+[INFO ] [2021-03-17 22:37:12,956] Register - Step 07: Input to Email textbox with value: testing62141@gmail.com
+[INFO ] [2021-03-17 22:37:13,053] Register - Step 08: Input to Password and Confirm Password textbox with value: 123123
+[INFO ] [2021-03-17 22:37:13,246] Register - Step 09: CLick to Register button
+[INFO ] [2021-03-17 22:37:15,491] Register - Step 10: Verify Register Success
+[INFO ] [2021-03-17 22:37:15,550] Register - Step 11: Click to Logout button
+[INFO ] [2021-03-17 22:37:16,979] Register - Step 12: Verify Home Page Slider
+[INFO ] [2021-03-17 22:37:17,058] Login - Step 01: Open Login Page
+[INFO ] [2021-03-17 22:37:17,493] Login - Step 02: Input to Email textbox with value: testing62141@gmail.com
+[INFO ] [2021-03-17 22:37:17,589] Login - Step 03: Input to Password textbox with value: 123123
+[INFO ] [2021-03-17 22:37:17,679] Login - Step 04: Click to Login button
+[INFO ] [2021-03-17 22:37:18,441] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-18 22:15:43,794] Register - Step 01: Open Home Page
+[INFO ] [2021-03-18 22:15:43,805] Register - Step 02: Verify Home Page Slider
+[INFO ] [2021-03-18 22:15:43,909] Register - Step 03: Click to Register link at Home Page
+[INFO ] [2021-03-18 22:15:45,430] Register - Step 04: Click to Gender Male Radio Button
+[INFO ] [2021-03-18 22:15:45,701] Register - Step 05: Input to Firstname textbox with value: tuan
+[INFO ] [2021-03-18 22:15:45,810] Register - Step 06: Input to Lastname textbox with value: le
+[INFO ] [2021-03-18 22:15:45,914] Register - Step 07: Input to Email textbox with value: testing5217@gmail.com
+[INFO ] [2021-03-18 22:15:46,012] Register - Step 08: Input to Password and Confirm Password textbox with value: 123123
+[INFO ] [2021-03-18 22:15:46,207] Register - Step 09: CLick to Register button
+[INFO ] [2021-03-18 22:15:48,315] Register - Step 10: Verify Register Success
+[INFO ] [2021-03-18 22:15:48,375] Register - Step 11: Click to Logout button
+[INFO ] [2021-03-18 22:15:50,634] Register - Step 12: Verify Home Page Slider
+[INFO ] [2021-03-18 22:15:50,711] Login - Step 01: Open Login Page
+[INFO ] [2021-03-18 22:15:51,136] Login - Step 02: Input to Email textbox with value: testing5217@gmail.com
+[INFO ] [2021-03-18 22:15:51,241] Login - Step 03: Input to Password textbox with value: 123123
+[INFO ] [2021-03-18 22:15:51,360] Login - Step 04: Click to Login button
+[INFO ] [2021-03-18 22:15:52,824] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-18 22:26:39,021] Register - Step 01: Open Home Page
+[INFO ] [2021-03-18 22:26:39,024] Register - Step 02: Verify Home Page Slider
+[INFO ] [2021-03-18 22:26:39,136] Register - Step 03: Click to Register link at Home Page
+[INFO ] [2021-03-18 22:26:40,585] Register - Step 04: Click to Gender Male Radio Button
+[INFO ] [2021-03-18 22:26:40,867] Register - Step 05: Input to Firstname textbox with value: tuan
+[INFO ] [2021-03-18 22:26:40,972] Register - Step 06: Input to Lastname textbox with value: le
+[INFO ] [2021-03-18 22:26:41,059] Register - Step 07: Input to Email textbox with value: testing32048@gmail.com
+[INFO ] [2021-03-18 22:26:41,159] Register - Step 08: Input to Password and Confirm Password textbox with value: 123123
+[INFO ] [2021-03-18 22:26:41,355] Register - Step 09: CLick to Register button
+[INFO ] [2021-03-18 22:26:43,533] Register - Step 10: Verify Register Success
+[INFO ] [2021-03-18 22:26:43,591] Register - Step 11: Click to Logout button
+[INFO ] [2021-03-18 22:26:45,065] Register - Step 12: Verify Home Page Slider
+[INFO ] [2021-03-18 22:26:45,129] Login - Step 01: Open Login Page
+[INFO ] [2021-03-18 22:26:46,282] Login - Step 02: Input to Email textbox with value: testing32048@gmail.com
+[INFO ] [2021-03-18 22:26:46,382] Login - Step 03: Input to Password textbox with value: 123123
+[INFO ] [2021-03-18 22:26:46,490] Login - Step 04: Click to Login button
+[INFO ] [2021-03-18 22:26:47,232] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-18 23:34:27,310] Register - Step 01: Open Home Page
+[INFO ] [2021-03-18 23:34:27,311] Register - Step 02: Verify Home Page Slider
+[INFO ] [2021-03-18 23:34:27,408] Register - Step 03: Click to Register link at Home Page
+[INFO ] [2021-03-18 23:34:29,079] Register - Step 04: Click to Gender Male Radio Button
+[INFO ] [2021-03-18 23:34:29,369] Register - Step 05: Input to Firstname textbox with value: tuan
+[INFO ] [2021-03-18 23:34:29,500] Register - Step 06: Input to Lastname textbox with value: le
+[INFO ] [2021-03-18 23:34:29,597] Register - Step 07: Input to Email textbox with value: testing48261@gmail.com
+[INFO ] [2021-03-18 23:34:29,706] Register - Step 08: Input to Password and Confirm Password textbox with value: 123123
+[INFO ] [2021-03-18 23:34:29,892] Register - Step 09: CLick to Register button
+[INFO ] [2021-03-18 23:34:32,131] Register - Step 10: Verify Register Success
+[INFO ] [2021-03-18 23:34:32,198] Register - Step 11: Click to Logout link
+[INFO ] [2021-03-18 23:34:34,778] Register - Step 12: Verify Home Page Slider
+[INFO ] [2021-03-18 23:34:34,905] Login - Step 01: Open Login Page
+[INFO ] [2021-03-18 23:34:36,478] Login - Step 02: Input to Email textbox with value: testing48261@gmail.com
+[INFO ] [2021-03-18 23:34:36,580] Login - Step 03: Input to Password textbox with value: 123123
+[INFO ] [2021-03-18 23:34:36,685] Login - Step 04: Click to Login button
+[INFO ] [2021-03-18 23:34:37,474] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-19 00:00:30,035] Register - Step 01: Open Home Page
+[INFO ] [2021-03-19 00:00:30,056] Register - Step 02: Verify Home Page Slider
+[INFO ] [2021-03-19 00:00:30,184] Register - Step 03: Click to Register link at Home Page
+[INFO ] [2021-03-19 00:00:31,662] Register - Step 04: Click to Gender Male Radio Button
+[INFO ] [2021-03-19 00:00:31,929] Register - Step 05: Input to Firstname textbox with value: tuan
+[INFO ] [2021-03-19 00:00:32,031] Register - Step 06: Input to Lastname textbox with value: le
+[INFO ] [2021-03-19 00:00:32,125] Register - Step 07: Input to Email textbox with value: testing77019@gmail.com
+[INFO ] [2021-03-19 00:00:32,224] Register - Step 08: Input to Password and Confirm Password textbox with value: 123123
+[INFO ] [2021-03-19 00:00:32,415] Register - Step 09: CLick to Register button
+[INFO ] [2021-03-19 00:00:34,524] Register - Step 10: Verify Register Success
+[INFO ] [2021-03-19 00:00:34,593] Register - Step 11: Click to Logout link
+[INFO ] [2021-03-19 00:00:36,270] Register - Step 12: Verify Home Page Slider
+[INFO ] [2021-03-19 00:00:36,402] Login - Step 01: Open Login Page
+[INFO ] [2021-03-19 00:00:37,553] Login - Step 02: Input to Email textbox with value: testing77019@gmail.com
+[INFO ] [2021-03-19 00:00:37,682] Login - Step 03: Input to Password textbox with value: 123123
+[INFO ] [2021-03-19 00:00:37,784] Login - Step 04: Click to Login button
+[INFO ] [2021-03-19 00:00:38,501] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-19 00:00:56,903] Register - Step 01: Open Home Page
+[INFO ] [2021-03-19 00:00:56,921] Register - Step 02: Verify Home Page Slider
+[INFO ] [2021-03-19 00:00:57,006] Register - Step 03: Click to Register link at Home Page
+[INFO ] [2021-03-19 00:00:58,499] Register - Step 04: Click to Gender Male Radio Button
+[INFO ] [2021-03-19 00:00:58,774] Register - Step 05: Input to Firstname textbox with value: tuan
+[INFO ] [2021-03-19 00:00:58,883] Register - Step 06: Input to Lastname textbox with value: le
+[INFO ] [2021-03-19 00:00:58,987] Register - Step 07: Input to Email textbox with value: testing95843@gmail.com
+[INFO ] [2021-03-19 00:00:59,089] Register - Step 08: Input to Password and Confirm Password textbox with value: 123123
+[INFO ] [2021-03-19 00:00:59,285] Register - Step 09: CLick to Register button
+[INFO ] [2021-03-19 00:01:00,062] Register - Step 10: Verify Register Success
+[INFO ] [2021-03-19 00:01:00,129] Register - Step 11: Click to Logout link
+[INFO ] [2021-03-19 00:01:02,399] Register - Step 12: Verify Home Page Slider
+[INFO ] [2021-03-19 00:01:02,577] Login - Step 01: Open Login Page
+[INFO ] [2021-03-19 00:01:03,721] Login - Step 02: Input to Email textbox with value: testing95843@gmail.com
+[INFO ] [2021-03-19 00:01:03,828] Login - Step 03: Input to Password textbox with value: 123123
+[INFO ] [2021-03-19 00:01:03,935] Login - Step 04: Click to Login button
+[INFO ] [2021-03-19 00:01:05,360] Login - Step 05: Verify Home Page Slider

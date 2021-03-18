@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Mar 18 23:34:34 ICT 2021","Thu Mar 18 23:34:37 ICT 2021","2628","nopcommerce","Run on Firefox","com.nopcomerce.login.Level_14_Login_Allure_Report","com.nopcomerce.login.Level_14_Login_Allure_Report","Login_02_To_System","Login_02_To_System",""
+"passed","Thu Mar 18 23:34:27 ICT 2021","Thu Mar 18 23:34:34 ICT 2021","7544","nopcommerce","Run on Firefox","com.nopcomerce.login.Level_14_Login_Allure_Report","com.nopcomerce.login.Level_14_Login_Allure_Report","Login_01_Register_To_System","Login_01_Register_To_System",""
+"passed","Thu Mar 18 23:34:37 ICT 2021","Thu Mar 18 23:34:38 ICT 2021","768","nopcommerce","Run on Firefox","com.nopcomerce.login.Level_14_Login_Allure_Report","com.nopcomerce.login.Level_14_Login_Allure_Report","User_03_Customer_Info","User_03_Customer_Info",""

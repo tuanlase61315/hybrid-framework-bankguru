@@ -3,16 +3,19 @@
 
 	<listeners>
 		<listener class-name="commons.MethodListener" />
-		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
-		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+		<listener class-name="reportConfig.AllureTestListener" />
+<!-- 		<listener class-name="reportConfig.ExtentListenerV4" /> -->
+<!-- 		<listener class-name="reportConfig.ExtentListenerV3" /> -->
+<!-- 		<listener class-name="reportConfig.ExtentReportListenerVersion2" /> -->
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 	</listeners>
 
 	<parameter name="url" value="https://demo.nopcommerce.com/" />
 	<test name="Run on Firefox">
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="com.nopcomerce.login.Level_14_Login_Log_Report_HTML" />
-
+			<class name="com.nopcomerce.login.Level_14_Login_Allure_Report" />
 		</classes>
 	</test>
 </suite> 

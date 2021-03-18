@@ -1,0 +1,31 @@
+[ {
+  "uid" : "5055e2c3d9331904",
+  "name" : "User_03_Customer_Info",
+  "time" : {
+    "start" : 1616085277537,
+    "stop" : 1616085278305,
+    "duration" : 768
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa3c1ca4a765fa72",
+  "name" : "Login_02_To_System",
+  "time" : {
+    "start" : 1616085274905,
+    "stop" : 1616085277533,
+    "duration" : 2628
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a2348159077c24f",
+  "name" : "Login_01_Register_To_System",
+  "time" : {
+    "start" : 1616085267308,
+    "stop" : 1616085274852,
+    "duration" : 7544
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

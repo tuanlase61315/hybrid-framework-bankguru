@@ -2,12 +2,15 @@ package pageObjects.nopcommerce;
 
 import org.openqa.selenium.WebDriver;
 
+import io.qameta.allure.Step;
+
 public class PageGeneratorManager {
 	
 //	public static PageGeneratorManager getPageGenerator() {
 //		return new  PageGeneratorManager();
 //	}
 	
+	@Step("Open Home Page")
 	public static HomePageObject getHomePage(WebDriver driver) {
 		return new HomePageObject(driver);
 	}
