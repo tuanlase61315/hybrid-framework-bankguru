@@ -15,8 +15,8 @@
 	<test name="Run on Firefox">
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="com.nopcommerce.common.Common_02_Cookie" />
-			<class name="com.nopcomerce.login.Level_15_Login_Share_State_Part_III_Cookie" />
+<!-- 			<class name="com.nopcommerce.common.Common_02_Cookie" /> -->
+			<class name="com.nopcomerce.login.Level_17_Login_Pattern_Object" />
 			
 		</classes>
 	</test>

@@ -126,3 +126,127 @@
 [INFO ] [2021-03-19 00:01:03,828] Login - Step 03: Input to Password textbox with value: 123123
 [INFO ] [2021-03-19 00:01:03,935] Login - Step 04: Click to Login button
 [INFO ] [2021-03-19 00:01:05,360] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-21 11:07:34,514] Precondition - Step 01: Open Login Page
+[INFO ] [2021-03-21 11:07:35,903] Precondition - Step 02: Input to Email textbox with value: null
+[INFO ] [2021-03-21 11:07:40,830] Precondition - Step 01: Open Login Page
+[INFO ] [2021-03-21 11:07:42,138] Precondition - Step 02: Input to Email textbox with value: null
+[INFO ] [2021-03-21 11:11:32,687] Precondition - Step 01: Open Login Page
+[INFO ] [2021-03-21 11:11:34,486] Precondition - Step 02: Input to Email textbox with value: testing56442@gmail.com
+[INFO ] [2021-03-21 11:11:34,619] Precondition - Step 03: Input to Password textbox with value: 123123
+[INFO ] [2021-03-21 11:11:34,718] Precondition - Step 04: Click to Login button
+[INFO ] [2021-03-21 11:11:37,110] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-21 11:11:42,601] Precondition - Step 01: Open Login Page
+[INFO ] [2021-03-21 11:11:43,884] Precondition - Step 02: Input to Email textbox with value: testing56442@gmail.com
+[INFO ] [2021-03-21 11:11:43,997] Precondition - Step 03: Input to Password textbox with value: 123123
+[INFO ] [2021-03-21 11:11:44,099] Precondition - Step 04: Click to Login button
+[INFO ] [2021-03-21 11:11:46,429] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-21 11:12:22,041] Precondition - Step 01: Open Login Page
+[INFO ] [2021-03-21 11:12:22,642] Precondition - Step 02: Input to Email textbox with value: testing8033@gmail.com
+[INFO ] [2021-03-21 11:12:22,760] Precondition - Step 03: Input to Password textbox with value: 123123
+[INFO ] [2021-03-21 11:12:22,863] Precondition - Step 04: Click to Login button
+[INFO ] [2021-03-21 11:12:25,326] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-21 11:12:31,023] Precondition - Step 01: Open Login Page
+[INFO ] [2021-03-21 11:12:32,436] Precondition - Step 02: Input to Email textbox with value: testing8033@gmail.com
+[INFO ] [2021-03-21 11:12:32,559] Precondition - Step 03: Input to Password textbox with value: 123123
+[INFO ] [2021-03-21 11:12:32,664] Precondition - Step 04: Click to Login button
+[INFO ] [2021-03-21 11:12:35,028] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-21 11:15:22,795] Precondition - Step 01: Open Login Page
+[INFO ] [2021-03-21 11:15:24,158] Precondition - Step 02: Input to Email textbox with value: testing30498@gmail.com
+[INFO ] [2021-03-21 11:15:24,273] Precondition - Step 03: Input to Password textbox with value: 123123
+[INFO ] [2021-03-21 11:15:24,379] Precondition - Step 04: Click to Login button
+[INFO ] [2021-03-21 11:15:26,691] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-21 11:15:32,132] Precondition - Step 01: Open Login Page
+[INFO ] [2021-03-21 11:15:33,571] Precondition - Step 02: Input to Email textbox with value: testing30498@gmail.com
+[INFO ] [2021-03-21 11:15:33,692] Precondition - Step 03: Input to Password textbox with value: 123123
+[INFO ] [2021-03-21 11:15:33,791] Precondition - Step 04: Click to Login button
+[INFO ] [2021-03-21 11:15:36,153] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-21 12:07:03,694] Precondition - Step 01: Open Login Page
+[INFO ] [2021-03-21 12:07:03,694] Precondition - Step 02: Login by cookie
+[INFO ] [2021-03-21 12:07:05,915] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-21 12:34:12,170] Precondition - Step 01: Open Login Page
+[INFO ] [2021-03-21 12:34:12,170] Precondition - Step 02: Login by cookie
+[INFO ] [2021-03-21 12:34:14,117] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-21 12:34:14,275] OS name = windows 10
+[INFO ] [2021-03-21 12:34:14,902] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-21 17:04:14,920] Register - Step 01: Open Home Page
+[INFO ] [2021-03-21 17:04:14,922] Register - Step 02: Verify Home Page Slider
+[INFO ] [2021-03-21 17:04:15,018] Register - Step 03: Click to Register link at Home Page
+[INFO ] [2021-03-21 17:04:16,748] Register - Step 04: Click to Gender Male Radio Button
+[INFO ] [2021-03-21 17:04:17,033] Register - Step 05: Input to Firstname textbox with value: tuan
+[INFO ] [2021-03-21 17:04:17,120] Register - Step 06: Input to Lastname textbox with value: le
+[INFO ] [2021-03-21 17:04:17,200] Register - Step 07: Select date dropdown
+[INFO ] [2021-03-21 17:04:17,505] Register - Step 09: Select date dropdown
+[INFO ] [2021-03-21 17:04:17,817] Register - Step 10: Select date dropdown
+[INFO ] [2021-03-21 17:04:18,127] Register - Step 11: Input to Email textbox with value: testing95672@gmail.com
+[INFO ] [2021-03-21 17:04:18,220] Register - Step 12: Input to Password and Confirm Password textbox with value: 123123
+[INFO ] [2021-03-21 17:04:18,420] Register - Step 13: CLick to Register button
+[INFO ] [2021-03-21 17:04:20,065] Register - Step 14: Verify Register Success
+[INFO ] [2021-03-21 17:04:20,133] Register - Step 15: Click to Logout button
+[INFO ] [2021-03-21 17:04:22,400] Register - Step 16: Verify Home Page Slider
+[INFO ] [2021-03-21 17:04:22,513] Login - Step 01: Open Login Page
+[INFO ] [2021-03-21 17:04:22,942] Login - Step 02: Input to Email textbox with value: testing95672@gmail.com
+[INFO ] [2021-03-21 17:04:23,036] Login - Step 03: Input to Password textbox with value: 123123
+[INFO ] [2021-03-21 17:04:23,123] Login - Step 04: Click to Login button
+[INFO ] [2021-03-21 17:04:25,463] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-21 17:04:25,528] OS name = windows 10
+[INFO ] [2021-03-21 17:04:26,122] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-21 17:26:19,076] Validate - Step 01: Open Home Page
+[INFO ] [2021-03-21 17:26:19,077] Validate - Step 02: Click to Register link at Home Page
+[INFO ] [2021-03-21 17:26:20,592] Validate - Step 03: CLick to Register button
+[INFO ] [2021-03-21 17:26:20,885] Validate - Step 04: Verify error message displayed at Firstname textbox
+[INFO ] [2021-03-21 17:26:20,965]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-21 17:26:20,965] Validate - Step 05: Verify error message displayed at LastName textbox
+[INFO ] [2021-03-21 17:26:21,015]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-21 17:26:21,015] Validate - Step 06: Verify error message displayed at Firstname textbox
+[INFO ] [2021-03-21 17:26:21,060]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-21 17:26:21,060] Validate - Step 07: Verify error message displayed at Firstname textbox
+[INFO ] [2021-03-21 17:26:21,106]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-21 17:26:21,106] Validate - Step 08: Verify error message displayed at Firstname textbox
+[INFO ] [2021-03-21 17:26:21,152]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-21 17:26:21,197] Register - Step 01: Open Home Page
+[INFO ] [2021-03-21 17:26:21,197] Register - Step 02: Verify Home Page Slider
+[INFO ] [2021-03-21 17:26:31,280] Login - Step 01: Open Login Page
+[INFO ] [2021-03-21 17:26:32,518] Login - Step 02: Input to Email textbox with value: testing33825@gmail.com
+[INFO ] [2021-03-21 17:26:32,610] Login - Step 03: Input to Password textbox with value: 123123
+[INFO ] [2021-03-21 17:26:32,718] Login - Step 04: Click to Login button
+[INFO ] [2021-03-21 17:26:34,181] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-21 17:26:41,597] OS name = windows 10
+[INFO ] [2021-03-21 17:26:41,662] Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TK-AM', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 11140, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8279b4e2-4b8d-436e-b622-c7934def6315
+[INFO ] [2021-03-21 17:27:27,618] Validate - Step 01: Open Home Page
+[INFO ] [2021-03-21 17:27:27,619] Validate - Step 02: Click to Register link at Home Page
+[INFO ] [2021-03-21 17:27:28,228] Validate - Step 03: CLick to Register button
+[INFO ] [2021-03-21 17:27:28,510] Validate - Step 04: Verify error message displayed at Firstname textbox
+[INFO ] [2021-03-21 17:27:28,565]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-21 17:27:28,565] Validate - Step 05: Verify error message displayed at LastName textbox
+[INFO ] [2021-03-21 17:27:28,606]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-21 17:27:28,606] Validate - Step 06: Verify error message displayed at Firstname textbox
+[INFO ] [2021-03-21 17:27:28,653]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-21 17:27:28,653] Validate - Step 07: Verify error message displayed at Firstname textbox
+[INFO ] [2021-03-21 17:27:28,699]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-21 17:27:28,699] Validate - Step 08: Verify error message displayed at Firstname textbox
+[INFO ] [2021-03-21 17:27:28,747]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-21 17:27:28,797] Register - Step 03: Click to Register link at Home Page
+[INFO ] [2021-03-21 17:27:30,047] Register - Step 04: Click to Gender Male Radio Button
+[INFO ] [2021-03-21 17:27:30,344] Register - Step 05: Input to Firstname textbox with value: tuan
+[INFO ] [2021-03-21 17:27:30,432] Register - Step 06: Input to Lastname textbox with value: le
+[INFO ] [2021-03-21 17:27:30,507] Register - Step 07: Select date dropdown
+[INFO ] [2021-03-21 17:27:30,811] Register - Step 09: Select date dropdown
+[INFO ] [2021-03-21 17:27:31,117] Register - Step 10: Select date dropdown
+[INFO ] [2021-03-21 17:27:31,428] Register - Step 11: Input to Email textbox with value: testing66560@gmail.com
+[INFO ] [2021-03-21 17:27:31,522] Register - Step 12: Input to Password and Confirm Password textbox with value: 123123
+[INFO ] [2021-03-21 17:27:31,685] Register - Step 13: CLick to Register button
+[INFO ] [2021-03-21 17:27:34,164] Register - Step 14: Verify Register Success
+[INFO ] [2021-03-21 17:27:34,233] Register - Step 15: Click to Logout button
+[INFO ] [2021-03-21 17:27:35,328] Register - Step 16: Verify Home Page Slider
+[INFO ] [2021-03-21 17:27:35,396] Login - Step 01: Open Login Page
+[INFO ] [2021-03-21 17:27:35,893] Login - Step 02: Input to Email textbox with value: testing66560@gmail.com
+[INFO ] [2021-03-21 17:27:35,982] Login - Step 03: Input to Password textbox with value: 123123
+[INFO ] [2021-03-21 17:27:36,057] Login - Step 04: Click to Login button
+[INFO ] [2021-03-21 17:27:37,772] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-21 17:27:37,846] OS name = windows 10
+[INFO ] [2021-03-21 17:27:38,427] ---------- QUIT BROWSER SUCCESS ----------

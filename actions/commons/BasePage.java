@@ -215,6 +215,11 @@ public class BasePage {
 		select = new Select(getElement(driver, locator));
 		select.selectByVisibleText(itemText);
 	}
+	
+	public void selectDropdowByText(WebDriver driver, String locator, String itemText, String... values) {
+		select = new Select(getElement(driver, getDynamicLocator(locator, values)));
+		select.selectByVisibleText(itemText);
+	}
 
 	public String getSelectedItemDropdown(WebDriver driver, String locator) {
 		select = new Select(getElement(driver, locator));
@@ -611,4 +616,33 @@ public class BasePage {
 		waitForElementClickable(driver, BasePageUI.FOOTER_PAGE_LINK_BY_NAME, pageName);
 		clickToElement(driver, BasePageUI.FOOTER_PAGE_LINK_BY_NAME, pageName);
 	}
+	
+	public void clickToRadioButtonByID(WebDriver driver, String radioButtonID)  {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_RADIO_BUTTON_BY_ID, radioButtonID);
+		if (!isElementSelected(driver, BasePageUI.DYNAMIC_RADIO_BUTTON_BY_ID, radioButtonID)) {
+			clickToElement(driver, BasePageUI.DYNAMIC_RADIO_BUTTON_BY_ID, radioButtonID);
+		}
+		
+	}
+	
+	public void inputToTextboxByID(WebDriver driver, String textboxID, String value) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
+		sendkeyToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, value, textboxID);
+	}
+	
+	public void clickToButtonByValue(WebDriver driver, String buttonValue) {
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_BUTTON_BY_VALUE, buttonValue);
+		clickToElement(driver, BasePageUI.DYNAMIC_BUTTON_BY_VALUE, buttonValue);
+	}
+	
+	public void selectDropdowByName(WebDriver driver, String dropdowName, String itemText) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_DROPDOWN_BY_NAME, dropdowName);
+		selectDropdowByText(driver, BasePageUI.DYNAMIC_DROPDOWN_BY_NAME, itemText, dropdowName);
+	}
+	
+	public String getErrorMessageAtMandatoryFieldByName(WebDriver driver, String fieldName) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_ERROR_MESSAGE_BY_ID, fieldName);
+		return getElementText(driver, BasePageUI.DYNAMIC_ERROR_MESSAGE_BY_ID, fieldName);
+	}
+	
 }
