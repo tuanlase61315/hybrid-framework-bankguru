@@ -1,0 +1,5 @@
+[INFO ] [2021-03-22 01:00:49,075] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-22 01:00:49,232] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-22 01:00:49,359] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-22 01:00:54,968] OS name = windows 10
+[INFO ] [2021-03-22 01:00:55,998] ---------- QUIT BROWSER SUCCESS ----------
