@@ -29,6 +29,7 @@ import pageObjects.nopcommerce.SiteMapPageObject;
 import pageObjects.worldpress.DashboardPageObject;
 import pageUIs.jQuery.HomePageUI;
 import pageUIs.nopCommerce.BasePageUI;
+import pageUIs.orangeHRM.OrangeHRMAbstractPageUI;
 
 public class BasePage {
 
@@ -486,6 +487,7 @@ public class BasePage {
 		Random rand = new Random();
 		return "test" + rand.nextInt(99999) + "@gmail.com";
 	}
+	
 
 	public void sleepInSecond(long timeout) {
 		try {
@@ -645,4 +647,10 @@ public class BasePage {
 		return getElementText(driver, BasePageUI.DYNAMIC_ERROR_MESSAGE_BY_ID, fieldName);
 	}
 	
+	/* Orange HRM */
+	
+	public void openMenuPageByName(WebDriver driver, String pageName) {
+		waitForElementVisible(driver, OrangeHRMAbstractPageUI.DYNAMIC_MENU_LINK, pageName);
+		clickToElement(driver, OrangeHRMAbstractPageUI.DYNAMIC_MENU_LINK, pageName);
+	}
 }

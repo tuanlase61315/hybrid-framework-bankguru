@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import commons.BaseTest;
 import pageObjects.orangeHRM.DashboardPageObject;
 import pageObjects.orangeHRM.EmployeeDetailPageObject;
+import pageObjects.orangeHRM.EmployeeListPageObject;
 import pageObjects.orangeHRM.LoginPageObject;
 import pageObjects.orangeHRM.PageGeneratorManager;
 import pageObjects.orangeHRM.UserDetailPageObject;
@@ -19,6 +20,10 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 	DashboardPageObject dashboardPage;
 	EmployeeDetailPageObject employeeDetailPage;
 	UserDetailPageObject userDetailPage;
+	EmployeeListPageObject employeeListPage;
+	
+	
+	String firstname, lastname, employeeID;
 
 	@Parameters({ "browser", "url" })
 	@BeforeClass
@@ -26,6 +31,9 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 		driver = getBrowserDriver(browserName, appUrl);
 
 		loginPage = PageGeneratorManager.getLoginPage(driver);
+		
+		firstname = "tuan" + getRandomNumber();
+		lastname = "le" + getRandomNumber();
 		
 		log.info("Pre-Condition - Step 01: Enter to Username textbox");
 		loginPage.enterToUsernameTextbox("Admin");
@@ -36,11 +44,32 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 		log.info("Pre-Condition - Step 03: Click to Login button");
 		dashboardPage = loginPage.clickToLoginButton();
 		
-		dashboardPage.sleepInSecond(2);
+		
 	}
 	
 	@Test
 	public void Employee_01_Add_Employee() {
+		dashboardPage.openMenuPageByName(driver, "PIM");
+		employeeListPage = PageGeneratorManager.getEmployeeListPage(driver);
+		employeeListPage.sleepInSecond(2);
+		employeeDetailPage = employeeListPage.clickToAddButton();
+		
+		employeeDetailPage.enterToFirstNameTextbox(firstname);
+		
+		employeeDetailPage.enterToLastNameTextbox(lastname);
+		
+		employeeID = employeeDetailPage.getEmployeeIDAtAddEmployeeForm();
+		
+		employeeDetailPage.clickToSaveButton();
+		
+		verifyTrue(employeeDetailPage.isFullnameDisplayedAtHeader(firstname + " " + lastname));
+		
+		verifyEquals(employeeDetailPage.getFirstnameValueAtPersonalDetailForm(), firstname);
+		
+		verifyEquals(employeeDetailPage.getLastnameValueAtPersonalDetailForm(), lastname);
+
+		verifyEquals(employeeDetailPage.getEmployeeIDValueAtPersonalDetailForm(), employeeID);
+
 		
 	}
 	

@@ -1,8 +1,7 @@
 package commons;
 
 import java.io.File;
-import java.nio.file.FileSystem;
-import java.nio.file.FileSystems;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.logging.Log;
@@ -13,8 +12,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
-
-import com.google.common.base.Throwables;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -148,6 +145,11 @@ public class BaseTest {
 	
 	public WebDriver getDriver() {
 		return driver;
+	}
+	
+	protected int getRandomNumber() {
+		Random rand = new Random();
+		return rand.nextInt(9999);
 	}
 
 	protected void closeBrowserAndDriver(WebDriver driver) {

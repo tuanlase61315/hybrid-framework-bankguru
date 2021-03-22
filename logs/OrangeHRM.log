@@ -28,3 +28,104 @@
 [INFO ] [2021-03-22 01:00:49,359] Pre-Condition - Step 03: Click to Login button
 [INFO ] [2021-03-22 01:00:54,968] OS name = windows 10
 [INFO ] [2021-03-22 01:00:55,998] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-22 23:42:01,072] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-22 23:42:01,232] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-22 23:42:01,355] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-22 23:42:19,425] OS name = windows 10
+[INFO ] [2021-03-22 23:42:20,117] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-22 23:46:30,980] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-22 23:46:31,142] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-22 23:46:31,279] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-22 23:46:49,408]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-22 23:46:49,461]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-22 23:46:49,523]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-22 23:46:49,569]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-22 23:46:49,903] OS name = windows 10
+[INFO ] [2021-03-22 23:46:50,563] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-22 23:50:35,578] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-22 23:50:35,735] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-22 23:50:35,855] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-22 23:50:53,373] OS name = windows 10
+[INFO ] [2021-03-22 23:50:54,053] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-22 23:55:17,968] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-22 23:55:18,125] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-22 23:55:18,247] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-22 23:55:29,087]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-22 23:55:29,141]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-22 23:55:29,202]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-22 23:55:29,247]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-22 23:55:29,584] OS name = windows 10
+[INFO ] [2021-03-22 23:55:30,268] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-23 00:14:12,804] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-23 00:14:12,952] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-23 00:14:13,073] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-23 00:14:31,080] OS name = windows 10
+[INFO ] [2021-03-23 00:14:31,740] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-23 00:15:01,337] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-23 00:15:01,497] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-23 00:15:01,633] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-23 00:16:57,433] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-23 00:16:57,590] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-23 00:16:57,713] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-23 00:17:15,699] OS name = windows 10
+[INFO ] [2021-03-23 00:17:16,357] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-23 00:20:58,062] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-23 00:20:58,218] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-23 00:20:58,339] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-23 00:21:16,815]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:21:16,876]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:21:16,939]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:21:17,000]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-23 00:21:17,318] OS name = windows 10
+[INFO ] [2021-03-23 00:21:17,983] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-23 00:24:48,983] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-23 00:24:49,139] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-23 00:24:49,262] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-23 00:25:03,387]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:25:03,450]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:25:03,510]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:25:03,572]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:25:03,636] OS name = windows 10
+[INFO ] [2021-03-23 00:25:04,308] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-23 00:29:43,101] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-23 00:29:43,260] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-23 00:29:43,384] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-23 00:29:55,528]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:29:55,590]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:29:55,652]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:29:55,711]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:29:55,780] OS name = windows 10
+[INFO ] [2021-03-23 00:29:56,452] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-23 00:30:15,629] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-23 00:30:15,783] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-23 00:30:15,909] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-23 00:30:33,549] OS name = windows 10
+[INFO ] [2021-03-23 00:30:34,214] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-23 00:31:18,734] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-23 00:31:18,889] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-23 00:31:19,014] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-23 00:31:29,472]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:31:29,533]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:31:29,595]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:31:29,656]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:31:29,729] OS name = windows 10
+[INFO ] [2021-03-23 00:31:30,410] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-23 00:31:59,346] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-23 00:31:59,494] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-23 00:31:59,620] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-23 00:32:15,366] OS name = windows 10
+[INFO ] [2021-03-23 00:32:16,042] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-23 00:33:47,358] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-23 00:33:47,510] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-23 00:33:47,636] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-23 00:34:03,321] OS name = windows 10
+[INFO ] [2021-03-23 00:34:03,998] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-23 00:34:20,600] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-23 00:34:20,754] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-23 00:34:20,887] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-23 00:34:31,331]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:34:31,395]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:34:31,457]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:34:31,521]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-23 00:34:31,599] OS name = windows 10
+[INFO ] [2021-03-23 00:34:32,265] ---------- QUIT BROWSER SUCCESS ----------
