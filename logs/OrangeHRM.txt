@@ -1,9 +1,8 @@
-[INFO ] [2021-03-23 00:34:20,600] Pre-Condition - Step 01: Enter to Username textbox
-[INFO ] [2021-03-23 00:34:20,754] Pre-Condition - Step 02: Enter to Password textbox
-[INFO ] [2021-03-23 00:34:20,887] Pre-Condition - Step 03: Click to Login button
-[INFO ] [2021-03-23 00:34:31,331]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-03-23 00:34:31,395]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-03-23 00:34:31,457]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-03-23 00:34:31,521]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-03-23 00:34:31,599] OS name = windows 10
-[INFO ] [2021-03-23 00:34:32,265] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-25 01:26:50,266] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-25 01:26:50,425] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-25 01:26:50,556] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-25 01:26:55,634] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-25 01:26:55,719] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-25 01:27:06,052] Edit Employee [Salary] - Step 01: Open 'Salary' tab
+[INFO ] [2021-03-25 01:27:16,396] OS name = windows 10
+[INFO ] [2021-03-25 01:27:17,079] ---------- QUIT BROWSER SUCCESS ----------

@@ -129,3 +129,297 @@
 [INFO ] [2021-03-23 00:34:31,521]  -------------------------- PASSED -------------------------- 
 [INFO ] [2021-03-23 00:34:31,599] OS name = windows 10
 [INFO ] [2021-03-23 00:34:32,265] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-24 19:09:58,032] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-24 19:09:58,192] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-24 19:09:58,313] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-24 19:10:07,683] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-24 19:10:09,139] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-24 19:10:09,284] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-24 19:10:09,421] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-24 19:10:09,490] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-24 19:10:12,543] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-24 19:10:12,610]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:10:12,611] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-24 19:10:12,673]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:10:12,673] Add Emloyee - Step 08: Verify Lastname displayed is correct
+[INFO ] [2021-03-24 19:10:12,734]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:10:12,734] Add Emloyee - Step 09: Verify Emloyee ID displayed is correct
+[INFO ] [2021-03-24 19:10:12,796]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:10:12,847] Edit Employee [Personal] - Step 01: Click to Edit button at Personal Details form
+[INFO ] [2021-03-24 19:10:12,931] Edit Employee [Personal] - Step 02: Enter new info to 'First Name' textbox
+[INFO ] [2021-03-24 19:10:13,057] Edit Employee [Personal] - Step 03: Enter new info to 'Last Name' textbox
+[INFO ] [2021-03-24 19:10:13,196] Edit Employee [Personal] - Step 04: Enter new info to 'SSN Number' textbox
+[INFO ] [2021-03-24 19:10:13,333] Edit Employee [Personal] - Step 05: Click to 'Gender' radio with 'Male'
+[INFO ] [2021-03-24 19:10:13,409] Edit Employee [Personal] - Step 06: Select to 'Marital Status' dropdown with 'Single'
+[INFO ] [2021-03-24 19:10:13,540] Edit Employee [Personal] - Step 07: Select to 'Nationality' dropdown with 'Vietnamese'
+[INFO ] [2021-03-24 19:10:13,679] Edit Employee [Personal] - Step 08: Enter new info to 'Date of Birth' textbox
+[INFO ] [2021-03-24 19:10:13,852] Edit Employee [Personal] - Step 09: Click to 'Save' button at 'Personal Details' form
+[INFO ] [2021-03-24 19:10:16,828] Edit Employee [Personal] - Step 10: Verify success message displayed with value 'Successfully Saved'
+[INFO ] [2021-03-24 19:10:16,874]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:10:16,874] Edit Employee [Personal] - Step 11: Verify 'First Name' textbox edited successfully
+[INFO ] [2021-03-24 19:10:16,929]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:10:16,929] Edit Employee [Personal] - Step 12: Verify 'Last Name' textbox edited successfully
+[INFO ] [2021-03-24 19:10:16,991]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:10:16,991] Edit Employee [Personal] - Step 13: Verify 'SSN Number' textbox edited successfully
+[INFO ] [2021-03-24 19:10:17,053]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:10:17,053] Edit Employee [Personal] - Step 14: Verify 'Gender' radio edited successfully
+[INFO ] [2021-03-24 19:10:17,106]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:10:17,106] Edit Employee [Personal] - Step 15: Verify 'Marital Status' dropdown edited successfully
+[INFO ] [2021-03-24 19:10:17,163]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:10:17,163] Edit Employee [Personal] - Step 16: Verify 'Nationality' dropdown edited successfully
+[INFO ] [2021-03-24 19:10:17,225]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-24 19:10:17,225] Edit Employee [Personal] - Step 17: Verify 'Date of Birth' textbox edited successfully
+[INFO ] [2021-03-24 19:10:17,287]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:10:17,585] OS name = windows 10
+[INFO ] [2021-03-24 19:10:18,271] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-24 19:17:22,837] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-24 19:17:22,993] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-24 19:17:23,119] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-24 19:17:30,086] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-24 19:17:30,787] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-24 19:17:30,926] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-24 19:17:31,064] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-24 19:17:31,131] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-24 19:17:32,917] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-24 19:17:32,984]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:17:32,985] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-24 19:17:33,045]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:17:33,045] Add Emloyee - Step 08: Verify Lastname displayed is correct
+[INFO ] [2021-03-24 19:17:33,106]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:17:33,106] Add Emloyee - Step 09: Verify Emloyee ID displayed is correct
+[INFO ] [2021-03-24 19:17:33,168]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:17:33,218] Edit Employee [Personal] - Step 01: Click to Edit button at Personal Details form
+[INFO ] [2021-03-24 19:17:33,302] Edit Employee [Personal] - Step 02: Enter new info to 'First Name' textbox
+[INFO ] [2021-03-24 19:17:33,445] Edit Employee [Personal] - Step 03: Enter new info to 'Last Name' textbox
+[INFO ] [2021-03-24 19:17:33,582] Edit Employee [Personal] - Step 04: Enter new info to 'SSN Number' textbox
+[INFO ] [2021-03-24 19:17:33,703] Edit Employee [Personal] - Step 05: Click to 'Gender' radio with 'Male'
+[INFO ] [2021-03-24 19:17:33,782] Edit Employee [Personal] - Step 06: Select to 'Marital Status' dropdown with 'Single'
+[INFO ] [2021-03-24 19:17:33,898] Edit Employee [Personal] - Step 07: Select to 'Nationality' dropdown with 'Vietnamese'
+[INFO ] [2021-03-24 19:17:34,001] Edit Employee [Personal] - Step 08: Enter new info to 'Date of Birth' textbox
+[INFO ] [2021-03-24 19:17:34,175] Edit Employee [Personal] - Step 09: Click to 'Save' button at 'Personal Details' form
+[INFO ] [2021-03-24 19:17:35,584] Edit Employee [Personal] - Step 10: Verify success message displayed with value 'Successfully Saved'
+[INFO ] [2021-03-24 19:17:35,637]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:17:35,637] Edit Employee [Personal] - Step 11: Verify 'First Name' textbox edited successfully
+[INFO ] [2021-03-24 19:17:35,706]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:17:35,706] Edit Employee [Personal] - Step 12: Verify 'Last Name' textbox edited successfully
+[INFO ] [2021-03-24 19:17:35,770]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:17:35,770] Edit Employee [Personal] - Step 13: Verify 'SSN Number' textbox edited successfully
+[INFO ] [2021-03-24 19:17:35,831]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:17:35,831] Edit Employee [Personal] - Step 14: Verify 'Gender' radio edited successfully
+[INFO ] [2021-03-24 19:17:35,883]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:17:35,883] Edit Employee [Personal] - Step 15: Verify 'Marital Status' dropdown edited successfully
+[INFO ] [2021-03-24 19:17:35,939]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:17:35,939] Edit Employee [Personal] - Step 16: Verify 'Nationality' dropdown edited successfully
+[INFO ] [2021-03-24 19:17:37,038]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:17:37,038] Edit Employee [Personal] - Step 17: Verify 'Date of Birth' textbox edited successfully
+[INFO ] [2021-03-24 19:17:37,100]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 19:17:37,116] OS name = windows 10
+[INFO ] [2021-03-24 19:17:37,788] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-24 22:13:23,778] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-24 22:13:23,951] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-24 22:13:24,076] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-24 22:13:31,465] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-24 22:13:32,239] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-24 22:13:32,374] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-24 22:13:32,506] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-24 22:13:32,565] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-24 22:13:34,520] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-24 22:13:34,584]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 22:13:34,585] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-24 22:13:34,646]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 22:13:34,648] Add Emloyee - Step 08: Verify Lastname displayed is correct
+[INFO ] [2021-03-24 22:13:34,710]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 22:13:34,710] Add Emloyee - Step 09: Verify Emloyee ID displayed is correct
+[INFO ] [2021-03-24 22:13:34,772]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 22:13:34,836] Edit Employee [Salary] - Step 01: Open 'Salary' tab
+[INFO ] [2021-03-24 22:13:35,854] Edit Employee [Salary] - Step 02: Click to 'Add' button at Assigned Salary Components Form
+[INFO ] [2021-03-24 22:13:35,935] Edit Employee [Salary] - Step 03: Select to 'Pay Grade' dropdown with value ''
+[INFO ] [2021-03-24 22:13:36,073] Edit Employee [Salary] - Step 04: Enter to 'Salary Component' textbox
+[INFO ] [2021-03-24 22:13:36,217] Edit Employee [Salary] - Step 05: Select to 'Pay Frequency' dropdown with value ''
+[INFO ] [2021-03-24 22:13:36,338] Edit Employee [Salary] - Step 06: Select to 'Currency' dropdown with value ''
+[INFO ] [2021-03-24 22:13:36,443] Edit Employee [Salary] - Step 07: Select to 'Amount' dropdown with value ''
+[INFO ] [2021-03-24 22:13:36,795] OS name = windows 10
+[INFO ] [2021-03-24 22:13:37,496] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-24 22:15:36,625] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-24 22:15:36,774] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-24 22:15:36,896] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-24 22:15:44,650] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-24 22:15:45,334] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-24 22:15:45,467] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-24 22:15:45,599] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-24 22:15:45,659] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-24 22:15:47,394] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-24 22:15:47,457]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 22:15:47,458] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-24 22:15:47,517]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 22:15:47,517] Add Emloyee - Step 08: Verify Lastname displayed is correct
+[INFO ] [2021-03-24 22:15:47,579]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 22:15:47,579] Add Emloyee - Step 09: Verify Emloyee ID displayed is correct
+[INFO ] [2021-03-24 22:15:47,643]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 22:15:47,694] Edit Employee [Salary] - Step 01: Open 'Salary' tab
+[INFO ] [2021-03-24 22:15:48,937] Edit Employee [Salary] - Step 02: Click to 'Add' button at Assigned Salary Components Form
+[INFO ] [2021-03-24 22:15:49,015] Edit Employee [Salary] - Step 03: Select to 'Pay Grade' dropdown with value ''
+[INFO ] [2021-03-24 22:15:49,128] Edit Employee [Salary] - Step 04: Enter to 'Salary Component' textbox
+[INFO ] [2021-03-24 22:15:51,289] Edit Employee [Salary] - Step 05: Select to 'Pay Frequency' dropdown with value ''
+[INFO ] [2021-03-24 22:15:53,419] Edit Employee [Salary] - Step 06: Select to 'Currency' dropdown with value ''
+[INFO ] [2021-03-24 22:15:55,554] Edit Employee [Salary] - Step 07: Select to 'Amount' dropdown with value ''
+[INFO ] [2021-03-24 22:15:55,918] OS name = windows 10
+[INFO ] [2021-03-24 22:15:56,602] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-24 22:18:18,131] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-24 22:18:18,286] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-24 22:18:18,407] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-24 22:18:26,053] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-24 22:18:26,892] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-24 22:18:27,031] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-24 22:18:27,169] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-24 22:18:27,236] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-24 22:18:29,184] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-24 22:18:29,241]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 22:18:29,242] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-24 22:18:29,303]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 22:18:29,303] Add Emloyee - Step 08: Verify Lastname displayed is correct
+[INFO ] [2021-03-24 22:18:29,365]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 22:18:29,365] Add Emloyee - Step 09: Verify Emloyee ID displayed is correct
+[INFO ] [2021-03-24 22:18:29,426]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-24 22:18:29,486] Edit Employee [Salary] - Step 01: Open 'Salary' tab
+[INFO ] [2021-03-24 22:18:30,636] Edit Employee [Salary] - Step 02: Click to 'Add' button at Assigned Salary Components Form
+[INFO ] [2021-03-24 22:18:30,723] Edit Employee [Salary] - Step 03: Select to 'Pay Grade' dropdown with value ''
+[INFO ] [2021-03-24 22:18:30,852] Edit Employee [Salary] - Step 04: Enter to 'Salary Component' textbox
+[INFO ] [2021-03-24 22:18:33,010] Edit Employee [Salary] - Step 05: Select to 'Pay Frequency' dropdown with value ''
+[INFO ] [2021-03-24 22:18:35,160] Edit Employee [Salary] - Step 06: Select to 'Currency' dropdown with value ''
+[INFO ] [2021-03-24 22:18:37,312] Edit Employee [Salary] - Step 07: Select to 'Amount' dropdown with value ''
+[INFO ] [2021-03-24 22:18:39,483] Edit Employee [Salary] - Step 08: Enter to 'Comments' textbox
+[INFO ] [2021-03-24 22:18:39,636] Edit Employee [Salary] - Step 09: Click to 'Save' button at Add Salary Component Form
+[INFO ] [2021-03-24 22:18:41,137] OS name = windows 10
+[INFO ] [2021-03-24 22:18:41,798] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-25 00:44:33,513] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-25 00:44:33,674] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-25 00:44:33,797] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-25 00:44:41,328] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-25 00:44:42,035] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-25 00:44:42,173] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-25 00:44:42,309] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-25 00:44:42,364] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-25 00:44:43,920] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-25 00:44:43,982]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 00:44:43,984] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-25 00:44:44,045]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 00:44:44,045] Add Emloyee - Step 08: Verify Lastname displayed is correct
+[INFO ] [2021-03-25 00:44:44,107]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 00:44:44,107] Add Emloyee - Step 09: Verify Emloyee ID displayed is correct
+[INFO ] [2021-03-25 00:44:44,170]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 00:44:44,235] Edit Employee [Salary] - Step 01: Open 'Salary' tab
+[INFO ] [2021-03-25 00:44:45,227] Edit Employee [Salary] - Step 02: Click to 'Add' button at Assigned Salary Components Form
+[INFO ] [2021-03-25 00:44:45,330] Edit Employee [Salary] - Step 03: Select to 'Pay Grade' dropdown with value 'Grade 1'
+[INFO ] [2021-03-25 00:44:56,076] OS name = windows 10
+[INFO ] [2021-03-25 00:44:56,745] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-25 00:46:05,885] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-25 00:46:06,033] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-25 00:46:06,159] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-25 00:46:13,495] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-25 00:46:14,197] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-25 00:46:14,337] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-25 00:46:14,474] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-25 00:46:14,543] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-25 00:46:16,372] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-25 00:46:16,437]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 00:46:16,438] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-25 00:46:16,499]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 00:46:16,499] Add Emloyee - Step 08: Verify Lastname displayed is correct
+[INFO ] [2021-03-25 00:46:16,561]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 00:46:16,561] Add Emloyee - Step 09: Verify Emloyee ID displayed is correct
+[INFO ] [2021-03-25 00:46:16,623]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 00:46:16,672] Edit Employee [Salary] - Step 01: Open 'Salary' tab
+[INFO ] [2021-03-25 00:46:19,515] Edit Employee [Salary] - Step 02: Click to 'Add' button at Assigned Salary Components Form
+[INFO ] [2021-03-25 00:46:19,622] Edit Employee [Salary] - Step 03: Select to 'Pay Grade' dropdown with value 'Grade 1'
+[INFO ] [2021-03-25 00:46:19,732] Edit Employee [Salary] - Step 04: Enter to 'Salary Component' textbox with value 'Annual Basic Payment'
+[INFO ] [2021-03-25 00:46:21,863] Edit Employee [Salary] - Step 05: Select to 'Pay Frequency' dropdown with value 'Monthly'
+[INFO ] [2021-03-25 00:46:24,007] Edit Employee [Salary] - Step 06: Select to 'Currency' dropdown with value 'United States Dollar'
+[INFO ] [2021-03-25 00:46:26,155] Edit Employee [Salary] - Step 07: Select to 'Amount' dropdown with value '50000'
+[INFO ] [2021-03-25 00:46:28,310] Edit Employee [Salary] - Step 08: Enter to 'Comments' textbox with value 'abc123'
+[INFO ] [2021-03-25 00:46:28,464] Edit Employee [Salary] - Step 09: Click to 'Save' button at Add Salary Component Form
+[INFO ] [2021-03-25 00:46:29,925]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 00:46:29,961]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 00:46:29,993]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 00:46:30,041]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 00:46:30,091]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 00:46:30,105] OS name = windows 10
+[INFO ] [2021-03-25 00:46:30,782] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-25 00:55:12,969] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-25 00:55:13,124] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-25 00:55:13,246] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-25 00:55:19,114] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-25 00:55:19,202] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-25 00:55:34,588] Edit Employee [Salary] - Step 01: Open 'Salary' tab
+[INFO ] [2021-03-25 00:55:49,962] OS name = windows 10
+[INFO ] [2021-03-25 00:55:50,654] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-25 01:05:16,832] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-25 01:05:16,990] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-25 01:05:17,113] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-25 01:05:22,325] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-25 01:05:22,426] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-25 01:05:52,796] Edit Employee [Salary] - Step 01: Open 'Salary' tab
+[INFO ] [2021-03-25 01:06:23,141] OS name = windows 10
+[INFO ] [2021-03-25 01:06:23,817] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-25 01:11:36,013] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-25 01:11:36,157] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-25 01:11:36,279] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-25 01:11:43,401] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-25 01:11:44,089] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-25 01:11:44,234] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-25 01:11:44,365] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-25 01:11:44,422] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-25 01:11:46,749] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-25 01:11:46,815]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 01:11:46,816] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-25 01:11:46,876]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 01:11:46,876] Add Emloyee - Step 08: Verify Lastname displayed is correct
+[INFO ] [2021-03-25 01:11:46,938]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 01:11:46,939] Add Emloyee - Step 09: Verify Emloyee ID displayed is correct
+[INFO ] [2021-03-25 01:11:47,003]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 01:11:47,066] Edit Employee [Salary] - Step 01: Open 'Salary' tab
+[INFO ] [2021-03-25 01:11:48,103] Edit Employee [Salary] - Step 02: Click to 'Add' button at Assigned Salary Components Form
+[INFO ] [2021-03-25 01:11:48,192] Edit Employee [Salary] - Step 03: Select to 'Pay Grade' dropdown with value 'Grade 1'
+[INFO ] [2021-03-25 01:12:18,548] OS name = windows 10
+[INFO ] [2021-03-25 01:12:19,217] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-25 01:16:27,308] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-25 01:16:27,465] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-25 01:16:27,607] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-25 01:16:34,725] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-25 01:16:35,427] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-25 01:16:35,569] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-25 01:16:35,708] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-25 01:16:35,776] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-25 01:16:37,583] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-25 01:16:37,644]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 01:16:37,645] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-25 01:16:37,706]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 01:16:37,706] Add Emloyee - Step 08: Verify Lastname displayed is correct
+[INFO ] [2021-03-25 01:16:37,766]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 01:16:37,766] Add Emloyee - Step 09: Verify Emloyee ID displayed is correct
+[INFO ] [2021-03-25 01:16:37,829]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 01:16:37,882] Edit Employee [Salary] - Step 01: Open 'Salary' tab
+[INFO ] [2021-03-25 01:16:40,891] Edit Employee [Salary] - Step 02: Click to 'Add' button at Assigned Salary Components Form
+[INFO ] [2021-03-25 01:16:40,985] Edit Employee [Salary] - Step 03: Select to 'Pay Grade' dropdown with value 'Grade 1'
+[INFO ] [2021-03-25 01:16:41,111] Edit Employee [Salary] - Step 04: Enter to 'Salary Component' textbox with value 'Annual Basic Payment'
+[INFO ] [2021-03-25 01:16:41,260] Edit Employee [Salary] - Step 05: Select to 'Pay Frequency' dropdown with value 'Monthly'
+[INFO ] [2021-03-25 01:16:41,361] Edit Employee [Salary] - Step 06: Select to 'Currency' dropdown with value 'United States Dollar'
+[INFO ] [2021-03-25 01:16:41,484] Edit Employee [Salary] - Step 07: Select to 'Amount' dropdown with value '50000'
+[INFO ] [2021-03-25 01:16:41,620] Edit Employee [Salary] - Step 08: Enter to 'Comments' textbox with value 'abc123'
+[INFO ] [2021-03-25 01:16:41,745] Edit Employee [Salary] - Step 09: Click to 'Save' button at Add Salary Component Form
+[INFO ] [2021-03-25 01:16:43,125] Edit Employee [Salary] - Step 10: Verify Salary Component are displayed successfully
+[INFO ] [2021-03-25 01:16:43,165]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 01:16:43,208]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 01:16:43,257]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 01:16:43,302]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 01:16:43,349]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-25 01:16:43,374] OS name = windows 10
+[INFO ] [2021-03-25 01:16:44,042] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-25 01:26:50,266] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-25 01:26:50,425] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-25 01:26:50,556] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-25 01:26:55,634] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-25 01:26:55,719] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-25 01:27:06,052] Edit Employee [Salary] - Step 01: Open 'Salary' tab
+[INFO ] [2021-03-25 01:27:16,396] OS name = windows 10
+[INFO ] [2021-03-25 01:27:17,079] ---------- QUIT BROWSER SUCCESS ----------

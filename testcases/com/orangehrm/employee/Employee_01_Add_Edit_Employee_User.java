@@ -35,7 +35,7 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 
 		firstname = "tuan" + getRandomNumber();
 		lastname = "le" + getRandomNumber();
-		;
+		
 		editFirstname = "tuan" + getRandomNumber();
 		editLastName = "le" + getRandomNumber();
 		ssnNumber = "123";
@@ -97,7 +97,6 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 
 	}
 
-	
 	public void Employee_02_Edit_Employee_By_Personal() {
 		log.info("Edit Employee [Personal] - Step 01: Click to Edit button at Personal Details form");
 		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Personal Details", "Edit");
@@ -168,31 +167,47 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 		log.info("Edit Employee [Salary] - Step 01: Open 'Salary' tab");
 		employeeDetailPage.openSidebarTabByName("Salary");
 
+		employeeListPage.sleepInSecond(2);
 		log.info("Edit Employee [Salary] - Step 02: Click to 'Add' button at Assigned Salary Components Form");
 		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Assigned Salary Components", "Add");
 
-		log.info("Edit Employee [Salary] - Step 03: Select to 'Pay Grade' dropdown with value ''");
+		log.info("Edit Employee [Salary] - Step 03: Select to 'Pay Grade' dropdown with value '" + payGrade + "'");
 		employeeDetailPage.selectPayGradeDropdownAtSalaryForm(payGrade);
 
-		log.info("Edit Employee [Salary] - Step 04: Enter to 'Salary Component' textbox");
+		log.info("Edit Employee [Salary] - Step 04: Enter to 'Salary Component' textbox with value '" + salaryComponent + "'");
 		employeeDetailPage.enterToSalaryComponentTextboxAtSalaryForm(salaryComponent);
-		employeeDetailPage.sleepInSecond(2);
+		
 
-		log.info("Edit Employee [Salary] - Step 05: Select to 'Pay Frequency' dropdown with value ''");
+		log.info("Edit Employee [Salary] - Step 05: Select to 'Pay Frequency' dropdown with value '" + payFrequency + "'");
 		employeeDetailPage.selectPayFrequencyDropdownAtSalaryForm(payFrequency);
-		employeeDetailPage.sleepInSecond(2);
-		log.info("Edit Employee [Salary] - Step 06: Select to 'Currency' dropdown with value ''");
+		
+		log.info("Edit Employee [Salary] - Step 06: Select to 'Currency' dropdown with value '" + currency + "'");
 		employeeDetailPage.selectCurrencyDropdownAtSalaryForm(currency);
-		employeeDetailPage.sleepInSecond(2);
-		log.info("Edit Employee [Salary] - Step 07: Select to 'Amount' dropdown with value ''");
+		
+		log.info("Edit Employee [Salary] - Step 07: Select to 'Amount' dropdown with value '" + amount + "'");
 		employeeDetailPage.enterToAmountTextboxAtSalaryForm(amount);
-		employeeDetailPage.sleepInSecond(2);
-		log.info("Edit Employee [Salary] - Step 08: Enter to 'Comments' textbox");
+		
+		log.info("Edit Employee [Salary] - Step 08: Enter to 'Comments' textbox with value '" + comment + "'");
 		employeeDetailPage.enterToCommentsTextboxAtSalaryForm(comment);
 
 		log.info("Edit Employee [Salary] - Step 09: Click to 'Save' button at Add Salary Component Form");
 		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Add Salary Component", "Save");
 
+		/* Verify at Table */
+		log.info("Edit Employee [Salary] - Step 10: Verify Salary Component are displayed successfully");
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "tblSalary", "Salary Component", "1", salaryComponent));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "tblSalary", "Pay Frequency", "1", payFrequency));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "tblSalary", "Currency", "1", currency));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "tblSalary", "Amount", "1", amount));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "tblSalary", "Comments", "1", comment));
+
+	}
+	
+	@Test
+	public void Employee_06_Search_Employee() {
+		
+		
+		
 	}
 
 	@Test
