@@ -68,10 +68,7 @@ public class Common_01_Register extends BaseTest {
 		
 		log.info("PreCondition - Step 12: Verify Home Page Slider");
 		Assert.assertTrue(homePage.isHomePageSliderDisplay());
-		
-		
-	
-		
+				
 		driver.quit();
 	}
 
