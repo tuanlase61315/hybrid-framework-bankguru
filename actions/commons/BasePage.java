@@ -665,4 +665,9 @@ public class BasePage {
 		String actualValue = getElementText(driver, OrangeHRMAbstractPageUI.TEXTBOX_AT_COLUMN_AND_ROW_INDEX, rowIndex, String.valueOf(columnNameIndex));
 		return actualValue.equals(expectedValue);
 	}
+	
+	public boolean isNoRecordFoundDisplayedAtTableName(WebDriver driver, String tableID) {
+		waitForElementVisible(driver, OrangeHRMAbstractPageUI.NO_RECORD_FOUND_TEXT_AT_TABLE_NAME, tableID);
+		return isElementDisplayed(driver, OrangeHRMAbstractPageUI.NO_RECORD_FOUND_TEXT_AT_TABLE_NAME, tableID);
+	}
 }

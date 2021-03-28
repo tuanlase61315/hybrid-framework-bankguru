@@ -25,6 +25,8 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 	String firstname, lastname, employeeID;
 	String editFirstname, editLastName, ssnNumber, gender, marital, nationality, dateOfbirth;
 	String payGrade, salaryComponent, payFrequency, currency, amount, comment;
+	String jobTitle, employmentStatus, jobCategory, joinedDate, subUnit, location, startDate, endDate;
+	String name, reportingMethod;
 
 	@Parameters({ "browser", "url" })
 	@BeforeClass
@@ -35,7 +37,7 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 
 		firstname = "tuan" + getRandomNumber();
 		lastname = "le" + getRandomNumber();
-		
+
 		editFirstname = "tuan" + getRandomNumber();
 		editLastName = "le" + getRandomNumber();
 		ssnNumber = "123";
@@ -50,6 +52,18 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 		currency = "United States Dollar";
 		amount = "50000";
 		comment = "abc123";
+
+		jobTitle = "QA Engineer";
+		employmentStatus = "Full-Time Contract";
+		jobCategory = "Technicians";
+		joinedDate = "2010-03-08";
+		subUnit = "  Quality Assurance";
+		location = "New York Sales Office";
+		startDate = "2011-03-08";
+		endDate = "2050-10-12";
+
+		name = "Orange Test";
+		reportingMethod = "Direct";
 
 		log.info("Pre-Condition - Step 01: Enter to Username textbox");
 		loginPage.enterToUsernameTextbox("Admin");
@@ -97,6 +111,7 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 
 	}
 
+	@Test
 	public void Employee_02_Edit_Employee_By_Personal() {
 		log.info("Edit Employee [Personal] - Step 01: Click to Edit button at Personal Details form");
 		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Personal Details", "Edit");
@@ -153,17 +168,72 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 	}
 
 	@Test
-	public void Employee_03_Edit_Employee_By_Contact() {
+	public void Employee_03_Edit_Employee_By_Job() {
+		log.info("Edit Employee [Job] - Step 01: Open 'Job' tab");
+		employeeDetailPage.openSidebarTabByName("Job");
+
+		employeeListPage.sleepInSecond(2);
+
+		log.info("Edit Employee [Job] - Step 02: Click to 'Edit' button at Job Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Job", "Edit");
+
+		log.info("Edit Employee [Job] - Step 03: Select to 'Job Title' dropdown with value '" + jobTitle + "'");
+		employeeDetailPage.selectJobTitleDropdownAtJobForm(jobTitle);
+
+		log.info("Edit Employee [Job] - Step 04: Select to 'Employment Status' dropdown with value '" + employmentStatus + "'");
+		employeeDetailPage.selectEmploymentStatusDropdownAtJobForm(employmentStatus);
+
+		log.info("Edit Employee [Job] - Step 05: Select to 'Job Category' dropdown with value '" + jobCategory + "'");
+		employeeDetailPage.selectJobCategoryDropdownAtJobForm(jobCategory);
+
+		log.info("Edit Employee [Job] - Step 06: Enter to 'Joined Date' dropdown with value '" + joinedDate + "'");
+		employeeDetailPage.enterToJoinedDateTextboxAtJobForm(joinedDate);
+
+		log.info("Edit Employee [Job] - Step 07: Select to 'Sub Unit' textbox with value '" + subUnit + "'");
+		employeeDetailPage.selectSubUnitDropdownAtJobForm(subUnit);
+
+		log.info("Edit Employee [Job] - Step 08: Select to 'Location' dropdown with value '" + location + "'");
+		employeeDetailPage.selectLocationDropdownAtJobForm(location);
+
+		log.info("Edit Employee [Job] - Step 09: Enter to 'Start Date' textbox with value '" + startDate + "'");
+		employeeDetailPage.enterToStartDateTextboxAtJobForm(startDate);
+
+		log.info("Edit Employee [Job] - Step 10: Enter to 'End Date' textbox with value '" + endDate + "'");
+		employeeDetailPage.enterToEndDateTextboxAtJobForm(endDate);
+
+		log.info("Edit Employee [Job] - Step 11: Click to 'Save' button at Job Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Job", "Save");
+
+//		Verift data
+
+		log.info("Edit Employee [Job] - Step 12: Verify 'Job Title' dropdown edited successfully");
+		verifyEquals(employeeDetailPage.getJobTitleValueAtJobForm(), jobTitle);
+
+		log.info("Edit Employee [Job] - Step 13: Verify 'Employment Status' dropdown edited successfully");
+		verifyEquals(employeeDetailPage.getEmploymentStatusValueAtJobForm(), employmentStatus);
+
+		log.info("Edit Employee [Job] - Step 14: Verify 'Job Category' dropdown edited successfully");
+		verifyEquals(employeeDetailPage.getJobCategoryValueAtJobForm(), jobCategory);
+
+		log.info("Edit Employee [Job] - Step 15: Verify 'Joined Date' textbox edited successfully");
+		verifyEquals(employeeDetailPage.getJoinedDateValueAtJobForm(), joinedDate);
+
+		log.info("Edit Employee [Job] - Step 16: Verify 'Sub Unit' dropdown edited successfully");
+		verifyEquals(employeeDetailPage.getSubUnitValueAtJobForm(), subUnit);
+
+		log.info("Edit Employee [Job] - Step 17: Verify 'Location' dropdown edited successfully");
+		verifyEquals(employeeDetailPage.getLocationValueAtJobForm(), location);
+
+		log.info("Edit Employee [Job] - Step 18: Verify 'Start Date' textbox edited successfully");
+		verifyEquals(employeeDetailPage.getStartDateValueAtJobForm(), startDate);
+
+		log.info("Edit Employee [Job] - Step 19: Verify 'End Date' textbox edited successfully");
+		verifyEquals(employeeDetailPage.getEndDateValueAtJobForm(), endDate);
 
 	}
 
 	@Test
-	public void Employee_04_Edit_Employee_By_Job() {
-
-	}
-
-	@Test
-	public void Employee_05_Edit_Employee_By_Salary() {
+	public void Employee_04_Edit_Employee_By_Salary() {
 		log.info("Edit Employee [Salary] - Step 01: Open 'Salary' tab");
 		employeeDetailPage.openSidebarTabByName("Salary");
 
@@ -176,17 +246,16 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 
 		log.info("Edit Employee [Salary] - Step 04: Enter to 'Salary Component' textbox with value '" + salaryComponent + "'");
 		employeeDetailPage.enterToSalaryComponentTextboxAtSalaryForm(salaryComponent);
-		
 
 		log.info("Edit Employee [Salary] - Step 05: Select to 'Pay Frequency' dropdown with value '" + payFrequency + "'");
 		employeeDetailPage.selectPayFrequencyDropdownAtSalaryForm(payFrequency);
-		
+
 		log.info("Edit Employee [Salary] - Step 06: Select to 'Currency' dropdown with value '" + currency + "'");
 		employeeDetailPage.selectCurrencyDropdownAtSalaryForm(currency);
-		
+
 		log.info("Edit Employee [Salary] - Step 07: Select to 'Amount' dropdown with value '" + amount + "'");
 		employeeDetailPage.enterToAmountTextboxAtSalaryForm(amount);
-		
+
 		log.info("Edit Employee [Salary] - Step 08: Enter to 'Comments' textbox with value '" + comment + "'");
 		employeeDetailPage.enterToCommentsTextboxAtSalaryForm(comment);
 
@@ -202,31 +271,246 @@ public class Employee_01_Add_Edit_Employee_User extends BaseTest {
 		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "tblSalary", "Comments", "1", comment));
 
 	}
-	
+
+	@Test
+	public void Employee_05_Edit_Employee_By_Report_To() {
+		log.info("Edit Employee [Report] - Step 01: Open 'Report-to' tab");
+		employeeDetailPage.openSidebarTabByName("Report-to");
+
+		employeeListPage.sleepInSecond(2);
+
+		log.info("Edit Employee [Report] - Step 02: Click to 'Add' button at Assigned Supervisors Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Assigned Supervisors", "Add");
+
+		log.info("Edit Employee [Report] - Step 03: Enter to 'Name' textbox with value '" + name + "'");
+		employeeDetailPage.enterNameTextboxAtAddSupervisorForm(name);
+
+		log.info("Edit Employee [Report] - Step 04: Select to 'Reporting Method' dropdown with value '" + reportingMethod + "'");
+		employeeDetailPage.selectReportingMethodDropdownAtAddSupervisorForm(reportingMethod);
+
+		log.info("Edit Employee [Report] - Step 05: Click to 'Save' button at Add Supervisor Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Add Supervisor", "Save");
+
+		/* Verify data */
+
+		log.info("Edit Employee [Report] - Step 06: Verify Assigned Supervisors are displayed successfully");
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "sup_list", "Name", "1", name));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "sup_list", "Reporting Method", "1", reportingMethod));
+
+	}
+
 	@Test
 	public void Employee_06_Search_Employee() {
+		log.info("Search Employee - Step 01: Open 'PIM' page menu");
+		employeeDetailPage.openMenuPageByName(driver, "PIM");
+		employeeListPage = PageGeneratorManager.getEmployeeListPage(driver);
+
+		employeeListPage.sleepInSecond(2);
+
+		/* Search Employee with Name */
+		log.info("Search Employee - Step 02: Enter to 'Employee Name' textbox with value '" + editFirstname + " " + editLastName + "'");
+		employeeListPage.enterToEmployeeNameTextbox(editFirstname + " " + editLastName);
+
+		log.info("Search Employee - Step 03: Click to 'Search' button at Employee Information Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Employee Information", "Search");
+		employeeListPage.sleepInSecond(2);
 		
+		log.info("Search Employee - Step 04: Verify Search Result are displayed successfully");
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Id", "1", employeeID));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "First (& Middle) Name", "1", editFirstname));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Last Name", "1", editLastName));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Job Title", "1", jobTitle));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Employment Status", "1", employmentStatus));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Sub Unit", "1", subUnit.trim()));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Supervisor", "1", name));
+
+		/* Search Employee with ID */
+		log.info("Search Employee - Step 05: Click to 'Reset' button at Employee Information Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Employee Information", "Reset");
+		employeeListPage.sleepInSecond(2);
 		
+		log.info("Search Employee - Step 06: Enter to 'ID' textbox with value '" + employeeID + "'");
+		employeeListPage.enterToEmployeeIDTextbox(employeeID);
+
+		log.info("Search Employee - Step 07: Click to 'Search' button at Employee Information Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Employee Information", "Search");
+		employeeListPage.sleepInSecond(2);
 		
+		log.info("Search Employee - Step 08: Verify Search Result are displayed successfully");
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Id", "1", employeeID));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "First (& Middle) Name", "1", editFirstname));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Last Name", "1", editLastName));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Job Title", "1", jobTitle));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Employment Status", "1", employmentStatus));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Sub Unit", "1", subUnit.trim()));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Supervisor", "1", name));
+
+		/* Search Employee with Name and Employment Status */
+		log.info("Search Employee - Step 09: Click to 'Reset' button at Employee Information Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Employee Information", "Reset");
+		employeeListPage.sleepInSecond(2);
+		
+		log.info("Search Employee - Step 10: Enter to 'Employee Name' textbox with value '" + editFirstname + " " + editLastName + "'");
+		employeeListPage.enterToEmployeeNameTextbox(editFirstname + " " + editLastName);
+
+		log.info("Search Employee - Step 11: Select to 'Employment Status' dropdown with value '" + employmentStatus + "'");
+		employeeListPage.selectEmploymentStatusDropdown(employmentStatus);
+
+		log.info("Search Employee - Step 12: Click to 'Search' button at Employee Information Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Employee Information", "Search");
+		employeeListPage.sleepInSecond(2);
+		
+		log.info("Search Employee - Step 13: Verify Search Result are displayed successfully");
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Id", "1", employeeID));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "First (& Middle) Name", "1", editFirstname));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Last Name", "1", editLastName));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Job Title", "1", jobTitle));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Employment Status", "1", employmentStatus));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Sub Unit", "1", subUnit.trim()));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Supervisor", "1", name));
+
+		/* Search Employee with Name and Include 'Current Employees Only' */
+		log.info("Search Employee - Step 14: Click to 'Reset' button at Employee Information Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Employee Information", "Reset");
+		employeeListPage.sleepInSecond(2);
+		
+		log.info("Search Employee - Step 15: Enter to 'Employee Name' textbox with value '" + editFirstname + " " + editLastName + "'");
+		employeeListPage.enterToEmployeeNameTextbox(editFirstname + " " + editLastName);
+
+		log.info("Search Employee - Step 16: Select to 'Include' dropdown with value 'Current Employees Only'");
+		employeeListPage.selectIncludeDropdown("Current Employees Only");
+
+		log.info("Search Employee - Step 16: Click to 'Search' button at Employee Information Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Employee Information", "Search");
+		employeeListPage.sleepInSecond(2);
+		
+		log.info("Search Employee - Step 17: Verify Search Result are displayed successfully");
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Id", "1", employeeID));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "First (& Middle) Name", "1", editFirstname));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Last Name", "1", editLastName));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Job Title", "1", jobTitle));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Employment Status", "1", employmentStatus));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Sub Unit", "1", subUnit.trim()));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Supervisor", "1", name));
+
+		/* Search Employee with Name and Include 'Current and Past Employees' */
+		log.info("Search Employee - Step 18: Click to 'Reset' button at Employee Information Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Employee Information", "Reset");
+		employeeListPage.sleepInSecond(2);
+		
+		log.info("Search Employee - Step 19: Enter to 'Employee Name' textbox with value '" + editFirstname + " " + editLastName + "'");
+		employeeListPage.enterToEmployeeNameTextbox(editFirstname + " " + editLastName);
+
+		log.info("Search Employee - Step 20: Select to 'Include' dropdown with value 'Current and Past Employees'");
+		employeeListPage.selectIncludeDropdown("Current and Past Employees");
+
+		log.info("Search Employee - Step 21: Click to 'Search' button at Employee Information Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Employee Information", "Search");
+		employeeListPage.sleepInSecond(2);
+		
+		log.info("Search Employee - Step 23: Verify Search Result are displayed successfully");
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Id", "1", employeeID));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "First (& Middle) Name", "1", editFirstname));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Last Name", "1", editLastName));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Job Title", "1", jobTitle));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Employment Status", "1", employmentStatus));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Sub Unit", "1", subUnit.trim()));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Supervisor", "1", name));
+
+		/* Search Employee with Name and Include 'Past Employees Only' */
+		log.info("Search Employee - Step 24: Click to 'Reset' button at Employee Information Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Employee Information", "Reset");
+		employeeListPage.sleepInSecond(2);
+		
+		log.info("Search Employee - Step 25: Enter to 'Employee Name' textbox with value '" + editFirstname + " " + editLastName + "'");
+		employeeListPage.enterToEmployeeNameTextbox(editFirstname + " " + editLastName);
+
+		log.info("Search Employee - Step 26: Select to 'Include' dropdown with value 'Past Employees Only'");
+		employeeListPage.selectIncludeDropdown("Past Employees Only");
+
+		log.info("Search Employee - Step 27: Click to 'Search' button at Employee Information Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Employee Information", "Search");
+		employeeListPage.sleepInSecond(2);
+		
+		log.info("Search Employee - Step 28: Verify 'No Records Found' text is displayed");
+		verifyTrue(employeeDetailPage.isNoRecordFoundDisplayedAtTableName(driver, "resultTable"));
+
+		/* Search Employee with Name and Supervisor Name */
+		log.info("Search Employee - Step 29: Click to 'Reset' button at Employee Information Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Employee Information", "Reset");
+		employeeListPage.sleepInSecond(2);
+		
+		log.info("Search Employee - Step 30: Enter to 'Employee Name' textbox with value '" + editFirstname + " " + editLastName + "'");
+		employeeListPage.enterToEmployeeNameTextbox(editFirstname + " " + editLastName);
+
+		log.info("Search Employee - Step 31: Enter to 'Supervisor Name' textbox with value '" + name + "'");
+		employeeListPage.enterToSupervisorNameTextbox(name);
+
+		log.info("Search Employee - Step 32: Click to 'Search' button at Employee Information Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Employee Information", "Search");
+		employeeListPage.sleepInSecond(2);
+		
+		log.info("Search Employee - Step 33: Verify Search Result are displayed successfully");
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Id", "1", employeeID));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "First (& Middle) Name", "1", editFirstname));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Last Name", "1", editLastName));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Job Title", "1", jobTitle));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Employment Status", "1", employmentStatus));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Sub Unit", "1", subUnit.trim()));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Supervisor", "1", name));
+
+		/* Search Employee with Name and Job Title */
+		log.info("Search Employee - Step 34: Click to 'Reset' button at Employee Information Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Employee Information", "Reset");
+		employeeListPage.sleepInSecond(2);
+		
+		log.info("Search Employee - Step 35: Enter to 'Employee Name' textbox with value '" + editFirstname + " " + editLastName + "'");
+		employeeListPage.enterToEmployeeNameTextbox(editFirstname + " " + editLastName);
+
+		log.info("Search Employee - Step 36: Select to 'Job Title' dropdown with value '" + jobTitle + "'");
+		employeeListPage.selectJobTitleDropdow(jobTitle);
+
+		log.info("Search Employee - Step 37: Click to 'Search' button at Employee Information Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Employee Information", "Search");
+		employeeListPage.sleepInSecond(2);
+		
+		log.info("Search Employee - Step 38: Verify Search Result are displayed successfully");
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Id", "1", employeeID));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "First (& Middle) Name", "1", editFirstname));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Last Name", "1", editLastName));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Job Title", "1", jobTitle));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Employment Status", "1", employmentStatus));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Sub Unit", "1", subUnit.trim()));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Supervisor", "1", name));
+
+		/* Search Employee with Name and Sub Unit */
+		log.info("Search Employee - Step 39: Click to 'Reset' button at Employee Information Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Employee Information", "Reset");
+		employeeListPage.sleepInSecond(2);
+		
+		log.info("Search Employee - Step 40: Enter to 'Employee Name' textbox with value '" + editFirstname + " " + editLastName + "'");
+		employeeListPage.enterToEmployeeNameTextbox(editFirstname + " " + editLastName);
+
+		log.info("Search Employee - Step 41: Select to 'Sub Unit' dropdown with value '" + subUnit + "'");
+		employeeListPage.selectSubUniteDropdow(subUnit);
+
+		log.info("Search Employee - Step 42: Click to 'Search' button at Employee Information Form");
+		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Employee Information", "Search");
+		employeeListPage.sleepInSecond(2);
+		
+		log.info("Search Employee - Step 43: Verify Search Result are displayed successfully");
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Id", "1", employeeID));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "First (& Middle) Name", "1", editFirstname));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Last Name", "1", editLastName));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Job Title", "1", jobTitle));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Employment Status", "1", employmentStatus));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Sub Unit", "1", subUnit.trim()));
+		verifyTrue(employeeDetailPage.isInformationDisplayedAtColumnNameAndRowNumber(driver, "resultTable", "Supervisor", "1", name));
+
 	}
 
 	@Test
-	public void Employee_07_Add_User_To_Employee() {
-
-	}
-
-	@Test
-	public void Employee_08_Search_User() {
-
-	}
-
-	@Test
-	public void Employee_09_Delete_User() {
-
-	}
-
-	@Test
-	public void Employee_10_Delete_Employee() {
+	public void Employee_07_Delete_Employee() {
 
 	}
 
