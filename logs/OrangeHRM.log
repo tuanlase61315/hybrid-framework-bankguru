@@ -423,3 +423,1145 @@
 [INFO ] [2021-03-25 01:27:06,052] Edit Employee [Salary] - Step 01: Open 'Salary' tab
 [INFO ] [2021-03-25 01:27:16,396] OS name = windows 10
 [INFO ] [2021-03-25 01:27:17,079] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-28 23:50:48,832] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-28 23:50:49,001] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-28 23:50:49,136] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-28 23:50:56,122] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-28 23:50:56,859] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-28 23:50:56,995] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-28 23:50:57,141] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-28 23:50:57,208] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-28 23:50:59,310] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-28 23:50:59,367]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:50:59,369] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-28 23:50:59,428]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:50:59,428] Add Emloyee - Step 08: Verify Lastname displayed is correct
+[INFO ] [2021-03-28 23:50:59,489]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:50:59,489] Add Emloyee - Step 09: Verify Emloyee ID displayed is correct
+[INFO ] [2021-03-28 23:50:59,553]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:50:59,607] Edit Employee [Job] - Step 01: Open 'Job' tab
+[INFO ] [2021-03-28 23:51:02,606] Edit Employee [Job] - Step 02: Click to 'Edit' button at Job Form
+[INFO ] [2021-03-28 23:51:02,728] Edit Employee [Job] - Step 03: Select to 'Job Title' dropdown with value 'QA Engineer'
+[INFO ] [2021-03-28 23:51:02,857] Edit Employee [Job] - Step 04: Select to 'Employment Status' dropdown with value 'Full-Time Contract'
+[INFO ] [2021-03-28 23:51:02,963] Edit Employee [Job] - Step 05: Select to 'Job Category' dropdown with value 'Technicians'
+[INFO ] [2021-03-28 23:51:03,055] Edit Employee [Job] - Step 06: Enter to 'Joined Date' dropdown with value 'Technicians'
+[INFO ] [2021-03-28 23:51:03,222] Edit Employee [Job] - Step 07: Select to 'Sub Unit' textbox with value '2010-03-08'
+[INFO ] [2021-03-28 23:51:13,451] Edit Employee [Job] - Step 08: Select to 'Location' dropdown with value 'New York Sales Office'
+[INFO ] [2021-03-28 23:51:13,559] Edit Employee [Job] - Step 09: Enter to 'Start Date' textbox with value '2011-03-08'
+[INFO ] [2021-03-28 23:51:13,704] Edit Employee [Job] - Step 10: Enter to 'End Date' textbox with value '2050-10-12'
+[INFO ] [2021-03-28 23:51:13,868] Edit Employee [Job] - Step 11: Click to 'Save' button at Job Form
+[INFO ] [2021-03-28 23:51:15,306] Edit Employee [Job] - Step 12: Verify 'Job Title' dropdown edited successfully
+[INFO ] [2021-03-28 23:51:15,368]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-28 23:51:15,368] Edit Employee [Job] - Step 13: Verify 'Employment Status' dropdown edited successfully
+[INFO ] [2021-03-28 23:51:15,430]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-28 23:51:15,430] Edit Employee [Job] - Step 14: Verify 'Job Category' dropdown edited successfully
+[INFO ] [2021-03-28 23:51:15,490]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-28 23:51:15,491] Edit Employee [Job] - Step 15: Verify 'Joined Date' textbox edited successfully
+[INFO ] [2021-03-28 23:51:15,553]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:51:15,553] Edit Employee [Job] - Step 16: Verify 'Sub Unit' dropdown edited successfully
+[INFO ] [2021-03-28 23:51:15,617]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-28 23:51:15,617] Edit Employee [Job] - Step 17: Verify 'Location' dropdown edited successfully
+[INFO ] [2021-03-28 23:51:15,680]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-28 23:51:15,680] Edit Employee [Job] - Step 18: Verify 'Start Date' textbox edited successfully
+[INFO ] [2021-03-28 23:51:15,743]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:51:15,744] Edit Employee [Job] - Step 19: Verify 'End Date' textbox edited successfully
+[INFO ] [2021-03-28 23:51:15,806]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:51:16,095] OS name = windows 10
+[INFO ] [2021-03-28 23:51:16,811] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-28 23:53:14,469] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-28 23:53:14,626] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-28 23:53:14,750] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-28 23:53:21,927] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-28 23:53:22,756] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-28 23:53:22,892] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-28 23:53:23,031] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-28 23:53:23,086] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-28 23:53:25,365] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-28 23:53:25,432]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:53:25,433] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-28 23:53:25,493]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:53:25,493] Add Emloyee - Step 08: Verify Lastname displayed is correct
+[INFO ] [2021-03-28 23:53:25,571]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:53:25,571] Add Emloyee - Step 09: Verify Emloyee ID displayed is correct
+[INFO ] [2021-03-28 23:53:25,634]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:53:25,677] Edit Employee [Job] - Step 01: Open 'Job' tab
+[INFO ] [2021-03-28 23:53:28,684] Edit Employee [Job] - Step 02: Click to 'Edit' button at Job Form
+[INFO ] [2021-03-28 23:53:28,808] Edit Employee [Job] - Step 03: Select to 'Job Title' dropdown with value 'QA Engineer'
+[INFO ] [2021-03-28 23:53:28,933] Edit Employee [Job] - Step 04: Select to 'Employment Status' dropdown with value 'Full-Time Contract'
+[INFO ] [2021-03-28 23:53:29,040] Edit Employee [Job] - Step 05: Select to 'Job Category' dropdown with value 'Technicians'
+[INFO ] [2021-03-28 23:53:29,167] Edit Employee [Job] - Step 06: Enter to 'Joined Date' dropdown with value 'Technicians'
+[INFO ] [2021-03-28 23:53:29,330] Edit Employee [Job] - Step 07: Select to 'Sub Unit' textbox with value '2010-03-08'
+[INFO ] [2021-03-28 23:53:39,486] Edit Employee [Job] - Step 08: Select to 'Location' dropdown with value 'New York Sales Office'
+[INFO ] [2021-03-28 23:53:39,595] Edit Employee [Job] - Step 09: Enter to 'Start Date' textbox with value '2011-03-08'
+[INFO ] [2021-03-28 23:53:39,739] Edit Employee [Job] - Step 10: Enter to 'End Date' textbox with value '2050-10-12'
+[INFO ] [2021-03-28 23:53:39,905] Edit Employee [Job] - Step 11: Click to 'Save' button at Job Form
+[INFO ] [2021-03-28 23:53:42,137] Edit Employee [Job] - Step 12: Verify 'Job Title' dropdown edited successfully
+[INFO ] [2021-03-28 23:53:42,310]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:53:42,310] Edit Employee [Job] - Step 13: Verify 'Employment Status' dropdown edited successfully
+[INFO ] [2021-03-28 23:53:42,409]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:53:42,409] Edit Employee [Job] - Step 14: Verify 'Job Category' dropdown edited successfully
+[INFO ] [2021-03-28 23:53:42,549]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:53:42,549] Edit Employee [Job] - Step 15: Verify 'Joined Date' textbox edited successfully
+[INFO ] [2021-03-28 23:53:42,611]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:53:42,611] Edit Employee [Job] - Step 16: Verify 'Sub Unit' dropdown edited successfully
+[INFO ] [2021-03-28 23:53:42,725]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:53:42,725] Edit Employee [Job] - Step 17: Verify 'Location' dropdown edited successfully
+[INFO ] [2021-03-28 23:53:42,832]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:53:42,832] Edit Employee [Job] - Step 18: Verify 'Start Date' textbox edited successfully
+[INFO ] [2021-03-28 23:53:42,890]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:53:42,890] Edit Employee [Job] - Step 19: Verify 'End Date' textbox edited successfully
+[INFO ] [2021-03-28 23:53:42,953]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:53:42,974] OS name = windows 10
+[INFO ] [2021-03-28 23:53:43,656] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-28 23:55:33,557] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-28 23:55:33,715] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-28 23:55:33,840] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-28 23:55:40,772] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-28 23:55:41,440] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-28 23:55:41,583] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-28 23:55:41,722] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-28 23:55:41,788] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-28 23:55:43,624] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-28 23:55:43,684]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:55:43,685] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-28 23:55:43,745]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:55:43,745] Add Emloyee - Step 08: Verify Lastname displayed is correct
+[INFO ] [2021-03-28 23:55:43,807]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:55:43,808] Add Emloyee - Step 09: Verify Emloyee ID displayed is correct
+[INFO ] [2021-03-28 23:55:43,872]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:55:43,927] Edit Employee [Job] - Step 01: Open 'Job' tab
+[INFO ] [2021-03-28 23:55:46,997] Edit Employee [Job] - Step 02: Click to 'Edit' button at Job Form
+[INFO ] [2021-03-28 23:55:47,090] Edit Employee [Job] - Step 03: Select to 'Job Title' dropdown with value 'QA Engineer'
+[INFO ] [2021-03-28 23:55:47,214] Edit Employee [Job] - Step 04: Select to 'Employment Status' dropdown with value 'Full-Time Contract'
+[INFO ] [2021-03-28 23:55:47,320] Edit Employee [Job] - Step 05: Select to 'Job Category' dropdown with value 'Technicians'
+[INFO ] [2021-03-28 23:55:47,446] Edit Employee [Job] - Step 06: Enter to 'Joined Date' dropdown with value '2010-03-08'
+[INFO ] [2021-03-28 23:55:47,611] Edit Employee [Job] - Step 07: Select to 'Sub Unit' textbox with value '  Quality Assurance'
+[INFO ] [2021-03-28 23:55:57,759] Edit Employee [Job] - Step 08: Select to 'Location' dropdown with value 'New York Sales Office'
+[INFO ] [2021-03-28 23:55:57,863] Edit Employee [Job] - Step 09: Enter to 'Start Date' textbox with value '2011-03-08'
+[INFO ] [2021-03-28 23:55:58,027] Edit Employee [Job] - Step 10: Enter to 'End Date' textbox with value '2050-10-12'
+[INFO ] [2021-03-28 23:55:58,188] Edit Employee [Job] - Step 11: Click to 'Save' button at Job Form
+[INFO ] [2021-03-28 23:55:59,621] Edit Employee [Job] - Step 12: Verify 'Job Title' dropdown edited successfully
+[INFO ] [2021-03-28 23:55:59,803]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:55:59,804] Edit Employee [Job] - Step 13: Verify 'Employment Status' dropdown edited successfully
+[INFO ] [2021-03-28 23:55:59,898]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:55:59,898] Edit Employee [Job] - Step 14: Verify 'Job Category' dropdown edited successfully
+[INFO ] [2021-03-28 23:56:00,046]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:56:00,046] Edit Employee [Job] - Step 15: Verify 'Joined Date' textbox edited successfully
+[INFO ] [2021-03-28 23:56:00,107]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:56:00,107] Edit Employee [Job] - Step 16: Verify 'Sub Unit' dropdown edited successfully
+[INFO ] [2021-03-28 23:56:00,221]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:56:00,221] Edit Employee [Job] - Step 17: Verify 'Location' dropdown edited successfully
+[INFO ] [2021-03-28 23:56:00,325]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:56:00,325] Edit Employee [Job] - Step 18: Verify 'Start Date' textbox edited successfully
+[INFO ] [2021-03-28 23:56:00,387]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:56:00,387] Edit Employee [Job] - Step 19: Verify 'End Date' textbox edited successfully
+[INFO ] [2021-03-28 23:56:00,449]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-28 23:56:00,469] OS name = windows 10
+[INFO ] [2021-03-28 23:56:01,158] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-29 00:22:29,752] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-29 00:22:29,908] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-29 00:22:30,030] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-29 00:22:37,658] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-29 00:22:38,339] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-29 00:22:38,468] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-29 00:22:38,605] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-29 00:22:38,671] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-29 00:22:40,362] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-29 00:22:40,434]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 00:22:40,435] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-29 00:22:40,494]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 00:22:40,494] Add Emloyee - Step 08: Verify Lastname displayed is correct
+[INFO ] [2021-03-29 00:22:40,556]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 00:22:40,556] Add Emloyee - Step 09: Verify Emloyee ID displayed is correct
+[INFO ] [2021-03-29 00:22:40,616]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 00:22:40,662] Edit Employee [Job] - Step 01: Open 'Job' tab
+[INFO ] [2021-03-29 00:22:43,711] Edit Employee [Job] - Step 02: Click to 'Edit' button at Job Form
+[INFO ] [2021-03-29 00:22:43,803] Edit Employee [Job] - Step 03: Select to 'Job Title' dropdown with value 'QA Engineer'
+[INFO ] [2021-03-29 00:22:43,929] Edit Employee [Job] - Step 04: Select to 'Employment Status' dropdown with value 'Full-Time Contract'
+[INFO ] [2021-03-29 00:22:44,053] Edit Employee [Job] - Step 05: Select to 'Job Category' dropdown with value 'Technicians'
+[INFO ] [2021-03-29 00:22:44,161] Edit Employee [Job] - Step 06: Enter to 'Joined Date' dropdown with value '2010-03-08'
+[INFO ] [2021-03-29 00:22:44,327] Edit Employee [Job] - Step 07: Select to 'Sub Unit' textbox with value '  Quality Assurance'
+[INFO ] [2021-03-29 00:22:54,508] Edit Employee [Job] - Step 08: Select to 'Location' dropdown with value 'New York Sales Office'
+[INFO ] [2021-03-29 00:22:54,628] Edit Employee [Job] - Step 09: Enter to 'Start Date' textbox with value '2011-03-08'
+[INFO ] [2021-03-29 00:22:54,791] Edit Employee [Job] - Step 10: Enter to 'End Date' textbox with value '2050-10-12'
+[INFO ] [2021-03-29 00:22:54,938] Edit Employee [Job] - Step 11: Click to 'Save' button at Job Form
+[INFO ] [2021-03-29 00:22:56,451] Edit Employee [Job] - Step 12: Verify 'Job Title' dropdown edited successfully
+[INFO ] [2021-03-29 00:22:56,630]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 00:22:56,630] Edit Employee [Job] - Step 13: Verify 'Employment Status' dropdown edited successfully
+[INFO ] [2021-03-29 00:22:56,741]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 00:22:56,741] Edit Employee [Job] - Step 14: Verify 'Job Category' dropdown edited successfully
+[INFO ] [2021-03-29 00:22:56,901]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 00:22:56,901] Edit Employee [Job] - Step 15: Verify 'Joined Date' textbox edited successfully
+[INFO ] [2021-03-29 00:22:56,964]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 00:22:56,964] Edit Employee [Job] - Step 16: Verify 'Sub Unit' dropdown edited successfully
+[INFO ] [2021-03-29 00:22:57,079]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 00:22:57,079] Edit Employee [Job] - Step 17: Verify 'Location' dropdown edited successfully
+[INFO ] [2021-03-29 00:22:57,184]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 00:22:57,184] Edit Employee [Job] - Step 18: Verify 'Start Date' textbox edited successfully
+[INFO ] [2021-03-29 00:22:57,244]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 00:22:57,244] Edit Employee [Job] - Step 19: Verify 'End Date' textbox edited successfully
+[INFO ] [2021-03-29 00:22:57,306]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 00:22:57,317] Edit Employee [Report] - Step 01: Open 'Report-to' tab
+[INFO ] [2021-03-29 00:23:00,379] Edit Employee [Report] - Step 02: Click to 'Add' button at Assigned Supervisors Form
+[INFO ] [2021-03-29 00:23:00,485] Edit Employee [Report] - Step 03: Enter to 'Name' textbox with value 'Orange Test'
+[INFO ] [2021-03-29 00:23:00,614] Edit Employee [Report] - Step 04: Select to 'Reporting Method' dropdown with value 'Direct'
+[INFO ] [2021-03-29 00:23:00,755] Edit Employee [Report] - Step 05: Click to 'Save' button at Add Supervisor Form
+[INFO ] [2021-03-29 00:23:02,032] Edit Employee [Report] - Step 06: Verify Assigned Supervisors are displayed successfully
+[INFO ] [2021-03-29 00:23:02,074]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 00:23:02,122]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 00:23:02,140] OS name = windows 10
+[INFO ] [2021-03-29 00:23:02,824] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-29 02:12:08,855] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-29 02:12:09,018] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-29 02:12:09,155] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-29 02:12:16,541] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-29 02:12:17,344] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-29 02:12:17,472] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-29 02:12:17,607] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-29 02:12:17,660] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-29 02:12:19,929] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-29 02:12:19,996]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:19,997] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-29 02:12:20,057]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:20,057] Add Emloyee - Step 08: Verify Lastname displayed is correct
+[INFO ] [2021-03-29 02:12:20,120]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:20,120] Add Emloyee - Step 09: Verify Emloyee ID displayed is correct
+[INFO ] [2021-03-29 02:12:20,180]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:20,237] Edit Employee [Personal] - Step 01: Click to Edit button at Personal Details form
+[INFO ] [2021-03-29 02:12:20,333] Edit Employee [Personal] - Step 02: Enter new info to 'First Name' textbox
+[INFO ] [2021-03-29 02:12:20,472] Edit Employee [Personal] - Step 03: Enter new info to 'Last Name' textbox
+[INFO ] [2021-03-29 02:12:20,613] Edit Employee [Personal] - Step 04: Enter new info to 'SSN Number' textbox
+[INFO ] [2021-03-29 02:12:20,747] Edit Employee [Personal] - Step 05: Click to 'Gender' radio with 'Male'
+[INFO ] [2021-03-29 02:12:20,826] Edit Employee [Personal] - Step 06: Select to 'Marital Status' dropdown with 'Single'
+[INFO ] [2021-03-29 02:12:20,942] Edit Employee [Personal] - Step 07: Select to 'Nationality' dropdown with 'Vietnamese'
+[INFO ] [2021-03-29 02:12:21,048] Edit Employee [Personal] - Step 08: Enter new info to 'Date of Birth' textbox with value '1993-03-29'
+[INFO ] [2021-03-29 02:12:21,242] Edit Employee [Personal] - Step 09: Click to 'Save' button at 'Personal Details' form
+[INFO ] [2021-03-29 02:12:22,714] Edit Employee [Personal] - Step 10: Verify success message displayed with value 'Successfully Saved'
+[INFO ] [2021-03-29 02:12:22,775]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:22,775] Edit Employee [Personal] - Step 11: Verify 'First Name' textbox edited successfully
+[INFO ] [2021-03-29 02:12:22,842]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:22,842] Edit Employee [Personal] - Step 12: Verify 'Last Name' textbox edited successfully
+[INFO ] [2021-03-29 02:12:22,905]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:22,905] Edit Employee [Personal] - Step 13: Verify 'SSN Number' textbox edited successfully
+[INFO ] [2021-03-29 02:12:22,967]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:22,967] Edit Employee [Personal] - Step 14: Verify 'Gender' radio edited successfully
+[INFO ] [2021-03-29 02:12:23,022]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:23,022] Edit Employee [Personal] - Step 15: Verify 'Marital Status' dropdown edited successfully
+[INFO ] [2021-03-29 02:12:23,076]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:23,077] Edit Employee [Personal] - Step 16: Verify 'Nationality' dropdown edited successfully
+[INFO ] [2021-03-29 02:12:24,204]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:24,204] Edit Employee [Personal] - Step 17: Verify 'Date of Birth' textbox edited successfully
+[INFO ] [2021-03-29 02:12:24,267]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:24,274] Edit Employee [Job] - Step 01: Open 'Job' tab
+[INFO ] [2021-03-29 02:12:27,321] Edit Employee [Job] - Step 02: Click to 'Edit' button at Job Form
+[INFO ] [2021-03-29 02:12:27,413] Edit Employee [Job] - Step 03: Select to 'Job Title' dropdown with value 'QA Engineer'
+[INFO ] [2021-03-29 02:12:27,523] Edit Employee [Job] - Step 04: Select to 'Employment Status' dropdown with value 'Full-Time Contract'
+[INFO ] [2021-03-29 02:12:27,631] Edit Employee [Job] - Step 05: Select to 'Job Category' dropdown with value 'Technicians'
+[INFO ] [2021-03-29 02:12:27,742] Edit Employee [Job] - Step 06: Enter to 'Joined Date' dropdown with value '2010-03-08'
+[INFO ] [2021-03-29 02:12:27,891] Edit Employee [Job] - Step 07: Select to 'Sub Unit' textbox with value '  Quality Assurance'
+[INFO ] [2021-03-29 02:12:38,036] Edit Employee [Job] - Step 08: Select to 'Location' dropdown with value 'New York Sales Office'
+[INFO ] [2021-03-29 02:12:38,143] Edit Employee [Job] - Step 09: Enter to 'Start Date' textbox with value '2011-03-08'
+[INFO ] [2021-03-29 02:12:38,291] Edit Employee [Job] - Step 10: Enter to 'End Date' textbox with value '2050-10-12'
+[INFO ] [2021-03-29 02:12:38,455] Edit Employee [Job] - Step 11: Click to 'Save' button at Job Form
+[INFO ] [2021-03-29 02:12:39,775] Edit Employee [Job] - Step 12: Verify 'Job Title' dropdown edited successfully
+[INFO ] [2021-03-29 02:12:39,963]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:39,964] Edit Employee [Job] - Step 13: Verify 'Employment Status' dropdown edited successfully
+[INFO ] [2021-03-29 02:12:40,073]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:40,073] Edit Employee [Job] - Step 14: Verify 'Job Category' dropdown edited successfully
+[INFO ] [2021-03-29 02:12:40,219]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:40,219] Edit Employee [Job] - Step 15: Verify 'Joined Date' textbox edited successfully
+[INFO ] [2021-03-29 02:12:40,281]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:40,281] Edit Employee [Job] - Step 16: Verify 'Sub Unit' dropdown edited successfully
+[INFO ] [2021-03-29 02:12:40,395]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:40,395] Edit Employee [Job] - Step 17: Verify 'Location' dropdown edited successfully
+[INFO ] [2021-03-29 02:12:40,498]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:40,498] Edit Employee [Job] - Step 18: Verify 'Start Date' textbox edited successfully
+[INFO ] [2021-03-29 02:12:40,561]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:40,561] Edit Employee [Job] - Step 19: Verify 'End Date' textbox edited successfully
+[INFO ] [2021-03-29 02:12:40,623]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:40,634] Edit Employee [Salary] - Step 01: Open 'Salary' tab
+[INFO ] [2021-03-29 02:12:43,629] Edit Employee [Salary] - Step 02: Click to 'Add' button at Assigned Salary Components Form
+[INFO ] [2021-03-29 02:12:43,740] Edit Employee [Salary] - Step 03: Select to 'Pay Grade' dropdown with value 'Grade 1'
+[INFO ] [2021-03-29 02:12:43,847] Edit Employee [Salary] - Step 04: Enter to 'Salary Component' textbox with value 'Annual Basic Payment'
+[INFO ] [2021-03-29 02:12:43,982] Edit Employee [Salary] - Step 05: Select to 'Pay Frequency' dropdown with value 'Monthly'
+[INFO ] [2021-03-29 02:12:44,099] Edit Employee [Salary] - Step 06: Select to 'Currency' dropdown with value 'United States Dollar'
+[INFO ] [2021-03-29 02:12:44,225] Edit Employee [Salary] - Step 07: Select to 'Amount' dropdown with value '50000'
+[INFO ] [2021-03-29 02:12:44,362] Edit Employee [Salary] - Step 08: Enter to 'Comments' textbox with value 'abc123'
+[INFO ] [2021-03-29 02:12:44,485] Edit Employee [Salary] - Step 09: Click to 'Save' button at Add Salary Component Form
+[INFO ] [2021-03-29 02:12:45,998] Edit Employee [Salary] - Step 10: Verify Salary Component are displayed successfully
+[INFO ] [2021-03-29 02:12:46,032]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:46,079]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:46,127]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:46,173]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:46,219]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:46,222] Edit Employee [Report] - Step 01: Open 'Report-to' tab
+[INFO ] [2021-03-29 02:12:49,170] Edit Employee [Report] - Step 02: Click to 'Add' button at Assigned Supervisors Form
+[INFO ] [2021-03-29 02:12:49,274] Edit Employee [Report] - Step 03: Enter to 'Name' textbox with value 'Orange Test'
+[INFO ] [2021-03-29 02:12:49,406] Edit Employee [Report] - Step 04: Select to 'Reporting Method' dropdown with value 'Direct'
+[INFO ] [2021-03-29 02:12:49,543] Edit Employee [Report] - Step 05: Click to 'Save' button at Add Supervisor Form
+[INFO ] [2021-03-29 02:12:50,910] Edit Employee [Report] - Step 06: Verify Assigned Supervisors are displayed successfully
+[INFO ] [2021-03-29 02:12:50,943]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:50,974]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:50,977] Search Employee - Step 01: Open 'PIM' page menu
+[INFO ] [2021-03-29 02:12:54,068] Search Employee - Step 02: Enter to 'Employee Name' textbox with value 'tuan8336 le2360'
+[INFO ] [2021-03-29 02:12:54,209] Search Employee - Step 03: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:12:54,774] Search Employee - Step 04: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:12:54,812]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:54,844]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:54,879]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:54,923]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:54,955]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:54,988]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:55,034]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:55,034] Search Employee - Step 05: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:12:55,106] Search Employee - Step 06: Enter to 'ID' textbox with value '0250'
+[INFO ] [2021-03-29 02:12:55,230] Search Employee - Step 07: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:12:55,743] Search Employee - Step 08: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:12:55,779]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:55,810]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:55,842]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:55,876]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:55,905]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:55,939]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:55,981]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:55,981] Search Employee - Step 09: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:12:56,055] Search Employee - Step 10: Enter to 'Employee Name' textbox with value 'tuan8336 le2360'
+[INFO ] [2021-03-29 02:12:56,179] Search Employee - Step 11: Select to 'Employment Status' dropdown with value 'Full-Time Contract'
+[INFO ] [2021-03-29 02:12:56,283] Search Employee - Step 12: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:12:56,802] Search Employee - Step 13: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:12:56,841]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:12:56,875]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:12:56,906]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:12:56,951]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:12:56,982]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:57,012]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:12:57,046]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:12:57,046] Search Employee - Step 14: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:12:57,119] Search Employee - Step 15: Enter to 'Employee Name' textbox with value 'tuan8336 le2360'
+[INFO ] [2021-03-29 02:12:57,241] Search Employee - Step 16: Select to 'Include' dropdown with value 'Current Employees Only'
+[INFO ] [2021-03-29 02:12:57,325] Search Employee - Step 16: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:12:57,868] Search Employee - Step 17: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:12:57,902]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:12:57,932]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:12:57,963]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:12:57,995]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:12:58,027]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:58,056]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:12:58,089]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:12:58,089] Search Employee - Step 18: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:12:58,160] Search Employee - Step 19: Enter to 'Employee Name' textbox with value 'tuan8336 le2360'
+[INFO ] [2021-03-29 02:12:58,287] Search Employee - Step 20: Select to 'Include' dropdown with value 'Current and Past Employees'
+[INFO ] [2021-03-29 02:12:58,386] Search Employee - Step 21: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:12:58,876] Search Employee - Step 23: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:12:58,916]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:12:58,946]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:12:58,979]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:12:59,031]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:12:59,071]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:12:59,102]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:12:59,132]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:12:59,132] Search Employee - Step 24: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:12:59,205] Search Employee - Step 25: Enter to 'Employee Name' textbox with value 'tuan8336 le2360'
+[INFO ] [2021-03-29 02:12:59,329] Search Employee - Step 26: Select to 'Include' dropdown with value 'Past Employees Only'
+[INFO ] [2021-03-29 02:12:59,432] Search Employee - Step 27: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:12:59,999] Search Employee - Step 28: Verify 'No Records Found' text is displayed
+[INFO ] [2021-03-29 02:13:00,059]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:13:00,059] Search Employee - Step 29: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:13:00,856] Search Employee - Step 30: Enter to 'Employee Name' textbox with value 'tuan8336 le2360'
+[INFO ] [2021-03-29 02:13:00,981] Search Employee - Step 31: Enter to 'Supervisor Name' textbox with value 'Orange Test'
+[INFO ] [2021-03-29 02:13:01,105] Search Employee - Step 32: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:13:01,593] Search Employee - Step 33: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:13:01,638]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:13:01,682]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:13:01,730]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:13:01,778]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:13:01,821]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:13:01,853]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:13:01,883]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:13:01,883] Search Employee - Step 34: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:13:01,958] Search Employee - Step 35: Enter to 'Employee Name' textbox with value 'tuan8336 le2360'
+[INFO ] [2021-03-29 02:13:02,079] Search Employee - Step 36: Select to 'Job Title' dropdown with value 'QA Engineer'
+[INFO ] [2021-03-29 02:13:02,196] Search Employee - Step 37: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:13:02,726] Search Employee - Step 38: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:13:02,771]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:13:02,802]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:13:02,846]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:13:02,893]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:13:02,932]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:13:02,971]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:13:03,002]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:13:03,002] Search Employee - Step 39: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:13:03,856] Search Employee - Step 40: Enter to 'Employee Name' textbox with value 'tuan8336 le2360'
+[INFO ] [2021-03-29 02:13:03,977] Search Employee - Step 41: Select to 'Sub Unit' dropdown with value '  Quality Assurance'
+[INFO ] [2021-03-29 02:13:14,146] Search Employee - Step 42: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:13:16,632] Search Employee - Step 43: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:13:16,678]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:13:16,724]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:13:16,768]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:13:16,799]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:13:16,832]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:13:16,863]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:13:16,895]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:13:17,195] OS name = windows 10
+[INFO ] [2021-03-29 02:13:17,880] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-29 02:19:11,109] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-29 02:19:11,260] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-29 02:19:11,386] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-29 02:19:18,750] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-29 02:19:19,399] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-29 02:19:19,533] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-29 02:19:19,666] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-29 02:19:19,721] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-29 02:19:22,197] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-29 02:19:22,260]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:22,261] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-29 02:19:22,323]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:22,323] Add Emloyee - Step 08: Verify Lastname displayed is correct
+[INFO ] [2021-03-29 02:19:22,388]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:22,388] Add Emloyee - Step 09: Verify Emloyee ID displayed is correct
+[INFO ] [2021-03-29 02:19:22,450]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:22,503] Edit Employee [Personal] - Step 01: Click to Edit button at Personal Details form
+[INFO ] [2021-03-29 02:19:22,583] Edit Employee [Personal] - Step 02: Enter new info to 'First Name' textbox
+[INFO ] [2021-03-29 02:19:22,733] Edit Employee [Personal] - Step 03: Enter new info to 'Last Name' textbox
+[INFO ] [2021-03-29 02:19:22,862] Edit Employee [Personal] - Step 04: Enter new info to 'SSN Number' textbox
+[INFO ] [2021-03-29 02:19:22,988] Edit Employee [Personal] - Step 05: Click to 'Gender' radio with 'Male'
+[INFO ] [2021-03-29 02:19:23,067] Edit Employee [Personal] - Step 06: Select to 'Marital Status' dropdown with 'Single'
+[INFO ] [2021-03-29 02:19:23,195] Edit Employee [Personal] - Step 07: Select to 'Nationality' dropdown with 'Vietnamese'
+[INFO ] [2021-03-29 02:19:23,305] Edit Employee [Personal] - Step 08: Enter new info to 'Date of Birth' textbox with value '1993-03-29'
+[INFO ] [2021-03-29 02:19:23,478] Edit Employee [Personal] - Step 09: Click to 'Save' button at 'Personal Details' form
+[INFO ] [2021-03-29 02:19:25,471] Edit Employee [Personal] - Step 10: Verify success message displayed with value 'Successfully Saved'
+[INFO ] [2021-03-29 02:19:25,528]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:25,528] Edit Employee [Personal] - Step 11: Verify 'First Name' textbox edited successfully
+[INFO ] [2021-03-29 02:19:25,585]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:25,585] Edit Employee [Personal] - Step 12: Verify 'Last Name' textbox edited successfully
+[INFO ] [2021-03-29 02:19:25,647]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:25,647] Edit Employee [Personal] - Step 13: Verify 'SSN Number' textbox edited successfully
+[INFO ] [2021-03-29 02:19:25,708]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:25,708] Edit Employee [Personal] - Step 14: Verify 'Gender' radio edited successfully
+[INFO ] [2021-03-29 02:19:25,760]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:25,760] Edit Employee [Personal] - Step 15: Verify 'Marital Status' dropdown edited successfully
+[INFO ] [2021-03-29 02:19:25,818]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:25,818] Edit Employee [Personal] - Step 16: Verify 'Nationality' dropdown edited successfully
+[INFO ] [2021-03-29 02:19:26,933]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:26,933] Edit Employee [Personal] - Step 17: Verify 'Date of Birth' textbox edited successfully
+[INFO ] [2021-03-29 02:19:26,986]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:26,997] Edit Employee [Job] - Step 01: Open 'Job' tab
+[INFO ] [2021-03-29 02:19:30,047] Edit Employee [Job] - Step 02: Click to 'Edit' button at Job Form
+[INFO ] [2021-03-29 02:19:30,172] Edit Employee [Job] - Step 03: Select to 'Job Title' dropdown with value 'QA Engineer'
+[INFO ] [2021-03-29 02:19:30,280] Edit Employee [Job] - Step 04: Select to 'Employment Status' dropdown with value 'Full-Time Contract'
+[INFO ] [2021-03-29 02:19:30,406] Edit Employee [Job] - Step 05: Select to 'Job Category' dropdown with value 'Technicians'
+[INFO ] [2021-03-29 02:19:30,511] Edit Employee [Job] - Step 06: Enter to 'Joined Date' dropdown with value '2010-03-08'
+[INFO ] [2021-03-29 02:19:30,662] Edit Employee [Job] - Step 07: Select to 'Sub Unit' textbox with value '  Quality Assurance'
+[INFO ] [2021-03-29 02:19:40,807] Edit Employee [Job] - Step 08: Select to 'Location' dropdown with value 'New York Sales Office'
+[INFO ] [2021-03-29 02:19:40,933] Edit Employee [Job] - Step 09: Enter to 'Start Date' textbox with value '2011-03-08'
+[INFO ] [2021-03-29 02:19:41,084] Edit Employee [Job] - Step 10: Enter to 'End Date' textbox with value '2050-10-12'
+[INFO ] [2021-03-29 02:19:41,226] Edit Employee [Job] - Step 11: Click to 'Save' button at Job Form
+[INFO ] [2021-03-29 02:19:43,046] Edit Employee [Job] - Step 12: Verify 'Job Title' dropdown edited successfully
+[INFO ] [2021-03-29 02:19:43,228]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:43,228] Edit Employee [Job] - Step 13: Verify 'Employment Status' dropdown edited successfully
+[INFO ] [2021-03-29 02:19:43,323]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:43,323] Edit Employee [Job] - Step 14: Verify 'Job Category' dropdown edited successfully
+[INFO ] [2021-03-29 02:19:43,458]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:43,458] Edit Employee [Job] - Step 15: Verify 'Joined Date' textbox edited successfully
+[INFO ] [2021-03-29 02:19:43,518]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:43,518] Edit Employee [Job] - Step 16: Verify 'Sub Unit' dropdown edited successfully
+[INFO ] [2021-03-29 02:19:43,630]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:43,630] Edit Employee [Job] - Step 17: Verify 'Location' dropdown edited successfully
+[INFO ] [2021-03-29 02:19:43,732]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:43,732] Edit Employee [Job] - Step 18: Verify 'Start Date' textbox edited successfully
+[INFO ] [2021-03-29 02:19:43,798]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:43,798] Edit Employee [Job] - Step 19: Verify 'End Date' textbox edited successfully
+[INFO ] [2021-03-29 02:19:43,858]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:43,862] Edit Employee [Salary] - Step 01: Open 'Salary' tab
+[INFO ] [2021-03-29 02:19:46,863] Edit Employee [Salary] - Step 02: Click to 'Add' button at Assigned Salary Components Form
+[INFO ] [2021-03-29 02:19:46,962] Edit Employee [Salary] - Step 03: Select to 'Pay Grade' dropdown with value 'Grade 1'
+[INFO ] [2021-03-29 02:19:47,068] Edit Employee [Salary] - Step 04: Enter to 'Salary Component' textbox with value 'Annual Basic Payment'
+[INFO ] [2021-03-29 02:19:47,215] Edit Employee [Salary] - Step 05: Select to 'Pay Frequency' dropdown with value 'Monthly'
+[INFO ] [2021-03-29 02:19:47,317] Edit Employee [Salary] - Step 06: Select to 'Currency' dropdown with value 'United States Dollar'
+[INFO ] [2021-03-29 02:19:47,708] Edit Employee [Report] - Step 01: Open 'Report-to' tab
+[INFO ] [2021-03-29 02:19:50,739] Edit Employee [Report] - Step 02: Click to 'Add' button at Assigned Supervisors Form
+[INFO ] [2021-03-29 02:19:50,829] Edit Employee [Report] - Step 03: Enter to 'Name' textbox with value 'Orange Test'
+[INFO ] [2021-03-29 02:19:50,954] Edit Employee [Report] - Step 04: Select to 'Reporting Method' dropdown with value 'Direct'
+[INFO ] [2021-03-29 02:19:51,067] Edit Employee [Report] - Step 05: Click to 'Save' button at Add Supervisor Form
+[INFO ] [2021-03-29 02:19:52,495] Edit Employee [Report] - Step 06: Verify Assigned Supervisors are displayed successfully
+[INFO ] [2021-03-29 02:19:52,535]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:52,576]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:19:52,579] Search Employee - Step 01: Open 'PIM' page menu
+[INFO ] [2021-03-29 02:19:55,709] Search Employee - Step 02: Enter to 'Employee Name' textbox with value 'tuan1357 le3600'
+[INFO ] [2021-03-29 02:20:00,105] Search Employee - Step 03: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:20:00,758] Search Employee - Step 04: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:20:00,788]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:00,819]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:00,853]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:00,898]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:00,944]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:00,976]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:01,027]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:01,027] Search Employee - Step 05: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:20:01,112] Search Employee - Step 06: Enter to 'ID' textbox with value '0254'
+[INFO ] [2021-03-29 02:20:01,237] Search Employee - Step 07: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:20:01,825] Search Employee - Step 08: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:20:01,866]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:01,897]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:01,927]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:01,958]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:01,992]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:02,022]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:02,053]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:02,054] Search Employee - Step 09: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:20:02,128] Search Employee - Step 10: Enter to 'Employee Name' textbox with value 'tuan1357 le3600'
+[INFO ] [2021-03-29 02:20:06,494] Search Employee - Step 11: Select to 'Employment Status' dropdown with value 'Full-Time Contract'
+[INFO ] [2021-03-29 02:20:06,603] Search Employee - Step 12: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:20:07,171] Search Employee - Step 13: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:20:07,209]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:07,239]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:07,274]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:07,320]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:07,349]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:07,379]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:07,409]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:07,409] Search Employee - Step 14: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:20:07,484] Search Employee - Step 15: Enter to 'Employee Name' textbox with value 'tuan1357 le3600'
+[INFO ] [2021-03-29 02:20:11,836] Search Employee - Step 16: Select to 'Include' dropdown with value 'Current Employees Only'
+[INFO ] [2021-03-29 02:20:11,926] Search Employee - Step 16: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:20:12,428] Search Employee - Step 17: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:20:12,472]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:12,508]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:12,548]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:12,592]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:12,625]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:12,658]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:12,688]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:12,688] Search Employee - Step 18: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:20:12,760] Search Employee - Step 19: Enter to 'Employee Name' textbox with value 'tuan1357 le3600'
+[INFO ] [2021-03-29 02:20:17,144] Search Employee - Step 20: Select to 'Include' dropdown with value 'Current and Past Employees'
+[INFO ] [2021-03-29 02:20:17,253] Search Employee - Step 21: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:20:17,782] Search Employee - Step 23: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:20:17,814]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:17,844]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:17,879]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:17,922]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:17,951]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:17,985]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:18,013]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:18,013] Search Employee - Step 24: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:20:18,089] Search Employee - Step 25: Enter to 'Employee Name' textbox with value 'tuan1357 le3600'
+[INFO ] [2021-03-29 02:20:22,448] Search Employee - Step 26: Select to 'Include' dropdown with value 'Past Employees Only'
+[INFO ] [2021-03-29 02:20:22,556] Search Employee - Step 27: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:20:23,169] Search Employee - Step 28: Verify 'No Records Found' text is displayed
+[INFO ] [2021-03-29 02:20:23,234]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:20:23,234] Search Employee - Step 29: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:20:23,314] Search Employee - Step 30: Enter to 'Employee Name' textbox with value 'tuan1357 le3600'
+[INFO ] [2021-03-29 02:20:27,678] Search Employee - Step 31: Enter to 'Supervisor Name' textbox with value 'Orange Test'
+[INFO ] [2021-03-29 02:20:27,813] Search Employee - Step 32: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:20:28,525] Search Employee - Step 33: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:20:38,863] OS name = windows 10
+[INFO ] [2021-03-29 02:20:39,537] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-29 02:23:31,572] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-29 02:23:31,724] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-29 02:23:31,862] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-29 02:23:39,488] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-29 02:23:40,173] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-29 02:23:40,313] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-29 02:23:40,445] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-29 02:23:40,499] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-29 02:23:42,245] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-29 02:23:42,305]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:23:42,306] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-29 02:23:42,369]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:23:42,369] Add Emloyee - Step 08: Verify Lastname displayed is correct
+[INFO ] [2021-03-29 02:23:42,430]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:23:42,430] Add Emloyee - Step 09: Verify Emloyee ID displayed is correct
+[INFO ] [2021-03-29 02:23:42,491]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:23:42,545] Edit Employee [Personal] - Step 01: Click to Edit button at Personal Details form
+[INFO ] [2021-03-29 02:23:42,628] Edit Employee [Personal] - Step 02: Enter new info to 'First Name' textbox
+[INFO ] [2021-03-29 02:23:42,770] Edit Employee [Personal] - Step 03: Enter new info to 'Last Name' textbox
+[INFO ] [2021-03-29 02:23:42,905] Edit Employee [Personal] - Step 04: Enter new info to 'SSN Number' textbox
+[INFO ] [2021-03-29 02:23:43,028] Edit Employee [Personal] - Step 05: Click to 'Gender' radio with 'Male'
+[INFO ] [2021-03-29 02:23:43,105] Edit Employee [Personal] - Step 06: Select to 'Marital Status' dropdown with 'Single'
+[INFO ] [2021-03-29 02:23:43,218] Edit Employee [Personal] - Step 07: Select to 'Nationality' dropdown with 'Vietnamese'
+[INFO ] [2021-03-29 02:23:43,346] Edit Employee [Personal] - Step 08: Enter new info to 'Date of Birth' textbox with value '1993-03-29'
+[INFO ] [2021-03-29 02:23:43,515] Edit Employee [Personal] - Step 09: Click to 'Save' button at 'Personal Details' form
+[INFO ] [2021-03-29 02:23:44,999] Edit Employee [Personal] - Step 10: Verify success message displayed with value 'Successfully Saved'
+[INFO ] [2021-03-29 02:23:45,052]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:23:45,052] Edit Employee [Personal] - Step 11: Verify 'First Name' textbox edited successfully
+[INFO ] [2021-03-29 02:23:45,120]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:23:45,120] Edit Employee [Personal] - Step 12: Verify 'Last Name' textbox edited successfully
+[INFO ] [2021-03-29 02:23:45,182]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:23:45,182] Edit Employee [Personal] - Step 13: Verify 'SSN Number' textbox edited successfully
+[INFO ] [2021-03-29 02:23:45,245]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:23:45,245] Edit Employee [Personal] - Step 14: Verify 'Gender' radio edited successfully
+[INFO ] [2021-03-29 02:23:45,299]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:23:45,299] Edit Employee [Personal] - Step 15: Verify 'Marital Status' dropdown edited successfully
+[INFO ] [2021-03-29 02:23:45,357]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:23:45,357] Edit Employee [Personal] - Step 16: Verify 'Nationality' dropdown edited successfully
+[INFO ] [2021-03-29 02:23:46,434]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:23:46,434] Edit Employee [Personal] - Step 17: Verify 'Date of Birth' textbox edited successfully
+[INFO ] [2021-03-29 02:23:46,493]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:23:46,497] Edit Employee [Job] - Step 01: Open 'Job' tab
+[INFO ] [2021-03-29 02:23:49,519] Edit Employee [Job] - Step 02: Click to 'Edit' button at Job Form
+[INFO ] [2021-03-29 02:23:49,643] Edit Employee [Job] - Step 03: Select to 'Job Title' dropdown with value 'QA Engineer'
+[INFO ] [2021-03-29 02:23:49,736] Edit Employee [Job] - Step 04: Select to 'Employment Status' dropdown with value 'Full-Time Contract'
+[INFO ] [2021-03-29 02:23:49,861] Edit Employee [Job] - Step 05: Select to 'Job Category' dropdown with value 'Technicians'
+[INFO ] [2021-03-29 02:23:49,983] Edit Employee [Job] - Step 06: Enter to 'Joined Date' dropdown with value '2010-03-08'
+[INFO ] [2021-03-29 02:23:50,146] Edit Employee [Job] - Step 07: Select to 'Sub Unit' textbox with value '  Quality Assurance'
+[INFO ] [2021-03-29 02:24:00,290] Edit Employee [Job] - Step 08: Select to 'Location' dropdown with value 'New York Sales Office'
+[INFO ] [2021-03-29 02:24:00,383] Edit Employee [Job] - Step 09: Enter to 'Start Date' textbox with value '2011-03-08'
+[INFO ] [2021-03-29 02:24:00,529] Edit Employee [Job] - Step 10: Enter to 'End Date' textbox with value '2050-10-12'
+[INFO ] [2021-03-29 02:24:00,679] Edit Employee [Job] - Step 11: Click to 'Save' button at Job Form
+[INFO ] [2021-03-29 02:24:02,041] Edit Employee [Job] - Step 12: Verify 'Job Title' dropdown edited successfully
+[INFO ] [2021-03-29 02:24:02,215]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:02,215] Edit Employee [Job] - Step 13: Verify 'Employment Status' dropdown edited successfully
+[INFO ] [2021-03-29 02:24:02,315]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:02,315] Edit Employee [Job] - Step 14: Verify 'Job Category' dropdown edited successfully
+[INFO ] [2021-03-29 02:24:02,441]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:02,441] Edit Employee [Job] - Step 15: Verify 'Joined Date' textbox edited successfully
+[INFO ] [2021-03-29 02:24:02,507]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:02,507] Edit Employee [Job] - Step 16: Verify 'Sub Unit' dropdown edited successfully
+[INFO ] [2021-03-29 02:24:02,619]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:02,619] Edit Employee [Job] - Step 17: Verify 'Location' dropdown edited successfully
+[INFO ] [2021-03-29 02:24:02,722]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:02,722] Edit Employee [Job] - Step 18: Verify 'Start Date' textbox edited successfully
+[INFO ] [2021-03-29 02:24:02,787]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:02,787] Edit Employee [Job] - Step 19: Verify 'End Date' textbox edited successfully
+[INFO ] [2021-03-29 02:24:02,850]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:02,861] Edit Employee [Salary] - Step 01: Open 'Salary' tab
+[INFO ] [2021-03-29 02:24:05,925] Edit Employee [Salary] - Step 02: Click to 'Add' button at Assigned Salary Components Form
+[INFO ] [2021-03-29 02:24:06,035] Edit Employee [Salary] - Step 03: Select to 'Pay Grade' dropdown with value 'Grade 1'
+[INFO ] [2021-03-29 02:24:06,160] Edit Employee [Salary] - Step 04: Enter to 'Salary Component' textbox with value 'Annual Basic Payment'
+[INFO ] [2021-03-29 02:24:06,310] Edit Employee [Salary] - Step 05: Select to 'Pay Frequency' dropdown with value 'Monthly'
+[INFO ] [2021-03-29 02:24:06,407] Edit Employee [Salary] - Step 06: Select to 'Currency' dropdown with value 'United States Dollar'
+[INFO ] [2021-03-29 02:24:06,517] Edit Employee [Salary] - Step 07: Select to 'Amount' dropdown with value '50000'
+[INFO ] [2021-03-29 02:24:06,656] Edit Employee [Salary] - Step 08: Enter to 'Comments' textbox with value 'abc123'
+[INFO ] [2021-03-29 02:24:06,779] Edit Employee [Salary] - Step 09: Click to 'Save' button at Add Salary Component Form
+[INFO ] [2021-03-29 02:24:08,157] Edit Employee [Salary] - Step 10: Verify Salary Component are displayed successfully
+[INFO ] [2021-03-29 02:24:08,197]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:08,244]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:08,288]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:08,321]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:08,367]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:08,370] Edit Employee [Report] - Step 01: Open 'Report-to' tab
+[INFO ] [2021-03-29 02:24:11,306] Edit Employee [Report] - Step 02: Click to 'Add' button at Assigned Supervisors Form
+[INFO ] [2021-03-29 02:24:11,411] Edit Employee [Report] - Step 03: Enter to 'Name' textbox with value 'Orange Test'
+[INFO ] [2021-03-29 02:24:11,532] Edit Employee [Report] - Step 04: Select to 'Reporting Method' dropdown with value 'Direct'
+[INFO ] [2021-03-29 02:24:11,662] Edit Employee [Report] - Step 05: Click to 'Save' button at Add Supervisor Form
+[INFO ] [2021-03-29 02:24:13,023] Edit Employee [Report] - Step 06: Verify Assigned Supervisors are displayed successfully
+[INFO ] [2021-03-29 02:24:13,057]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:13,087]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:13,089] Search Employee - Step 01: Open 'PIM' page menu
+[INFO ] [2021-03-29 02:24:16,242] Search Employee - Step 02: Enter to 'Employee Name' textbox with value 'tuan5220 le7940'
+[INFO ] [2021-03-29 02:24:20,618] Search Employee - Step 03: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:24:21,174] Search Employee - Step 04: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:24:21,219]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:21,250]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:21,282]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:21,312]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:21,347]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:21,392]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:21,439]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:21,439] Search Employee - Step 05: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:24:21,509] Search Employee - Step 06: Enter to 'ID' textbox with value '0263'
+[INFO ] [2021-03-29 02:24:21,634] Search Employee - Step 07: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:24:22,172] Search Employee - Step 08: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:24:22,215]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:22,248]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:22,278]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:22,307]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:22,338]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:22,369]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:22,398]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:22,398] Search Employee - Step 09: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:24:22,473] Search Employee - Step 10: Enter to 'Employee Name' textbox with value 'tuan5220 le7940'
+[INFO ] [2021-03-29 02:24:26,842] Search Employee - Step 11: Select to 'Employment Status' dropdown with value 'Full-Time Contract'
+[INFO ] [2021-03-29 02:24:26,948] Search Employee - Step 12: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:24:27,458] Search Employee - Step 13: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:24:27,493]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:27,523]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:27,554]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:27,583]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:27,615]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:27,646]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:27,680]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:27,680] Search Employee - Step 14: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:24:28,483] Search Employee - Step 15: Enter to 'Employee Name' textbox with value 'tuan5220 le7940'
+[INFO ] [2021-03-29 02:24:32,845] Search Employee - Step 16: Select to 'Include' dropdown with value 'Current Employees Only'
+[INFO ] [2021-03-29 02:24:32,939] Search Employee - Step 16: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:24:33,443] Search Employee - Step 17: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:24:33,481]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:33,514]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:33,545]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:33,575]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:33,605]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:33,638]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:33,668]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:33,669] Search Employee - Step 18: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:24:33,757] Search Employee - Step 19: Enter to 'Employee Name' textbox with value 'tuan5220 le7940'
+[INFO ] [2021-03-29 02:24:38,132] Search Employee - Step 20: Select to 'Include' dropdown with value 'Current and Past Employees'
+[INFO ] [2021-03-29 02:24:38,240] Search Employee - Step 21: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:24:38,770] Search Employee - Step 23: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:24:38,797]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:38,831]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:38,863]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:38,895]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:38,926]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:38,957]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:38,988]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:38,988] Search Employee - Step 24: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:24:39,510] Search Employee - Step 25: Enter to 'Employee Name' textbox with value 'tuan5220 le7940'
+[INFO ] [2021-03-29 02:24:43,875] Search Employee - Step 26: Select to 'Include' dropdown with value 'Past Employees Only'
+[INFO ] [2021-03-29 02:24:44,002] Search Employee - Step 27: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:24:44,519] Search Employee - Step 28: Verify 'No Records Found' text is displayed
+[INFO ] [2021-03-29 02:24:44,581]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:24:44,581] Search Employee - Step 29: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:24:44,661] Search Employee - Step 30: Enter to 'Employee Name' textbox with value 'tuan5220 le7940'
+[INFO ] [2021-03-29 02:24:49,026] Search Employee - Step 31: Enter to 'Supervisor Name' textbox with value 'Orange Test'
+[INFO ] [2021-03-29 02:24:49,160] Search Employee - Step 32: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:24:49,690] Search Employee - Step 33: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:25:00,057] OS name = windows 10
+[INFO ] [2021-03-29 02:25:00,743] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-29 02:29:54,286] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-29 02:29:54,442] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-29 02:29:54,565] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-29 02:30:02,009] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-29 02:30:02,673] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-29 02:30:02,801] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-29 02:30:02,938] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-29 02:30:02,992] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-29 02:30:04,756] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-29 02:30:04,826]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:04,827] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-29 02:30:04,889]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:04,889] Add Emloyee - Step 08: Verify Lastname displayed is correct
+[INFO ] [2021-03-29 02:30:04,951]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:04,951] Add Emloyee - Step 09: Verify Emloyee ID displayed is correct
+[INFO ] [2021-03-29 02:30:05,014]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:05,060] Edit Employee [Personal] - Step 01: Click to Edit button at Personal Details form
+[INFO ] [2021-03-29 02:30:05,147] Edit Employee [Personal] - Step 02: Enter new info to 'First Name' textbox
+[INFO ] [2021-03-29 02:30:05,278] Edit Employee [Personal] - Step 03: Enter new info to 'Last Name' textbox
+[INFO ] [2021-03-29 02:30:05,414] Edit Employee [Personal] - Step 04: Enter new info to 'SSN Number' textbox
+[INFO ] [2021-03-29 02:30:05,546] Edit Employee [Personal] - Step 05: Click to 'Gender' radio with 'Male'
+[INFO ] [2021-03-29 02:30:05,627] Edit Employee [Personal] - Step 06: Select to 'Marital Status' dropdown with 'Single'
+[INFO ] [2021-03-29 02:30:05,743] Edit Employee [Personal] - Step 07: Select to 'Nationality' dropdown with 'Vietnamese'
+[INFO ] [2021-03-29 02:30:05,866] Edit Employee [Personal] - Step 08: Enter new info to 'Date of Birth' textbox with value '1993-03-29'
+[INFO ] [2021-03-29 02:30:06,034] Edit Employee [Personal] - Step 09: Click to 'Save' button at 'Personal Details' form
+[INFO ] [2021-03-29 02:30:07,445] Edit Employee [Personal] - Step 10: Verify success message displayed with value 'Successfully Saved'
+[INFO ] [2021-03-29 02:30:07,498]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:07,498] Edit Employee [Personal] - Step 11: Verify 'First Name' textbox edited successfully
+[INFO ] [2021-03-29 02:30:07,553]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:07,553] Edit Employee [Personal] - Step 12: Verify 'Last Name' textbox edited successfully
+[INFO ] [2021-03-29 02:30:07,614]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:07,615] Edit Employee [Personal] - Step 13: Verify 'SSN Number' textbox edited successfully
+[INFO ] [2021-03-29 02:30:07,677]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:07,677] Edit Employee [Personal] - Step 14: Verify 'Gender' radio edited successfully
+[INFO ] [2021-03-29 02:30:07,729]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:07,729] Edit Employee [Personal] - Step 15: Verify 'Marital Status' dropdown edited successfully
+[INFO ] [2021-03-29 02:30:07,786]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:07,786] Edit Employee [Personal] - Step 16: Verify 'Nationality' dropdown edited successfully
+[INFO ] [2021-03-29 02:30:08,875]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:08,875] Edit Employee [Personal] - Step 17: Verify 'Date of Birth' textbox edited successfully
+[INFO ] [2021-03-29 02:30:08,940]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:08,944] Edit Employee [Job] - Step 01: Open 'Job' tab
+[INFO ] [2021-03-29 02:30:11,896] Edit Employee [Job] - Step 02: Click to 'Edit' button at Job Form
+[INFO ] [2021-03-29 02:30:12,023] Edit Employee [Job] - Step 03: Select to 'Job Title' dropdown with value 'QA Engineer'
+[INFO ] [2021-03-29 02:30:12,131] Edit Employee [Job] - Step 04: Select to 'Employment Status' dropdown with value 'Full-Time Contract'
+[INFO ] [2021-03-29 02:30:12,255] Edit Employee [Job] - Step 05: Select to 'Job Category' dropdown with value 'Technicians'
+[INFO ] [2021-03-29 02:30:12,363] Edit Employee [Job] - Step 06: Enter to 'Joined Date' dropdown with value '2010-03-08'
+[INFO ] [2021-03-29 02:30:12,509] Edit Employee [Job] - Step 07: Select to 'Sub Unit' textbox with value '  Quality Assurance'
+[INFO ] [2021-03-29 02:30:22,643] Edit Employee [Job] - Step 08: Select to 'Location' dropdown with value 'New York Sales Office'
+[INFO ] [2021-03-29 02:30:22,773] Edit Employee [Job] - Step 09: Enter to 'Start Date' textbox with value '2011-03-08'
+[INFO ] [2021-03-29 02:30:22,914] Edit Employee [Job] - Step 10: Enter to 'End Date' textbox with value '2050-10-12'
+[INFO ] [2021-03-29 02:30:23,060] Edit Employee [Job] - Step 11: Click to 'Save' button at Job Form
+[INFO ] [2021-03-29 02:30:24,338] Edit Employee [Job] - Step 12: Verify 'Job Title' dropdown edited successfully
+[INFO ] [2021-03-29 02:30:24,509]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:24,509] Edit Employee [Job] - Step 13: Verify 'Employment Status' dropdown edited successfully
+[INFO ] [2021-03-29 02:30:24,609]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:24,609] Edit Employee [Job] - Step 14: Verify 'Job Category' dropdown edited successfully
+[INFO ] [2021-03-29 02:30:24,750]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:24,750] Edit Employee [Job] - Step 15: Verify 'Joined Date' textbox edited successfully
+[INFO ] [2021-03-29 02:30:24,817]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:24,817] Edit Employee [Job] - Step 16: Verify 'Sub Unit' dropdown edited successfully
+[INFO ] [2021-03-29 02:30:24,934]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:24,934] Edit Employee [Job] - Step 17: Verify 'Location' dropdown edited successfully
+[INFO ] [2021-03-29 02:30:25,039]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:25,039] Edit Employee [Job] - Step 18: Verify 'Start Date' textbox edited successfully
+[INFO ] [2021-03-29 02:30:25,098]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:25,098] Edit Employee [Job] - Step 19: Verify 'End Date' textbox edited successfully
+[INFO ] [2021-03-29 02:30:25,161]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:25,165] Edit Employee [Salary] - Step 01: Open 'Salary' tab
+[INFO ] [2021-03-29 02:30:28,133] Edit Employee [Salary] - Step 02: Click to 'Add' button at Assigned Salary Components Form
+[INFO ] [2021-03-29 02:30:28,258] Edit Employee [Salary] - Step 03: Select to 'Pay Grade' dropdown with value 'Grade 1'
+[INFO ] [2021-03-29 02:30:28,369] Edit Employee [Salary] - Step 04: Enter to 'Salary Component' textbox with value 'Annual Basic Payment'
+[INFO ] [2021-03-29 02:30:28,517] Edit Employee [Salary] - Step 05: Select to 'Pay Frequency' dropdown with value 'Monthly'
+[INFO ] [2021-03-29 02:30:28,619] Edit Employee [Salary] - Step 06: Select to 'Currency' dropdown with value 'United States Dollar'
+[INFO ] [2021-03-29 02:30:28,730] Edit Employee [Salary] - Step 07: Select to 'Amount' dropdown with value '50000'
+[INFO ] [2021-03-29 02:30:28,870] Edit Employee [Salary] - Step 08: Enter to 'Comments' textbox with value 'abc123'
+[INFO ] [2021-03-29 02:30:28,992] Edit Employee [Salary] - Step 09: Click to 'Save' button at Add Salary Component Form
+[INFO ] [2021-03-29 02:30:30,217] Edit Employee [Salary] - Step 10: Verify Salary Component are displayed successfully
+[INFO ] [2021-03-29 02:30:30,253]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:30,300]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:30,331]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:30,379]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:30,425]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:30,428] Edit Employee [Report] - Step 01: Open 'Report-to' tab
+[INFO ] [2021-03-29 02:30:33,384] Edit Employee [Report] - Step 02: Click to 'Add' button at Assigned Supervisors Form
+[INFO ] [2021-03-29 02:30:33,474] Edit Employee [Report] - Step 03: Enter to 'Name' textbox with value 'Orange Test'
+[INFO ] [2021-03-29 02:30:33,598] Edit Employee [Report] - Step 04: Select to 'Reporting Method' dropdown with value 'Direct'
+[INFO ] [2021-03-29 02:30:33,709] Edit Employee [Report] - Step 05: Click to 'Save' button at Add Supervisor Form
+[INFO ] [2021-03-29 02:30:35,107] Edit Employee [Report] - Step 06: Verify Assigned Supervisors are displayed successfully
+[INFO ] [2021-03-29 02:30:35,141]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:35,174]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:35,176] Search Employee - Step 01: Open 'PIM' page menu
+[INFO ] [2021-03-29 02:30:38,307] Search Employee - Step 02: Enter to 'Employee Name' textbox with value 'tuan1217 le2606'
+[INFO ] [2021-03-29 02:30:42,715] Search Employee - Step 03: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:30:43,253] Search Employee - Step 04: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:30:43,291]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:43,323]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:43,354]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:43,386]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:43,419]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:43,466]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:43,499]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:43,499] Search Employee - Step 05: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:30:44,360] Search Employee - Step 06: Enter to 'ID' textbox with value '0268'
+[INFO ] [2021-03-29 02:30:44,484] Search Employee - Step 07: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:30:44,563] Search Employee - Step 08: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:30:44,601]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:30:44,646]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:30:44,682]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:30:44,725]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:30:44,755]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:30:44,784]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:30:44,815]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:30:44,815] Search Employee - Step 09: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:30:45,690] Search Employee - Step 10: Enter to 'Employee Name' textbox with value 'tuan1217 le2606'
+[INFO ] [2021-03-29 02:30:50,074] Search Employee - Step 11: Select to 'Employment Status' dropdown with value 'Full-Time Contract'
+[INFO ] [2021-03-29 02:30:50,204] Search Employee - Step 12: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:30:50,747] Search Employee - Step 13: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:30:50,790]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:50,821]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:50,852]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:50,881]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:50,911]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:50,943]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:50,975]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:30:50,975] Search Employee - Step 14: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:30:51,741] Search Employee - Step 15: Enter to 'Employee Name' textbox with value 'tuan1217 le2606'
+[INFO ] [2021-03-29 02:30:56,126] Search Employee - Step 16: Select to 'Include' dropdown with value 'Current Employees Only'
+[INFO ] [2021-03-29 02:30:56,220] Search Employee - Step 16: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:30:56,974] Search Employee - Step 17: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:30:57,013]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:30:57,044]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:30:57,078]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:30:57,121]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:30:57,150]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:30:57,183]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:30:57,213]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:30:57,213] Search Employee - Step 18: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:30:58,065] Search Employee - Step 19: Enter to 'Employee Name' textbox with value 'tuan1217 le2606'
+[INFO ] [2021-03-29 02:31:02,460] Search Employee - Step 20: Select to 'Include' dropdown with value 'Current and Past Employees'
+[INFO ] [2021-03-29 02:31:02,592] Search Employee - Step 21: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:31:03,342] Search Employee - Step 23: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:31:03,373]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:03,404]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:03,436]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:03,465]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:03,498]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:03,529]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:03,560]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:03,560] Search Employee - Step 24: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:31:04,413] Search Employee - Step 25: Enter to 'Employee Name' textbox with value 'tuan1217 le2606'
+[INFO ] [2021-03-29 02:31:08,799] Search Employee - Step 26: Select to 'Include' dropdown with value 'Past Employees Only'
+[INFO ] [2021-03-29 02:31:08,927] Search Employee - Step 27: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:31:09,397] Search Employee - Step 28: Verify 'No Records Found' text is displayed
+[INFO ] [2021-03-29 02:31:09,462]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:31:09,462] Search Employee - Step 29: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:31:10,244] Search Employee - Step 30: Enter to 'Employee Name' textbox with value 'tuan1217 le2606'
+[INFO ] [2021-03-29 02:31:14,612] Search Employee - Step 31: Enter to 'Supervisor Name' textbox with value 'Orange Test'
+[INFO ] [2021-03-29 02:31:14,746] Search Employee - Step 32: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:31:15,278] Search Employee - Step 33: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:31:15,317]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:15,358]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:15,405]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:15,450]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:15,497]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:15,545]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:15,589]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:31:15,589] Search Employee - Step 34: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:31:16,428] Search Employee - Step 35: Enter to 'Employee Name' textbox with value 'tuan1217 le2606'
+[INFO ] [2021-03-29 02:31:20,820] Search Employee - Step 36: Select to 'Job Title' dropdown with value 'QA Engineer'
+[INFO ] [2021-03-29 02:31:20,926] Search Employee - Step 37: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:31:21,469] Search Employee - Step 38: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:31:21,499]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:21,530]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:21,561]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:21,593]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:31:21,626]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:21,658]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:31:21,688]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:21,688] Search Employee - Step 39: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:31:22,521] Search Employee - Step 40: Enter to 'Employee Name' textbox with value 'tuan1217 le2606'
+[INFO ] [2021-03-29 02:31:26,907] Search Employee - Step 41: Select to 'Sub Unit' dropdown with value '  Quality Assurance'
+[INFO ] [2021-03-29 02:31:37,055] Search Employee - Step 42: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:31:37,612] Search Employee - Step 43: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:31:37,645]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:37,678]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:37,725]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:37,774]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:31:37,817]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:37,866]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:31:37,912]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-03-29 02:31:38,218] OS name = windows 10
+[INFO ] [2021-03-29 02:31:38,897] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-29 02:40:05,589] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-29 02:40:05,752] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-29 02:40:05,889] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-29 02:40:13,267] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-29 02:40:13,983] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-29 02:40:14,121] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-29 02:40:14,261] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-29 02:40:14,328] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-29 02:40:16,178] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-29 02:40:16,239]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:16,240] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-29 02:40:16,299]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:16,299] Add Emloyee - Step 08: Verify Lastname displayed is correct
+[INFO ] [2021-03-29 02:40:16,360]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:16,361] Add Emloyee - Step 09: Verify Emloyee ID displayed is correct
+[INFO ] [2021-03-29 02:40:16,426]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:16,469] Edit Employee [Personal] - Step 01: Click to Edit button at Personal Details form
+[INFO ] [2021-03-29 02:40:16,559] Edit Employee [Personal] - Step 02: Enter new info to 'First Name' textbox
+[INFO ] [2021-03-29 02:40:16,688] Edit Employee [Personal] - Step 03: Enter new info to 'Last Name' textbox
+[INFO ] [2021-03-29 02:40:16,823] Edit Employee [Personal] - Step 04: Enter new info to 'SSN Number' textbox
+[INFO ] [2021-03-29 02:40:16,947] Edit Employee [Personal] - Step 05: Click to 'Gender' radio with 'Male'
+[INFO ] [2021-03-29 02:40:17,024] Edit Employee [Personal] - Step 06: Select to 'Marital Status' dropdown with 'Single'
+[INFO ] [2021-03-29 02:40:17,137] Edit Employee [Personal] - Step 07: Select to 'Nationality' dropdown with 'Vietnamese'
+[INFO ] [2021-03-29 02:40:17,262] Edit Employee [Personal] - Step 08: Enter new info to 'Date of Birth' textbox with value '1993-03-29'
+[INFO ] [2021-03-29 02:40:17,429] Edit Employee [Personal] - Step 09: Click to 'Save' button at 'Personal Details' form
+[INFO ] [2021-03-29 02:40:18,861] Edit Employee [Personal] - Step 10: Verify success message displayed with value 'Successfully Saved'
+[INFO ] [2021-03-29 02:40:18,921]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:18,921] Edit Employee [Personal] - Step 11: Verify 'First Name' textbox edited successfully
+[INFO ] [2021-03-29 02:40:18,994]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:18,994] Edit Employee [Personal] - Step 12: Verify 'Last Name' textbox edited successfully
+[INFO ] [2021-03-29 02:40:19,051]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:19,051] Edit Employee [Personal] - Step 13: Verify 'SSN Number' textbox edited successfully
+[INFO ] [2021-03-29 02:40:19,112]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:19,112] Edit Employee [Personal] - Step 14: Verify 'Gender' radio edited successfully
+[INFO ] [2021-03-29 02:40:19,166]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:19,166] Edit Employee [Personal] - Step 15: Verify 'Marital Status' dropdown edited successfully
+[INFO ] [2021-03-29 02:40:19,225]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:19,226] Edit Employee [Personal] - Step 16: Verify 'Nationality' dropdown edited successfully
+[INFO ] [2021-03-29 02:40:20,322]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:20,322] Edit Employee [Personal] - Step 17: Verify 'Date of Birth' textbox edited successfully
+[INFO ] [2021-03-29 02:40:20,382]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:20,385] Edit Employee [Job] - Step 01: Open 'Job' tab
+[INFO ] [2021-03-29 02:40:23,581] Edit Employee [Job] - Step 02: Click to 'Edit' button at Job Form
+[INFO ] [2021-03-29 02:40:23,687] Edit Employee [Job] - Step 03: Select to 'Job Title' dropdown with value 'QA Engineer'
+[INFO ] [2021-03-29 02:40:23,786] Edit Employee [Job] - Step 04: Select to 'Employment Status' dropdown with value 'Full-Time Contract'
+[INFO ] [2021-03-29 02:40:23,913] Edit Employee [Job] - Step 05: Select to 'Job Category' dropdown with value 'Technicians'
+[INFO ] [2021-03-29 02:40:24,018] Edit Employee [Job] - Step 06: Enter to 'Joined Date' dropdown with value '2010-03-08'
+[INFO ] [2021-03-29 02:40:24,152] Edit Employee [Job] - Step 07: Select to 'Sub Unit' textbox with value '  Quality Assurance'
+[INFO ] [2021-03-29 02:40:34,285] Edit Employee [Job] - Step 08: Select to 'Location' dropdown with value 'New York Sales Office'
+[INFO ] [2021-03-29 02:40:34,394] Edit Employee [Job] - Step 09: Enter to 'Start Date' textbox with value '2011-03-08'
+[INFO ] [2021-03-29 02:40:34,526] Edit Employee [Job] - Step 10: Enter to 'End Date' textbox with value '2050-10-12'
+[INFO ] [2021-03-29 02:40:34,691] Edit Employee [Job] - Step 11: Click to 'Save' button at Job Form
+[INFO ] [2021-03-29 02:40:36,146] Edit Employee [Job] - Step 12: Verify 'Job Title' dropdown edited successfully
+[INFO ] [2021-03-29 02:40:36,319]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:36,319] Edit Employee [Job] - Step 13: Verify 'Employment Status' dropdown edited successfully
+[INFO ] [2021-03-29 02:40:36,421]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:36,422] Edit Employee [Job] - Step 14: Verify 'Job Category' dropdown edited successfully
+[INFO ] [2021-03-29 02:40:36,567]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:36,567] Edit Employee [Job] - Step 15: Verify 'Joined Date' textbox edited successfully
+[INFO ] [2021-03-29 02:40:36,628]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:36,628] Edit Employee [Job] - Step 16: Verify 'Sub Unit' dropdown edited successfully
+[INFO ] [2021-03-29 02:40:36,743]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:36,743] Edit Employee [Job] - Step 17: Verify 'Location' dropdown edited successfully
+[INFO ] [2021-03-29 02:40:36,846]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:36,846] Edit Employee [Job] - Step 18: Verify 'Start Date' textbox edited successfully
+[INFO ] [2021-03-29 02:40:36,905]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:36,905] Edit Employee [Job] - Step 19: Verify 'End Date' textbox edited successfully
+[INFO ] [2021-03-29 02:40:36,967]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:36,971] Edit Employee [Salary] - Step 01: Open 'Salary' tab
+[INFO ] [2021-03-29 02:40:39,990] Edit Employee [Salary] - Step 02: Click to 'Add' button at Assigned Salary Components Form
+[INFO ] [2021-03-29 02:40:40,099] Edit Employee [Salary] - Step 03: Select to 'Pay Grade' dropdown with value 'Grade 1'
+[INFO ] [2021-03-29 02:40:40,193] Edit Employee [Salary] - Step 04: Enter to 'Salary Component' textbox with value 'Annual Basic Payment'
+[INFO ] [2021-03-29 02:40:40,346] Edit Employee [Salary] - Step 05: Select to 'Pay Frequency' dropdown with value 'Monthly'
+[INFO ] [2021-03-29 02:40:40,444] Edit Employee [Salary] - Step 06: Select to 'Currency' dropdown with value 'United States Dollar'
+[INFO ] [2021-03-29 02:40:40,568] Edit Employee [Salary] - Step 07: Select to 'Amount' dropdown with value '50000'
+[INFO ] [2021-03-29 02:40:40,707] Edit Employee [Salary] - Step 08: Enter to 'Comments' textbox with value 'abc123'
+[INFO ] [2021-03-29 02:40:40,849] Edit Employee [Salary] - Step 09: Click to 'Save' button at Add Salary Component Form
+[INFO ] [2021-03-29 02:40:42,100] Edit Employee [Salary] - Step 10: Verify Salary Component are displayed successfully
+[INFO ] [2021-03-29 02:40:42,147]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:42,179]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:42,224]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:42,255]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:42,288]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:42,292] Edit Employee [Report] - Step 01: Open 'Report-to' tab
+[INFO ] [2021-03-29 02:40:45,256] Edit Employee [Report] - Step 02: Click to 'Add' button at Assigned Supervisors Form
+[INFO ] [2021-03-29 02:40:45,347] Edit Employee [Report] - Step 03: Enter to 'Name' textbox with value 'Orange Test'
+[INFO ] [2021-03-29 02:40:45,484] Edit Employee [Report] - Step 04: Select to 'Reporting Method' dropdown with value 'Direct'
+[INFO ] [2021-03-29 02:40:45,613] Edit Employee [Report] - Step 05: Click to 'Save' button at Add Supervisor Form
+[INFO ] [2021-03-29 02:40:47,013] Edit Employee [Report] - Step 06: Verify Assigned Supervisors are displayed successfully
+[INFO ] [2021-03-29 02:40:47,057]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:47,087]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:47,090] Search Employee - Step 01: Open 'PIM' page menu
+[INFO ] [2021-03-29 02:40:50,212] Search Employee - Step 02: Enter to 'Employee Name' textbox with value 'tuan3371 le6482'
+[INFO ] [2021-03-29 02:40:54,593] Search Employee - Step 03: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:40:57,156] Search Employee - Step 04: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:40:57,200]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:57,231]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:57,264]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:57,310]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:57,354]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:57,401]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:57,447]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:40:57,447] Search Employee - Step 05: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:41:00,272] Search Employee - Step 06: Enter to 'ID' textbox with value '0273'
+[INFO ] [2021-03-29 02:41:00,410] Search Employee - Step 07: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:41:02,969] Search Employee - Step 08: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:41:03,015]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:03,061]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:03,108]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:03,152]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:03,183]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:03,212]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:03,245]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:03,245] Search Employee - Step 09: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:41:06,020] Search Employee - Step 10: Enter to 'Employee Name' textbox with value 'tuan3371 le6482'
+[INFO ] [2021-03-29 02:41:10,406] Search Employee - Step 11: Select to 'Employment Status' dropdown with value 'Full-Time Contract'
+[INFO ] [2021-03-29 02:41:10,515] Search Employee - Step 12: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:41:12,981] Search Employee - Step 13: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:41:13,027]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:13,059]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:13,091]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:13,139]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:13,184]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:13,214]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:13,261]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:13,261] Search Employee - Step 14: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:41:16,025] Search Employee - Step 15: Enter to 'Employee Name' textbox with value 'tuan3371 le6482'
+[INFO ] [2021-03-29 02:41:20,434] Search Employee - Step 16: Select to 'Include' dropdown with value 'Current Employees Only'
+[INFO ] [2021-03-29 02:41:20,525] Search Employee - Step 16: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:41:22,977] Search Employee - Step 17: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:41:23,023]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:23,072]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:23,119]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:23,162]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:23,194]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:23,224]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:23,253]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:23,253] Search Employee - Step 18: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:41:25,992] Search Employee - Step 19: Enter to 'Employee Name' textbox with value 'tuan3371 le6482'
+[INFO ] [2021-03-29 02:41:30,369] Search Employee - Step 20: Select to 'Include' dropdown with value 'Current and Past Employees'
+[INFO ] [2021-03-29 02:41:30,496] Search Employee - Step 21: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:41:33,039] Search Employee - Step 23: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:41:33,083]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:33,112]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:33,144]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:33,175]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:33,207]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:33,237]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:33,267]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:33,267] Search Employee - Step 24: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:41:36,046] Search Employee - Step 25: Enter to 'Employee Name' textbox with value 'tuan3371 le6482'
+[INFO ] [2021-03-29 02:41:40,445] Search Employee - Step 26: Select to 'Include' dropdown with value 'Past Employees Only'
+[INFO ] [2021-03-29 02:41:40,566] Search Employee - Step 27: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:41:43,117] Search Employee - Step 28: Verify 'No Records Found' text is displayed
+[INFO ] [2021-03-29 02:41:43,201]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:43,201] Search Employee - Step 29: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:41:45,971] Search Employee - Step 30: Enter to 'Employee Name' textbox with value 'tuan3371 le6482'
+[INFO ] [2021-03-29 02:41:50,355] Search Employee - Step 31: Enter to 'Supervisor Name' textbox with value 'Orange Test'
+[INFO ] [2021-03-29 02:41:50,491] Search Employee - Step 32: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:41:53,006] Search Employee - Step 33: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:41:53,053]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:53,099]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:53,148]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:53,179]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:53,210]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:53,242]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:53,274]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:41:53,274] Search Employee - Step 34: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:41:56,067] Search Employee - Step 35: Enter to 'Employee Name' textbox with value 'tuan3371 le6482'
+[INFO ] [2021-03-29 02:42:00,436] Search Employee - Step 36: Select to 'Job Title' dropdown with value 'QA Engineer'
+[INFO ] [2021-03-29 02:42:00,545] Search Employee - Step 37: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:42:03,158] Search Employee - Step 38: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:42:03,205]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:42:03,249]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:42:03,280]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:42:03,311]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:42:03,341]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:42:03,388]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:42:03,417]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:42:03,417] Search Employee - Step 39: Click to 'Reset' button at Employee Information Form
+[INFO ] [2021-03-29 02:42:06,236] Search Employee - Step 40: Enter to 'Employee Name' textbox with value 'tuan3371 le6482'
+[INFO ] [2021-03-29 02:42:10,587] Search Employee - Step 41: Select to 'Sub Unit' dropdown with value '  Quality Assurance'
+[INFO ] [2021-03-29 02:42:20,748] Search Employee - Step 42: Click to 'Search' button at Employee Information Form
+[INFO ] [2021-03-29 02:42:23,272] Search Employee - Step 43: Verify Search Result are displayed successfully
+[INFO ] [2021-03-29 02:42:23,317]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:42:23,349]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:42:23,381]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:42:23,412]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:42:23,442]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:42:23,490]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:42:23,521]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-29 02:42:23,534] OS name = windows 10
+[INFO ] [2021-03-29 02:42:24,195] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-03-30 03:07:26,202] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-30 03:07:26,361] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-30 03:07:26,497] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-30 03:07:34,396] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-30 03:07:35,155] Add Emloyee - Step 02: Enter to Firstname textbox
+[INFO ] [2021-03-30 03:07:35,293] Add Emloyee - Step 03: Enter to Lastname textbox
+[INFO ] [2021-03-30 03:07:35,420] Add Emloyee - Step 04: Get Employee ID info
+[INFO ] [2021-03-30 03:07:35,487] Add Emloyee - Step 05: Click to Save button
+[INFO ] [2021-03-30 03:07:37,392] Add Emloyee - Step 06: Verify Fullname displayed is correct
+[INFO ] [2021-03-30 03:07:37,451]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-30 03:07:37,452] Add Emloyee - Step 07: Verify Firstname displayed is correct
+[INFO ] [2021-03-30 03:09:07,392] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-30 03:09:07,586] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-30 03:09:07,720] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-30 03:09:15,121] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-30 03:10:26,281] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-30 03:10:26,457] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-30 03:10:26,553] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-30 03:10:31,691] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-30 03:11:26,976] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-30 03:11:27,089] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-30 03:11:27,177] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-30 03:11:32,222] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-30 03:11:52,153] Pre-Condition - Step 01: Enter to Username textbox
+[INFO ] [2021-03-30 03:11:52,292] Pre-Condition - Step 02: Enter to Password textbox
+[INFO ] [2021-03-30 03:11:52,417] Pre-Condition - Step 03: Click to Login button
+[INFO ] [2021-03-30 03:11:59,644] Add Emloyee - Step 01: Click to Add button
+[INFO ] [2021-03-31 01:43:26,792] Validate - Step 01: Open Home Page
+[INFO ] [2021-03-31 01:43:26,794] Validate - Step 02: Click to Register link at Home Page
+[INFO ] [2021-03-31 01:43:30,048] Validate - Step 03: CLick to Register button
+[INFO ] [2021-03-31 01:43:30,341] Validate - Step 04: Verify error message displayed at Firstname textbox
+[INFO ] [2021-03-31 01:43:30,405]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-31 01:43:30,405] Validate - Step 05: Verify error message displayed at LastName textbox
+[INFO ] [2021-03-31 01:43:30,453]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-31 01:43:30,453] Validate - Step 06: Verify error message displayed at Firstname textbox
+[INFO ] [2021-03-31 01:43:30,496]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-31 01:43:30,497] Validate - Step 07: Verify error message displayed at Firstname textbox
+[INFO ] [2021-03-31 01:43:30,546]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-31 01:43:30,546] Validate - Step 08: Verify error message displayed at Firstname textbox
+[INFO ] [2021-03-31 01:43:30,589]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-03-31 01:43:30,640] Register - Step 03: Click to Register link at Home Page
+[INFO ] [2021-03-31 01:43:31,294] Register - Step 04: Click to Gender Male Radio Button
+[INFO ] [2021-03-31 01:43:31,621] Register - Step 05: Input to Firstname textbox with value: Bobbie
+[INFO ] [2021-03-31 01:43:31,727] Register - Step 06: Input to Lastname textbox with value: Mraz
+[INFO ] [2021-03-31 01:43:31,815] Register - Step 07: Select date dropdown
+[INFO ] [2021-03-31 01:43:32,131] Register - Step 09: Select date dropdown
+[INFO ] [2021-03-31 01:43:32,441] Register - Step 10: Select date dropdown
+[INFO ] [2021-03-31 01:43:32,784] Register - Step 11: Input to Email textbox with value: columbus.schmidt@yahoo.com
+[INFO ] [2021-03-31 01:43:32,879] Register - Step 12: Input to Password and Confirm Password textbox with value: 9218qq6vqcz
+[INFO ] [2021-03-31 01:43:33,064] Register - Step 13: CLick to Register button
+[INFO ] [2021-03-31 01:43:35,335] Register - Step 14: Verify Register Success
+[INFO ] [2021-03-31 01:43:35,399] Register - Step 15: Click to Logout button
+[INFO ] [2021-03-31 01:43:36,841] Register - Step 16: Verify Home Page Slider
+[INFO ] [2021-03-31 01:43:36,914] Login - Step 01: Open Login Page
+[INFO ] [2021-03-31 01:43:38,068] Login - Step 02: Input to Email textbox with value: columbus.schmidt@yahoo.com
+[INFO ] [2021-03-31 01:43:38,158] Login - Step 03: Input to Password textbox with value: 9218qq6vqcz
+[INFO ] [2021-03-31 01:43:38,249] Login - Step 04: Click to Login button
+[INFO ] [2021-03-31 01:43:39,695] Login - Step 05: Verify Home Page Slider
+[INFO ] [2021-03-31 01:43:39,760] OS name = windows 10
+[INFO ] [2021-03-31 01:43:40,363] ---------- QUIT BROWSER SUCCESS ----------

@@ -1,6 +1,7 @@
 package commons;
 
 import java.io.File;
+import java.util.HashMap;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -8,8 +9,13 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 
@@ -20,10 +26,10 @@ public class BaseTest {
 
 	private String projectLocation = GlobalConstants.PROJECT_LOCATION;
 	private String osName = System.getProperty("os.name");
-	
+
 //	Define log variable
 	protected final Log log;
-	
+
 	protected BaseTest() {
 		log = LogFactory.getLog(getClass());
 	}
@@ -36,9 +42,19 @@ public class BaseTest {
 		BROWSER browser = BROWSER.valueOf(browserName.toUpperCase());
 		if (browser == BROWSER.FIREFOX) {
 			System.setProperty("webdriver.gecko.driver", projectLocation + getSlash("browserDrivers") + "geckodriver.exe");
+			FirefoxProfile profile = new FirefoxProfile();
+			File file = new File(projectLocation + getSlash("browserExtensions") + "google_translate.xpi");
+			profile.addExtension(file);
+
+			FirefoxOptions options = new FirefoxOptions();
+			options.setProfile(profile);
 			driver = new FirefoxDriver();
 		} else if (browser == BROWSER.CHROME) {
 			System.setProperty("webdriver.chrome.driver", projectLocation + getSlash("browserDrivers") + "chromedriver.exe");
+			File file = new File(projectLocation + getSlash("browserExtensions") + "google_translate.crx");
+			ChromeOptions options = new ChromeOptions();
+			options.addExtensions(file);
+
 			driver = new ChromeDriver();
 		} else if (browser == BROWSER.EDGE_CHROMIUM) {
 			System.setProperty("webdriver.edge.driver", projectLocation + getSlash("browserDrivers") + "msedgedriver.exe");
@@ -55,13 +71,53 @@ public class BaseTest {
 		BROWSER browser = BROWSER.valueOf(browserName.toUpperCase());
 		if (browser == BROWSER.FIREFOX) {
 			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
+			FirefoxProfile profile = new FirefoxProfile();
+			File file = new File(projectLocation + getSlash("browserExtensions") + "google_translate.xpi");
+			profile.addExtension(file);
+
+			FirefoxOptions options = new FirefoxOptions();
+			options.setProfile(profile);
+			driver = new FirefoxDriver(options);
 		} else if (browser == BROWSER.CHROME) {
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+
+			/* Add Extend */
+			File file = new File(projectLocation + getSlash("browserExtensions") + "google_translate.crx");
+			ChromeOptions options = new ChromeOptions();
+			options.addExtensions(file);
+			
+			/* Auto Save / Download */
+			HashMap<String, Object> chromePerfs = new HashMap<String, Object>();
+			chromePerfs.put("profile.default_content_settings.popups", 0);
+			chromePerfs.put("download.default_directory", projectLocation + getSlash("dowloadFiles"));
+			options.setExperimentalOption("perfs", chromePerfs);
+			
+			/* Incognito */
+			options.addArguments("--incognito");
+			
+			driver = new ChromeDriver(options);
 		} else if (browser == BROWSER.EDGE_CHROMIUM) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
+		} else if (browser == BROWSER.H_FIREFOX) {
+			WebDriverManager.firefoxdriver().setup();
+			FirefoxOptions options = new FirefoxOptions();
+			options.addArguments("-headless");
+			options.addArguments("window-size=1366x768");
+			driver = new FirefoxDriver(options);
+
+		} else if (browser == BROWSER.H_CHROME) {
+			WebDriverManager.chromedriver().setup();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("-headless");
+			options.addArguments("window-size=1366x768");
+			driver = new ChromeDriver(options);
+
+		} else if (browser == BROWSER.SAFARI) {
+			driver = new SafariDriver();
+		} else if (browser == BROWSER.IE) {
+			WebDriverManager.iedriver().arch32().setup();
+			driver = new InternetExplorerDriver();
 		} else {
 			throw new RuntimeException("Please enter correct browser name!");
 		}
@@ -142,11 +198,11 @@ public class BaseTest {
 	protected boolean verifyEquals(Object actual, Object expected) {
 		return checkEquals(actual, expected);
 	}
-	
+
 	public WebDriver getDriver() {
 		return driver;
 	}
-	
+
 	protected int getRandomNumber() {
 		Random rand = new Random();
 		return rand.nextInt(9999);
@@ -161,9 +217,10 @@ public class BaseTest {
 			// Khai báo 1 biến command line để thực thi
 			String cmd = "";
 			if (driver != null) {
+				driver.manage().deleteAllCookies();
 				driver.quit();
 			}
-			
+
 			// Quit driver executable file in Task Manager
 			if (driver.toString().toLowerCase().contains("chrome")) {
 				if (osName.toLowerCase().contains("mac")) {

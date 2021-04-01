@@ -1,8 +1,0 @@
-[INFO ] [2021-03-25 01:26:50,266] Pre-Condition - Step 01: Enter to Username textbox
-[INFO ] [2021-03-25 01:26:50,425] Pre-Condition - Step 02: Enter to Password textbox
-[INFO ] [2021-03-25 01:26:50,556] Pre-Condition - Step 03: Click to Login button
-[INFO ] [2021-03-25 01:26:55,634] Add Emloyee - Step 01: Click to Add button
-[INFO ] [2021-03-25 01:26:55,719] Add Emloyee - Step 02: Enter to Firstname textbox
-[INFO ] [2021-03-25 01:27:06,052] Edit Employee [Salary] - Step 01: Open 'Salary' tab
-[INFO ] [2021-03-25 01:27:16,396] OS name = windows 10
-[INFO ] [2021-03-25 01:27:17,079] ---------- QUIT BROWSER SUCCESS ----------

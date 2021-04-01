@@ -24,9 +24,11 @@ import pageObjects.nopcommerce.PageGeneratorManager;
 import pageObjects.nopcommerce.RegisterPageObject;
 import pageObjects.nopcommerce.ShoppingCartPageObject;
 import pageObjects.nopcommerce.SiteMapPageObject;
+import utilities.FakerConfig;
 
 public class Level_17_Login_Pattern_Object extends BaseTest {
 	WebDriver driver;
+	FakerConfig faker;
 	String emailAddress, password, firstname, lastname;
 	String date, month, year;
 	String projectLocation = System.getProperty("user.dir");
@@ -37,10 +39,20 @@ public class Level_17_Login_Pattern_Object extends BaseTest {
 		driver = getBrowserDriver(browserName, appUrl);
 //		pageGeneratorPage = PageGeneratorManager.getPageGenerator();
 
-		emailAddress = getRandomEmail();
-		password = "123123";
-		firstname = "tuan";
-		lastname = "le";
+		faker = FakerConfig.getData();
+		
+//		emailAddress = getRandomEmail();
+//		password = "123123";
+//		firstname = "FAKE
+//		lastname = "le";
+//		date = "29";
+//		month = "March";
+//		year = "1993";
+		
+		emailAddress = faker.getEmail();
+		password = faker.getPassword();
+		firstname = faker.getFirstName();
+		lastname = faker.getLastName();
 		date = "29";
 		month = "March";
 		year = "1993";

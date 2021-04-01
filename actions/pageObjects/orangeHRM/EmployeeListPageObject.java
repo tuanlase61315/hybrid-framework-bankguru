@@ -4,7 +4,6 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
-import pageUIs.orangeHRM.EmployeeDetailPageUI;
 import pageUIs.orangeHRM.EmployeeListPageUI;
 
 public class EmployeeListPageObject extends BasePage {

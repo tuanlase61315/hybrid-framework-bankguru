@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
 import pageUIs.nopCommerce.CustomerPageUI;
-import pageUIs.nopCommerce.HomePageUI;
 
 
 public class CustomerInforPageObject extends BasePage {

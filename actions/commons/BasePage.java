@@ -1,12 +1,17 @@
 package commons;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.logging.Log;
+import org.apache.velocity.runtime.directive.Foreach;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -19,14 +24,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import javafx.scene.chart.PieChart.Data;
 import pageObjects.nopcommerce.AboutUsPageObject;
 import pageObjects.nopcommerce.HomePageObject;
 import pageObjects.nopcommerce.NewsPageObject;
 import pageObjects.nopcommerce.PageGeneratorManager;
 import pageObjects.nopcommerce.ShoppingCartPageObject;
 import pageObjects.nopcommerce.SiteMapPageObject;
-import pageObjects.worldpress.DashboardPageObject;
 import pageUIs.jQuery.HomePageUI;
 import pageUIs.nopCommerce.BasePageUI;
 import pageUIs.orangeHRM.OrangeHRMAbstractPageUI;
@@ -40,7 +43,7 @@ public class BasePage {
 	private long shortTimeout = 5;
 	private WebDriverWait explicitWait;
 	private JavascriptExecutor jsExecutor;
-	
+	private Log log;
 
 	public static BasePage getBasePage() {
 		return new BasePage();
@@ -51,7 +54,14 @@ public class BasePage {
 	}
 
 	public void clickToElement(WebDriver driver, String locator, String... values) {
-		getElement(driver, getDynamicLocator(locator, values)).click();
+
+		if (driver.toString().toLowerCase().contains("internet explorer")) {
+			clickToElementByJS(driver, locator, values);
+			sleppInSecond(3);
+		} else {
+			getElement(driver, getDynamicLocator(locator, values)).click();
+		}
+
 	}
 
 	public void sendkeyToElement(WebDriver driver, String locator, String value, String... values) {
@@ -171,6 +181,15 @@ public class BasePage {
 		}
 	}
 
+	public void sleppInMiliSecond(long timeout) {
+		try {
+			Thread.sleep(timeout);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
 	public void backToPage(WebDriver driver) {
 		driver.navigate().back();
 	}
@@ -196,7 +215,13 @@ public class BasePage {
 	}
 
 	public void clickToElement(WebDriver driver, String locator) {
-		getElement(driver, locator).click();
+		if (driver.toString().toLowerCase().contains("internet explorer")) {
+			clickToElementByJS(driver, locator);
+			sleepInSecond(3);
+		} else {
+			getElement(driver, locator).click();
+		}
+
 	}
 
 	public void sendkeyToElement(WebDriver driver, String locator, String value) {
@@ -211,12 +236,12 @@ public class BasePage {
 	public int getElementSize(WebDriver driver, String locator, String... values) {
 		return getElements(driver, getDynamicLocator(locator, values)).size();
 	}
-	
+
 	public void selectDropdowByText(WebDriver driver, String locator, String itemText) {
 		select = new Select(getElement(driver, locator));
 		select.selectByVisibleText(itemText);
 	}
-	
+
 	public void selectDropdowByText(WebDriver driver, String locator, String itemText, String... values) {
 		select = new Select(getElement(driver, getDynamicLocator(locator, values)));
 		select.selectByVisibleText(itemText);
@@ -281,56 +306,56 @@ public class BasePage {
 	public boolean isElementDisplayed(WebDriver driver, String locator) {
 		return getElement(driver, locator).isDisplayed();
 	}
-	
+
 	public boolean isControlDisplayed(WebDriver driver, String locator) {
 		boolean status = false;
 		try {
-			status = getElement(driver, locator).isDisplayed(); 
+			status = getElement(driver, locator).isDisplayed();
 			return status;
 		} catch (Exception e) {
 			return status;
 		}
-		
+
 	}
-	
+
 	public boolean isElementUndisPlayed(WebDriver driver, String locator) {
 		System.out.println("Start time = " + new Date().toString());
 		overideImplicitTimeout(driver, shortTimeout);
 		List<WebElement> elements = getElements(driver, locator);
 		overideImplicitTimeout(driver, longTimeout);
-		if(elements.size() == 0) {
+		if (elements.size() == 0) {
 			System.out.println("Element not in DOM");
 			System.out.println("End time = " + new Date().toString());
 			return true;
-		}else if(elements.size() > 0 && !elements.get(0).isDisplayed()) {
+		} else if (elements.size() > 0 && !elements.get(0).isDisplayed()) {
 			System.out.println("Element is DOM but not visible/displayed");
 			System.out.println("End time = " + new Date().toString());
 			return true;
-		}else {
+		} else {
 			System.out.println("Element in DOM and visible");
 			return false;
 		}
 	}
-	
+
 	public boolean isElementUndisPlayed(WebDriver driver, String locator, String... values) {
 		System.out.println("Start time = " + new Date().toString());
 		overideImplicitTimeout(driver, shortTimeout);
 		List<WebElement> elements = getElements(driver, getDynamicLocator(locator, values));
 		overideImplicitTimeout(driver, longTimeout);
-		if(elements.size() == 0) {
+		if (elements.size() == 0) {
 			System.out.println("Element not in DOM");
 			System.out.println("End time = " + new Date().toString());
 			return true;
-		}else if(elements.size() > 0 && !elements.get(0).isDisplayed()) {
+		} else if (elements.size() > 0 && !elements.get(0).isDisplayed()) {
 			System.out.println("Element is DOM but not visible/displayed");
 			System.out.println("End time = " + new Date().toString());
 			return true;
-		}else {
+		} else {
 			System.out.println("Element in DOM and visible");
 			return false;
 		}
 	}
-	
+
 	public void overideImplicitTimeout(WebDriver driver, long timeout) {
 		driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
 	}
@@ -381,7 +406,7 @@ public class BasePage {
 		action = new Actions(driver);
 		action.sendKeys(getElement(driver, getDynamicLocator(locator, values)), key).perform();
 	}
-	
+
 	public Object executeForBrowser(WebDriver driver, String javaScript) {
 
 		jsExecutor = (JavascriptExecutor) driver;
@@ -487,7 +512,6 @@ public class BasePage {
 		Random rand = new Random();
 		return "test" + rand.nextInt(99999) + "@gmail.com";
 	}
-	
 
 	public void sleepInSecond(long timeout) {
 		try {
@@ -509,8 +533,23 @@ public class BasePage {
 	}
 
 	public void waitForAllElementVisible(WebDriver driver, String locator) {
-		explicitWait = new WebDriverWait(driver, longTimeout);
-		explicitWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(getByXpath(locator)));
+		try {
+			explicitWait = new WebDriverWait(driver, longTimeout);
+			explicitWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(getByXpath(locator)));
+
+		} catch (Exception e) {
+			log.debug("Wait for element visible with error: " + e.getMessage());
+		}
+	}
+	
+	public void waitForAllElementVisible(WebDriver driver, String locator, String... values) {
+		try {
+			explicitWait = new WebDriverWait(driver, longTimeout);
+			explicitWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(getByXpath(getDynamicLocator(locator, values))));
+
+		} catch (Exception e) {
+			log.debug("Wait for element visible with error: " + e.getMessage());
+		}
 	}
 
 	public void waitForElementClickable(WebDriver driver, String locator) {
@@ -527,11 +566,10 @@ public class BasePage {
 		explicitWait = new WebDriverWait(driver, longTimeout);
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(locator)));
 	}
-	
-	
+
 	public void uploadMultipleFiles(WebDriver driver, String... fileNames) {
 		String filePath = System.getProperty("user.dir") + getDirectorySlash("uploadFiles");
-		
+
 		String fullFileName = "";
 		for (String file : fileNames) {
 			fullFileName = fullFileName + filePath + file + "\n";
@@ -541,7 +579,7 @@ public class BasePage {
 //		sendkeyToElement(driver, HomePageUI.UPLOAD_FILE_TYPE, fullFileName);
 
 	}
-	
+
 	public String getDirectorySlash(String folderName) {
 //		String separator = System.getProperty("file.separator");
 //		separator = FileSystems.getDefault().getSeparator();
@@ -550,7 +588,6 @@ public class BasePage {
 
 		return separator + folderName + separator;
 	}
-	
 
 	// Page commons
 
@@ -584,8 +621,6 @@ public class BasePage {
 		clickToElement(driver, BasePageUI.NEWS_LINK);
 		return PageGeneratorManager.getNewsPage(driver);
 	}
-	
-
 
 	/* Dynamic Locator - Cach 1 - Page it */
 
@@ -618,56 +653,287 @@ public class BasePage {
 		waitForElementClickable(driver, BasePageUI.FOOTER_PAGE_LINK_BY_NAME, pageName);
 		clickToElement(driver, BasePageUI.FOOTER_PAGE_LINK_BY_NAME, pageName);
 	}
-	
-	public void clickToRadioButtonByID(WebDriver driver, String radioButtonID)  {
+
+	public void clickToRadioButtonByID(WebDriver driver, String radioButtonID) {
 		waitForElementVisible(driver, BasePageUI.DYNAMIC_RADIO_BUTTON_BY_ID, radioButtonID);
 		if (!isElementSelected(driver, BasePageUI.DYNAMIC_RADIO_BUTTON_BY_ID, radioButtonID)) {
 			clickToElement(driver, BasePageUI.DYNAMIC_RADIO_BUTTON_BY_ID, radioButtonID);
 		}
-		
+
 	}
-	
+
 	public void inputToTextboxByID(WebDriver driver, String textboxID, String value) {
 		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
 		sendkeyToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, value, textboxID);
 	}
-	
+
 	public void clickToButtonByValue(WebDriver driver, String buttonValue) {
 		waitForElementClickable(driver, BasePageUI.DYNAMIC_BUTTON_BY_VALUE, buttonValue);
 		clickToElement(driver, BasePageUI.DYNAMIC_BUTTON_BY_VALUE, buttonValue);
 	}
-	
+
 	public void selectDropdowByName(WebDriver driver, String dropdowName, String itemText) {
 		waitForElementVisible(driver, BasePageUI.DYNAMIC_DROPDOWN_BY_NAME, dropdowName);
 		selectDropdowByText(driver, BasePageUI.DYNAMIC_DROPDOWN_BY_NAME, itemText, dropdowName);
 	}
-	
+
 	public String getErrorMessageAtMandatoryFieldByName(WebDriver driver, String fieldName) {
 		waitForElementVisible(driver, BasePageUI.DYNAMIC_ERROR_MESSAGE_BY_ID, fieldName);
 		return getElementText(driver, BasePageUI.DYNAMIC_ERROR_MESSAGE_BY_ID, fieldName);
 	}
-	
+
 	/* Orange HRM */
-	
+
 	public void openMenuPageByName(WebDriver driver, String pageName) {
 		waitForElementVisible(driver, OrangeHRMAbstractPageUI.DYNAMIC_MENU_LINK, pageName);
 		clickToElement(driver, OrangeHRMAbstractPageUI.DYNAMIC_MENU_LINK, pageName);
 	}
-	
+
 	public void clickToButtonByNameAtFromHeader(WebDriver driver, String headerName, String buttonName) {
-		waitForElementClickable(driver, OrangeHRMAbstractPageUI.DYNAMIC_BUTTON_BY_NAME_AT_FORM_HEADER, headerName, buttonName );
+		waitForElementClickable(driver, OrangeHRMAbstractPageUI.DYNAMIC_BUTTON_BY_NAME_AT_FORM_HEADER, headerName, buttonName);
 		clickToElement(driver, OrangeHRMAbstractPageUI.DYNAMIC_BUTTON_BY_NAME_AT_FORM_HEADER, headerName, buttonName);
 	}
-	
+
 	/* Check data table */
 	public boolean isInformationDisplayedAtColumnNameAndRowNumber(WebDriver driver, String tableID, String columnName, String rowIndex, String expectedValue) {
 		int columnNameIndex = getElementSize(driver, OrangeHRMAbstractPageUI.DYNAMIC_TABLE_COLUMN_NAME_SIBLING, tableID, columnName) + 1;
 		String actualValue = getElementText(driver, OrangeHRMAbstractPageUI.TEXTBOX_AT_COLUMN_AND_ROW_INDEX, rowIndex, String.valueOf(columnNameIndex));
 		return actualValue.equals(expectedValue);
 	}
-	
+
 	public boolean isNoRecordFoundDisplayedAtTableName(WebDriver driver, String tableID) {
 		waitForElementVisible(driver, OrangeHRMAbstractPageUI.NO_RECORD_FOUND_TEXT_AT_TABLE_NAME, tableID);
 		return isElementDisplayed(driver, OrangeHRMAbstractPageUI.NO_RECORD_FOUND_TEXT_AT_TABLE_NAME, tableID);
 	}
+
+	/* Sort String Ascending */
+
+	public boolean isDataStringSortedAscending(WebDriver driver, String locator) {
+		// khai bao 1 array list
+		ArrayList<String> arrayList = new ArrayList<>();
+
+		// tim tat ca cac element matching vs dk (Name/Price/...)
+		List<WebElement> elementList = driver.findElements(By.xpath(locator));
+
+		// lay text cua tung element add vao array list
+		for (WebElement element : elementList) {
+			arrayList.add(element.getText());
+		}
+
+		System.out.println("------Du lieu tren UI: -------------");
+		for (String name : arrayList) {
+			System.out.println(name);
+		}
+
+		// copy qua 1 array list moi de SORT trong code
+		ArrayList<String> sortedList = new ArrayList<>();
+		for (String child : arrayList) {
+			sortedList.add(child);
+		}
+
+		// thuc hien sort asc
+		Collections.sort(sortedList);
+
+		System.out.println("-------Du lieu da Sort ASC trong code ---------");
+		for (String name : sortedList) {
+			System.out.println(name);
+		}
+
+		// verify 2 array bang nhau - new du lieu sort tren UI ko chinh xac thi ket qua tra ve sai
+		return sortedList.equals(arrayList);
+	}
+
+	/* Sort String Descending */
+	public boolean isDataStringDSortedDescending(WebDriver driver, String locator) {
+		ArrayList<String> arrayList = new ArrayList<>();
+
+		List<WebElement> elementList = driver.findElements(By.xpath(locator));
+
+		for (WebElement element : elementList) {
+			arrayList.add(element.getText());
+		}
+
+		System.out.println("----Du lieu tren UI-----");
+		for (String name : arrayList) {
+			System.out.println(name);
+		}
+
+		ArrayList<String> sortedList = new ArrayList<>();
+		for (String child : arrayList) {
+			sortedList.add(child);
+		}
+
+		Collections.sort(sortedList);
+
+		System.out.println("---Du lieu da Sort ASC trong code-----");
+		for (String name : sortedList) {
+			System.out.println(name);
+		}
+
+		Collections.reverse(sortedList);
+
+		System.out.println("---Du lieu da Sort DSC trong code ---");
+		for (String name : sortedList) {
+			System.out.println(name);
+		}
+
+		return sortedList.equals(arrayList);
+	}
+	
+	/* Sort Float Ascending */
+	public boolean isDataFloatSortedAscending(WebDriver driver, String locator) {
+		ArrayList<Float> arrayList = new ArrayList<Float>();
+		
+		List<WebElement> elementList = driver.findElements(By.xpath(locator));
+		
+		for (WebElement element : elementList) {
+			arrayList.add(Float.parseFloat(element.getText().replace("$", "").trim()));
+		}
+		
+		System.out.println("---Du lieu tren UI---");
+		for(Float name:arrayList) {
+			System.out.println(name);
+		}
+		
+		ArrayList<Float> sortedList = new ArrayList<Float>();
+		
+		for (Float child : arrayList) {
+			sortedList.add(child);
+		}
+		
+		
+		Collections.sort(sortedList);
+		
+		System.out.println("---Du lieu da Sort ASC trong code:---");
+		for(Float name:sortedList) {
+			System.out.println(name);
+		}
+		
+		return sortedList.equals(arrayList);
+	}
+	
+	
+	/* Sort Float Descending */
+	public boolean isDataFloatSortedDescending(WebDriver driver, String locator) {
+		ArrayList<Float> arrayList = new ArrayList<Float>();
+		
+		List<WebElement> elementList = driver.findElements(By.xpath(locator));
+		
+		for (WebElement element : elementList) {
+			arrayList.add(Float.parseFloat(element.getText().replace("$", "").trim()));
+		}
+		
+		System.out.println("---Du lieu tren UI---");
+		for(Float name:arrayList) {
+			System.out.println(name);
+		}
+		
+		ArrayList<Float> sortedList = new ArrayList<Float>();
+		
+		for (Float child : arrayList) {
+			sortedList.add(child);
+		}
+		
+		
+		Collections.sort(sortedList);
+		
+		System.out.println("---Du lieu da Sort ASC trong code:---");
+		for(Float name:sortedList) {
+			System.out.println(name);
+		}
+		
+		
+		Collections.reverse(sortedList);
+
+		System.out.println("---Du lieu da Sort DSC trong code ---");
+		for (Float name : sortedList) {
+			System.out.println(name);
+		}
+		
+		
+		return sortedList.equals(arrayList);
+	}
+	
+	/*Sort Date Ascending*/
+	public boolean isDataDateSortedAscending(WebDriver driver, String locator) {
+		ArrayList<Date> arrayList = new ArrayList<Date>();
+		
+		List<WebElement> elementList = driver.findElements(By.xpath(locator));
+		
+		for (WebElement element : elementList) {
+			arrayList.add(convertStringToDate(element.getText()));
+		}
+		
+		System.out.println("---Du lieu tren UI:");
+		for(Date name:arrayList) {
+			System.out.println(name);
+		}
+		
+		ArrayList<Date> sortedList = new ArrayList<Date>();
+		for (Date child : arrayList) {
+			sortedList.add(child);
+		}
+		
+		Collections.sort(sortedList);
+		
+		System.out.println("---Du lieu da sort asc trong code:");
+		for(Date name:sortedList) {
+			System.out.println(name);
+		}
+		
+		return sortedList.equals(arrayList);
+	}
+	
+	
+	/* Sort Date Descending */
+	public boolean isDataDateSortedDescending(WebDriver driver, String locator) {
+		ArrayList<Date> arrayList = new ArrayList<Date>();
+		
+		List<WebElement> elementList = driver.findElements(By.xpath(locator));
+		
+		for (WebElement element : elementList) {
+			arrayList.add(convertStringToDate(element.getText()));
+		}
+		
+		System.out.println("---Du lieu tren UI:");
+		for(Date name:arrayList) {
+			System.out.println(name);
+		}
+		
+		ArrayList<Date> sortedList = new ArrayList<Date>();
+		for (Date child : arrayList) {
+			sortedList.add(child);
+		}
+		
+		Collections.sort(sortedList);
+		
+		System.out.println("---Du lieu da sort asc trong code:");
+		for(Date name:sortedList) {
+			System.out.println(name);
+		}
+		
+		Collections.reverse(sortedList);
+
+		System.out.println("---Du lieu da Sort DSC trong code ---");
+		for (Date name : sortedList) {
+			System.out.println(name);
+		}
+		
+		return sortedList.equals(arrayList);
+	}
+	
+	
+	/* format date data */
+	public Date convertStringToDate(String dateInString) {
+		dateInString = dateInString.replace(",", "");
+		SimpleDateFormat formatter = new SimpleDateFormat("MMM dd yyyy");
+		Date date = null;
+		try {
+			date = formatter.parse(dateInString);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return date;
+	}
+	
 }
